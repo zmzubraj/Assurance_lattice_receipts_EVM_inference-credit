@@ -4,8 +4,10 @@
 
 Status: `DEVELOPMENT DRAFT — NOT SUBMISSION READY`
 
-Authorship, author order, affiliations, declarations, venue, and accountable approval
-remain unresolved human-controlled fields.
+Draft author and repository public-release authority: **Zubaer Mahmood Zubraj**
+([`@zmzubraj`](https://github.com/zmzubraj)). Final byline order, affiliations,
+CRediT roles, declarations, venue, and submission approval remain
+human-controlled fields.
 
 # Abstract
 

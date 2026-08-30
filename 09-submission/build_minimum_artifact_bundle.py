@@ -117,7 +117,7 @@ def manifest_bytes(case: Path, files: list[Path]) -> bytes:
 def readme_bytes() -> bytes:
     return """# PoI ALR MPP minimum artifact bundle
 
-Status: DEVELOPMENT DRAFT — NOT SUBMISSION READY and not authorized for public release.
+Status: DEVELOPMENT DRAFT — NOT SUBMISSION READY. The source repository is an owner-authorized public research release; this generated archival bundle is not yet final.
 
 This local-review bundle preserves the narrowed prototype, frozen development data,
 negative and unresolved findings, analysis outputs, manuscript sources, compiled

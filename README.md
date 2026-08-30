@@ -3,8 +3,14 @@
 ## A Reproducible Development Study
 
 > **Development draft — not submission ready.** Novelty, protocol independence,
-> external reproduction, accountable authorship, venue approval, and final human
+> external reproduction, final authorship metadata, venue approval, and final human
 > approval remain open.
+
+Repository owner, draft-research attribution, and public-release authority:
+**Zubaer Mahmood Zubraj** ([`@zmzubraj`](https://github.com/zmzubraj)).
+The owner authorized this repository to remain publicly accessible on
+30 August 2026. Final byline order, affiliations, CRediT roles, declarations,
+and submission approval remain separate accountable-human fields.
 
 This repository contains the complete evidence-gated Minimum Publishable
 Prototype (MPP) research system for Assurance-Lattice Receipts (ALR): a typed,
@@ -94,6 +100,16 @@ Current canonical status:
 - postdoctoral AI audit: `UNASSESSED`; and
 - acceptance readiness: `NOT_ASSESSABLE`.
 
-Authorship, affiliations, CRediT roles, funding, competing interests, final
-license, archival DOI, and public-release approval remain unresolved. No reuse
-license is granted until an accountable author selects and records one.
+Draft-research attribution and public hosting are recorded above. Final author
+order, affiliations, CRediT roles, funding, competing interests, final licence,
+archival DOI, and journal submission remain unresolved. No repository-wide
+reuse licence is granted until an accountable author selects and records one.
+
+```mermaid
+flowchart LR
+    A[Public owner-authorized development artifact] --> B[729 states + 7 mutations]
+    B --> C[INTAKE / novelty unresolved]
+    C --> D{Independent protocol, novelty and reproduction gates}
+    D -->|Open| E[Not submission ready]
+    D -->|Future verified pass| F[Venue and accountable-author QA]
+```
