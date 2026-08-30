@@ -1,0 +1,27 @@
+schema=POI_ALR_HERMETIC_RUNTIME_LOCK_V2
+platform=linux/amd64
+build_command=docker build --platform linux/amd64 --pull=false --no-cache -t poi-alr/texlive-foundry-poppler:2026-08-30 -f 09-submission/hermetic-runtime/Dockerfile 09-submission/hermetic-runtime
+base_image=texlive/texlive@sha256:bd551dda2195c6830bb714f731d74c4f71cda812178abae15a206fd68b5dbb7c
+base_platform_manifest=texlive/texlive@sha256:51a1e21b72829eca6a195c37715505fc441585786ae52ebef0f20da334c2efa7
+base_source=https://gitlab.com/islandoftex/images/texlive
+foundry_image=ghcr.io/foundry-rs/foundry@sha256:7ec8952cc5322dce65091768e9efab8641ea9b54105f21fd71d4ae3dc3da05a8
+foundry_source=https://github.com/foundry-rs/foundry
+foundry_version=1.5.1-v1.5.1
+foundry_commit=b0a9dd9ceda36f63e2326ce530c10e6916f4b8a2
+forge_sha256=d30e9baf3b2a74a5be0bc65d96dc0ad0bdf686ed01388a779f7b7a0573c19888
+solidity_image=ghcr.io/argotorg/solc@sha256:e56ef5e376ae846f06b919d7ca4ed0c271f7fb0900daa6c660d53451f5bfd9db
+solidity_documentation=https://docs.soliditylang.org/en/latest/installing-solidity.html#docker
+solidity_version=0.8.24+commit.e11b9ed9.Linux.g++
+solc_sha256=fb03a29a517452b9f12bcf459ef37d0a543765bb3bbc911e70a87d6a37c30d5f
+derived_image=poi-alr/texlive-foundry-poppler@sha256:b33763e92d1295e4d1fec00e613084624ce6b805c1fc882ee5a72778039c6ebc
+poppler-utils=26.07.0-2
+libpoppler162=26.07.0-2
+libgpgme45=2.1.2-1
+libgpgmepp7=2.1.0-2
+source_date_epoch=1787979600
+runtime_network_policy=none
+runtime_rootfs_policy=read_only
+runtime_case_mount_policy=read_only
+runtime_capabilities=dropped
+runtime_no_new_privileges=true
+runtime_user=501:20

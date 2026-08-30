@@ -1,0 +1,54 @@
+{
+  "network_required": false,
+  "phase_promotion": "NOT_PERFORMED",
+  "records": [
+    {
+      "argv": [
+        "pdflatex",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "-output-directory=/output/figures",
+        "figure1-architecture.tex"
+      ],
+      "log_sha256": "d878c56d4250730e3d9dbc1f2eeaa69551b8f077ec1d0dd64bc768cb59ccc6dd",
+      "pdf_sha256": "7d0796082869e9b17fd84292c51247d978d590d690cecd5aa714bad6722840a2",
+      "returncode": 0,
+      "source": "figure1-architecture.tex"
+    },
+    {
+      "argv": [
+        "pdflatex",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "-output-directory=/output/figures",
+        "figure2-workflow.tex"
+      ],
+      "log_sha256": "bb483ec5978d983f81c937b69b53238d9df4e2ed72308a7e4777117d634a4c36",
+      "pdf_sha256": "9a780371aa2190379333de0e08e1d49b200188142a8fcd0bca9aca17efa8d92c",
+      "returncode": 0,
+      "source": "figure2-workflow.tex"
+    },
+    {
+      "argv": [
+        "pdflatex",
+        "-no-shell-escape",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "-output-directory=/output/figures",
+        "figure3-reason-distribution.tex"
+      ],
+      "log_sha256": "231e91186425675f1beaa302f82745bd2213b0e246b96fcb5f7f518f113deafe",
+      "pdf_sha256": "64dedb644c63438eb14e3daf87785c05d0b2c4fcfea6b974039e1684bd45a27a",
+      "returncode": 0,
+      "source": "figure3-reason-distribution.tex"
+    }
+  ],
+  "schema_version": "POI_ALR_HERMETIC_FIGURE_REPLAY_V1",
+  "source_date_epoch": "1787979600",
+  "status": "PASS"
+}

@@ -25,6 +25,11 @@ This file is a mechanical handoff index. It is not a review, verification event,
 4. Record question-level findings as `PASS`, `PARTIAL`, `FAIL`, `UNKNOWN`, or justified `N/A`. Do not convert an unresolved novelty, independence, protocol, or provenance issue into a prose-only qualification.
 5. Sign an artifact as `VERIFIED` only after substantive review of that exact revision. A producer or AI may not perform the independent scientific review.
 
+The immediate serial next step is the four-artifact `INTAKE` gate. Use the
+prefilled review kit at `08-validation/external-gate-kit/`; its validator checks
+return completeness and exact revision/hash binding but deliberately cannot certify
+reviewer identity, independence, or scientific judgment.
+
 ## Exact current review anchors
 
 | Artifact | Status | Revision | SHA-256 |
@@ -45,10 +50,12 @@ This file is a mechanical handoff index. It is not a review, verification event,
 | `05-analysis/reproducibility-report.md` | DRAFT | 1 | `b5fc605f72f809ae1b40def66f742e1cbba776a349198354fdbd6f2a17d7199e` |
 | `06-visuals/visual-ledger.csv` | DRAFT | 1 | `82f94fbff267b3ba4f69c1d35c4409e73f92d68c3b570d0ecddd0d1f95ceef0a` |
 | `06-visuals/figures/figure-manifest.csv` | DRAFT | 3 | `eba15c8619e4fc82ff6180e9ba62f3ffb346f8a279fa9555e647683408aa751a` |
-| `07-manuscript/manuscript.md` | DRAFT | 3 | `a1c376f5ad95303f72823c9c14a5234aa6a38b99ba34ac5f253e6d3d4c518219` |
+| `07-manuscript/manuscript.md` | DRAFT | 4 | `74af4435533049a60823fac91efbf717c12c1d0b08a250636822be7bd2ef10ff` |
 | `07-manuscript/claim-evidence-matrix.csv` | DRAFT | 1 | `3bbb3a6257cf60349e53693af58a26ced836bf9b5e71bb25b8eeb3efc709afec` |
 | `07-manuscript/source-manifest.json` | DRAFT | 1 | `8aab86b28fad86e9b3fe550ecd3f1a6c682a0244381aa2dc271ff98938df755e` |
 | `07-manuscript/latex/main.pdf` | noncanonical draft build | — | `6700c8ffb31889bb15576178fdf3232ec730532f73333d13eaf9daa6821f1ac5` |
+| `09-submission/hermetic-output/manuscript.pdf` | producer hermetic draft | — | `a6364b8b865afdcfbd5a885d8156bb9bd1a61d1f7a78934e42432ac1bda37400` |
+| `09-submission/frontiers-in-blockchain-technology-code/frontiers-manuscript.pdf` | producer venue draft | — | `8822a98bc298c156e4c7aa3bed662ef0020c0d07ebe8a02826469509e4ca9c57` |
 
 ## External reproduction candidate command
 
@@ -76,6 +83,7 @@ The accountable author must separately review authorship, affiliations, CRediT r
 The producer-side transfer candidate is:
 
 - archive: `09-submission/packages/poi-alr-mpp-minimum-artifact-bundle-v1.tar.gz`;
+- expected contents: 344 manifested source files and 346 total archive members;
 - authoritative local archive hash/report: `09-submission/packages/poi-alr-mpp-minimum-artifact-bundle-v1.report.json`;
 - verifier: `09-submission/verify_minimum_artifact_bundle.py`;
 - provisional venue PDF: `09-submission/frontiers-in-blockchain-technology-code/frontiers-manuscript.pdf`;
@@ -88,4 +96,65 @@ python3 /ABSOLUTE/PATH/verify_minimum_artifact_bundle.py \
   /ABSOLUTE/PATH/poi-alr-mpp-minimum-artifact-bundle-v1.tar.gz
 ```
 
-The reviewer must independently compare the observed archive SHA-256 with the separately transferred report, retain the verifier output, and record the exact archive hash in their signed return. Passing this verifier establishes package integrity only; it does not establish reviewer identity, independence, scientific correctness, novelty, or authorization to submit.
+The archive hash is intentionally not embedded in this packet because this packet is
+itself an archive member. The reviewer must independently compare the observed
+archive SHA-256 with the separately transferred adjacent report, retain the verifier
+output, and record the exact archive hash in their signed return. Passing this
+verifier establishes package integrity only; it does not establish reviewer identity,
+independence, scientific correctness, novelty, or authorization to submit.
+
+After the verifier passes, extract into a new reviewer-controlled directory and run
+the candidate from that copy, not from the producer's working tree:
+
+```bash
+REVIEW_ROOT=/ABSOLUTE/REVIEWER_CONTROLLED/poi-alr-review
+REPRO_OUTPUT=/ABSOLUTE/REVIEWER_CONTROLLED/poi-alr-reproduction
+
+mkdir -p "$REVIEW_ROOT" "$REPRO_OUTPUT"
+tar -xzf /ABSOLUTE/PATH/poi-alr-mpp-minimum-artifact-bundle-v1.tar.gz \
+  -C "$REVIEW_ROOT"
+
+python3 "$REVIEW_ROOT/implementation/python/external_reproduction_candidate.py" \
+  --case-root "$REVIEW_ROOT" \
+  --output-dir "$REPRO_OUTPUT" \
+  --generated-at 2026-08-29T05:00:00Z
+
+python3 - <<'PY'
+import json
+from pathlib import Path
+p = Path('/ABSOLUTE/REVIEWER_CONTROLLED/poi-alr-reproduction/reproduction-report.json')
+r = json.loads(p.read_text(encoding='utf-8'))
+assert r['status'] == 'PASS'
+assert r['returncode'] == 0
+assert r['candidate_only'] is True
+assert r['independence_established'] is False
+assert all(v['expected'] == v['observed'] for v in r['result_checks'].values())
+print('candidate replay checks: PASS')
+PY
+```
+
+For the stronger container replay, the reviewer must first obtain the exact derived
+image through an authorized transfer channel or rebuild it from the included
+`09-submission/hermetic-runtime/Dockerfile` and `runtime.lock`. The required image
+identity is
+`poi-alr/texlive-foundry-poppler@sha256:b33763e92d1295e4d1fec00e613084624ce6b805c1fc882ee5a72778039c6ebc`;
+the runtime-lock SHA-256 is
+`8a180399f5dd0f4ae662da2f1f7daf7599f457e8551d9563653c9b23890abcbb`,
+and the SPDX SBOM SHA-256 is
+`55cd06de5387e426aac6cd0df7fe51b6f19c24a28746e4fc245bd5a0d9c91a65`.
+The image is not currently public, so this stronger replay remains externally open.
+After the exact image is present in the reviewer's Docker content store, run:
+
+```bash
+HERMETIC_OUTPUT=/ABSOLUTE/REVIEWER_CONTROLLED/poi-alr-hermetic-output
+
+python3 "$REVIEW_ROOT/09-submission/hermetic-runtime/run_external_hermetic_replay.py" \
+  --case-root "$REVIEW_ROOT" \
+  --output-dir "$HERMETIC_OUTPUT"
+```
+
+The reviewer retains `external-hermetic-replay-report.json` and all eight pairs of
+command logs, verifies that the report is `PASS`, confirms that it still says
+`independence_established: false` and `phase_promotion: NOT_PERFORMED`, records the
+environment and any deviations, and then issues a separately signed substantive
+methods/reproducibility finding. The script cannot self-certify its operator.

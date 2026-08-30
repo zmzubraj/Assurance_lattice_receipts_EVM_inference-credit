@@ -1,12 +1,12 @@
 {
   "archive": "poi-alr-mpp-minimum-artifact-bundle-v1.tar.gz",
-  "archive_sha256": "95d8466817236494523501cfb0993379b7e2b19df468f601ef9f188c08084440",
-  "archive_size_bytes": 2321487,
-  "created_at": "2026-08-30T03:58:00Z",
+  "archive_sha256": "b54474ed37c0e9557051072b32c4f5ca4a8a8786a60a1a8dc423435d4df2c63e",
+  "archive_size_bytes": 2787884,
+  "created_at": "2026-08-30T05:15:21Z",
   "deterministic_epoch": 0,
   "independent_verification": false,
-  "internal_manifest_sha256": "1eb6ca5a5877bee852653684876cab06b64553b124063210e215e95d93175ca3",
+  "internal_manifest_sha256": "de6defb2793b220a98bcd8154b7881a7267136fc44ff4a5306b2003179095d60",
   "public_release_authorized": false,
-  "source_file_count": 302,
+  "source_file_count": 344,
   "status": "DEVELOPMENT_DRAFT_NOT_SUBMISSION_READY"
 }

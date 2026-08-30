@@ -1,0 +1,8 @@
+test_all_prespecified_mutations_reject (test_alr_mpp.ALRKernelTests.test_all_prespecified_mutations_reject) ... ok
+test_complete_base_space_is_fail_closed (test_alr_mpp.ALRKernelTests.test_complete_base_space_is_fail_closed) ... ok
+test_unknown_never_activates (test_alr_mpp.ALRKernelTests.test_unknown_never_activates) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.004s
+
+OK

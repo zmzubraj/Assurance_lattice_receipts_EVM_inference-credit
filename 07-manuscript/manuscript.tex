@@ -1,0 +1,10 @@
+% Canonical hermetic-build entrypoint.
+% Scientific content remains owned by 07-manuscript/latex/main.tex.
+% This wrapper only makes its relative inputs resolvable from the case root,
+% which is the read-only workdir used by build_submission_package.py.
+\makeatletter
+\def\input@path{{07-manuscript/latex/}}
+\let\poiOriginalBibliography\bibliography
+\renewcommand{\bibliography}[1]{\poiOriginalBibliography{07-manuscript/latex/references}}
+\makeatother
+\input{07-manuscript/latex/main.tex}

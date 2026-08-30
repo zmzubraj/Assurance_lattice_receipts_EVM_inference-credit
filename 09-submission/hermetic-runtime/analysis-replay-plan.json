@@ -1,0 +1,46 @@
+{
+  "schema_version": "POI_ALR_ARGV_REPLAY_PLAN_V1",
+  "scope": "DEVELOPMENT_EXPLORATORY_PYTHON_AND_FOUNDRY_REPLAY",
+  "commands": [
+    [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "implementation/tests",
+      "-v"
+    ],
+    [
+      "python",
+      "implementation/python/run_evaluation.py",
+      "--output-dir",
+      "/output/analysis",
+      "--solidity-vectors",
+      "/output/analysis/GeneratedVectors.t.sol",
+      "--generated-at",
+      "2026-08-29T05:00:00Z"
+    ],
+    [
+      "python",
+      "09-submission/hermetic-runtime/run_hermetic_foundry.py",
+      "--case-root",
+      "/workspace",
+      "--output-dir",
+      "/output/analysis"
+    ],
+    [
+      "python",
+      "09-submission/hermetic-runtime/verify_hermetic_analysis.py",
+      "--case-root",
+      "/workspace",
+      "--output-dir",
+      "/output/analysis"
+    ]
+  ],
+  "limitations": [
+    "This plan replays the Python oracle, generated Solidity vectors, and Foundry kernel in the pinned offline container.",
+    "Foundry test-call gas remains descriptive only and is not a transaction, production, efficiency, or scalability result.",
+    "The replay is producer-owned and is not relabeled as independent external reproduction."
+  ]
+}

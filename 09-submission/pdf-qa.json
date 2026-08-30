@@ -1,0 +1,12 @@
+{
+  "pdf_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-output/manuscript.pdf",
+  "pdf_sha256": "a6364b8b865afdcfbd5a885d8156bb9bd1a61d1f7a78934e42432ac1bda37400",
+  "compile_passed": true,
+  "fonts_embedded": true,
+  "unresolved_references": [],
+  "layout_warnings": [],
+  "warnings_disposition": "PASS",
+  "human_rendered_page_review": "REQUIRED",
+  "dry_run": false,
+  "generated_at": "2026-08-30T04:54:37Z"
+}

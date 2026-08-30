@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-08-30T04:26:08Z",
+  "run_id": "poi-alr-mpp-20260829T044029Z-b4e6442a-cd74f3",
+  "phase": "INTAKE",
+  "study": {
+    "adapter_id": "benchmark_prospective_v1",
+    "study_type": "computational_benchmark",
+    "reporting_guideline": "DOMAIN_BENCHMARK_REPORTING_STANDARD_REQUIRED",
+    "article_type": "Full-length research article"
+  },
+  "source_mode": "latex",
+  "source_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/07-manuscript/manuscript.tex",
+  "engine": "pdflatex",
+  "dry_run": false,
+  "execute": true,
+  "toolchain": {
+    "latexmk": "/Users/rainbow/.local/bin/latexmk",
+    "pdflatex": "/Users/rainbow/.local/bin/pdflatex",
+    "xelatex": "/Users/rainbow/.local/bin/xelatex",
+    "lualatex": "/Users/rainbow/.local/bin/lualatex",
+    "bibtex": "/Users/rainbow/.local/bin/bibtex",
+    "biber": "/Users/rainbow/.local/bin/biber",
+    "pandoc": "/opt/homebrew/bin/pandoc",
+    "pdfinfo": "/opt/homebrew/bin/pdfinfo",
+    "pdffonts": "/opt/homebrew/bin/pdffonts"
+  },
+  "tool_versions": {
+    "latexmk": "Latexmk, John Collins, 9 March 2026. Version 4.88",
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+    "xelatex": "XeTeX 3.141592653-2.6-0.999998 (TeX Live 2026)",
+    "lualatex": "This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)",
+    "bibtex": "BibTeX 0.99e (TeX Live 2026)",
+    "biber": "biber version: 2.21",
+    "pandoc": "pandoc 3.10.1",
+    "pdfinfo": "pdfinfo version 26.04.0",
+    "pdffonts": "pdffonts version 26.04.0"
+  },
+  "required_tools": [
+    "latexmk",
+    "pdffonts",
+    "pdfinfo",
+    "pdflatex"
+  ],
+  "missing_tools": [],
+  "container_runtime": "/usr/local/bin/docker",
+  "execution_mode": "CONTAINER_HERMETIC",
+  "container_policy": {
+    "network": "none",
+    "read_only_rootfs": true,
+    "capabilities": "dropped",
+    "no_new_privileges": true,
+    "case_mount": "read_only",
+    "output_mount": "read_write"
+  },
+  "runtime_image": "poi-alr/texlive-poppler@sha256:da3bb06f71b4899e422a45cab95a7adec7e997bd29a638eb1aaa56116a449815",
+  "runtime_image_pinned": true,
+  "build_root": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/.control/submission-build/build-20260830T042608Z",
+  "build_root_realpath": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/.control/submission-build/build-20260830T042608Z",
+  "build_root_is_symlink": false,
+  "lockfiles": [
+    {
+      "path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-runtime/runtime.lock",
+      "sha256": "302637f5e4c0fb5788d2c9031dde262b21f9f689d63199d585376717e5ec43cf"
+    }
+  ],
+  "sbom_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-runtime/runtime-sbom.spdx.json",
+  "sbom_sha256": "6d2f1c0a7f0b804866598053528d0ad183afe962629c8f999e9f2a725357b496",
+  "commands": [
+    [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "implementation/tests",
+      "-v"
+    ],
+    [
+      "python",
+      "implementation/python/run_evaluation.py",
+      "--output-dir",
+      "/output/analysis",
+      "--solidity-vectors",
+      "/output/analysis/GeneratedVectors.t.sol",
+      "--generated-at",
+      "2026-08-29T05:00:00Z"
+    ],
+    [
+      "python",
+      "09-submission/hermetic-runtime/verify_hermetic_analysis.py",
+      "--case-root",
+      "/workspace",
+      "--output-dir",
+      "/output/analysis"
+    ],
+    [
+      "python",
+      "09-submission/hermetic-runtime/replay_figures.py",
+      "--case-root",
+      "/workspace",
+      "--output-dir",
+      "/output/figures",
+      "--source-date-epoch",
+      "1787979600"
+    ],
+    [
+      "latexmk",
+      "-pdflatex",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-file-line-error",
+      "-outdir=/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/.control/submission-build/build-20260830T042608Z",
+      "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/07-manuscript/manuscript.tex"
+    ],
+    [
+      "pdfinfo",
+      "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/.control/submission-build/build-20260830T042608Z/manuscript.pdf"
+    ],
+    [
+      "pdffonts",
+      "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/.control/submission-build/build-20260830T042608Z/manuscript.pdf"
+    ]
+  ],
+  "command_digests": [
+    "6df31f1c66cc23c6704a18c73245a8500724187b6588d78e2fd6761a401c1c10",
+    "095b61837f288f5a8b1674793423135744090af902ba9dd7f9f6bea06f4e1220",
+    "5e8668f381f6ccab055dd762428501ef5b3f97fa539fd02855b62c67dccd7ec1",
+    "905e7f84af1074f792fd49909af506047864f954ee4dddecabb50f0aa152679e",
+    "814ad45202c2c4bd80101ffaf2ea726b98902b108514ebe048d615ad20d93ea4",
+    "5a48358e1ac6e6b5b534978d9a0258dd0cbbc6b2e65340cb19878b7dedb464a5",
+    "5031b879088ce24b977360550df8e77d7c2ae29adb61b60836b52f2fc2d7d5cf"
+  ],
+  "analysis_replay_commands": [
+    [
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "implementation/tests",
+      "-v"
+    ],
+    [
+      "python",
+      "implementation/python/run_evaluation.py",
+      "--output-dir",
+      "/output/analysis",
+      "--solidity-vectors",
+      "/output/analysis/GeneratedVectors.t.sol",
+      "--generated-at",
+      "2026-08-29T05:00:00Z"
+    ],
+    [
+      "python",
+      "09-submission/hermetic-runtime/verify_hermetic_analysis.py",
+      "--case-root",
+      "/workspace",
+      "--output-dir",
+      "/output/analysis"
+    ]
+  ],
+  "figure_replay_commands": [
+    [
+      "python",
+      "09-submission/hermetic-runtime/replay_figures.py",
+      "--case-root",
+      "/workspace",
+      "--output-dir",
+      "/output/figures",
+      "--source-date-epoch",
+      "1787979600"
+    ]
+  ],
+  "build_commands": [
+    [
+      "latexmk",
+      "-pdflatex",
+      "-interaction=nonstopmode",
+      "-halt-on-error",
+      "-file-line-error",
+      "-outdir=/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/.control/submission-build/build-20260830T042608Z",
+      "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/07-manuscript/manuscript.tex"
+    ],
+    [
+      "pdfinfo",
+      "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/.control/submission-build/build-20260830T042608Z/manuscript.pdf"
+    ],
+    [
+      "pdffonts",
+      "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/.control/submission-build/build-20260830T042608Z/manuscript.pdf"
+    ]
+  ],
+  "analysis_plan": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-runtime/analysis-replay-plan.json",
+  "figure_plan": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-runtime/figure-replay-plan.json",
+  "deterministic_metadata": {
+    "source_date_epoch": "1787979600",
+    "command_digests": [
+      "6df31f1c66cc23c6704a18c73245a8500724187b6588d78e2fd6761a401c1c10",
+      "095b61837f288f5a8b1674793423135744090af902ba9dd7f9f6bea06f4e1220",
+      "5e8668f381f6ccab055dd762428501ef5b3f97fa539fd02855b62c67dccd7ec1",
+      "905e7f84af1074f792fd49909af506047864f954ee4dddecabb50f0aa152679e",
+      "814ad45202c2c4bd80101ffaf2ea726b98902b108514ebe048d615ad20d93ea4",
+      "5a48358e1ac6e6b5b534978d9a0258dd0cbbc6b2e65340cb19878b7dedb464a5",
+      "5031b879088ce24b977360550df8e77d7c2ae29adb61b60836b52f2fc2d7d5cf"
+    ]
+  },
+  "limitations": []
+}

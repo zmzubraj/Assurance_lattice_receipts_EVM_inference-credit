@@ -10,10 +10,12 @@ Checked: 2026-08-30.
 - Official publisher class: `FrontiersinHarvard.cls`, preserved byte-for-byte.
 - Official publisher bibliography style: `Frontiers-Harvard.bst`, preserved byte-for-byte.
 - Build command: `./build_frontiers_draft.sh`
-- Engine: pdfLaTeX through latexmk; shell escape was not enabled.
+- Engine: pdfLaTeX through latexmk with explicit `-no-shell-escape`.
+- Reproducibility controls: `SOURCE_DATE_EPOCH=1787979600` (`2026-08-29T05:00:00Z`), `FORCE_SOURCE_DATE=1`, UTC timezone, and C locale.
 - Main-text word-count estimate: 1,268 from `count_main_text.py`.
-- PDF: 9 A4 pages; 213,786 bytes.
-- PDF SHA-256: `39b988e75e00d691f7df9996c20c8b16ba62a345512eab0d9deecea1eba1fdcd`.
+- PDF: 9 A4 pages; 214,695 bytes.
+- PDF SHA-256: `8822a98bc298c156e4c7aa3bed662ef0020c0d07ebe8a02826469509e4ca9c57`.
+- Two isolated clean builds produced byte-identical PDFs with that hash.
 
 ## Mechanical checks
 
@@ -34,4 +36,4 @@ All nine pages were rendered at 110 dpi and visually inspected locally. The titl
 
 ## Open blockers
 
-This is not the canonical digest-pinned offline container build. Authors, affiliations, project URL, archival DOI/URI, license, exact AI model/version disclosure, conflicts, funding, ethics applicability, APC route, novelty, independent protocol review, external reproduction, and human submission approval remain unresolved.
+This same-toolchain local build is deterministic under the recorded controls, but it is not the canonical digest-pinned offline container build. Authors, affiliations, project URL, archival DOI/URI, license, exact AI model/version disclosure, conflicts, funding, ethics applicability, APC route, novelty, independent protocol review, external reproduction, and human submission approval remain unresolved.

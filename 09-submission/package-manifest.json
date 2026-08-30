@@ -1,0 +1,18 @@
+{
+  "run_id": "poi-alr-mpp-20260829T044029Z-b4e6442a-cd74f3",
+  "build_root": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-output",
+  "manifest_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-output/manifest.json",
+  "execution_log_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-output/execution-log.json",
+  "dry_run": false,
+  "execute": true,
+  "manifest_sha256": "8b7c8195587b1f2df08184ced05d7823d48068fea2758a269b2b8af12db7ac59",
+  "pdf_sha256": "a6364b8b865afdcfbd5a885d8156bb9bd1a61d1f7a78934e42432ac1bda37400",
+  "sbom_sha256": "55cd06de5387e426aac6cd0df7fe51b6f19c24a28746e4fc245bd5a0d9c91a65",
+  "lockfiles": [
+    {
+      "path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-runtime/runtime.lock",
+      "sha256": "8a180399f5dd0f4ae662da2f1f7daf7599f457e8551d9563653c9b23890abcbb"
+    }
+  ],
+  "generated_at": "2026-08-30T04:54:37Z"
+}

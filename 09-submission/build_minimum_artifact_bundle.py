@@ -25,16 +25,24 @@ INCLUDE_ROOTS = (
     "07-manuscript",
     "08-validation",
     "09-submission/frontiers-in-blockchain-technology-code",
+    "09-submission/hermetic-runtime",
+    "09-submission/hermetic-output",
     "implementation",
 )
 
 INCLUDE_FILES = (
     "INDEX.md",
+    ".latexmkrc",
     "program-state.json",
     "artifact-registry.csv",
     "agent-registry.csv",
     "09-submission/acceptance-readiness.md",
+    "09-submission/analysis-replay-report.md",
+    "09-submission/build-manifest.json",
+    "09-submission/environment-capture.json",
     "09-submission/novelty-refresh.md",
+    "09-submission/package-manifest.json",
+    "09-submission/pdf-qa.json",
     "09-submission/reporting-checklist.md",
     "09-submission/submission-audit.md",
     "09-submission/submission-gate-ledger.csv",
@@ -117,7 +125,8 @@ draft PDFs, official-venue adaptation, reproducibility harness, and external hum
 and scientific gate instructions. File hashes are listed in BUNDLE_MANIFEST.csv.
 
 Start with INDEX.md, 00-governance/EXTERNAL_HUMAN_SCIENTIFIC_GATE_RUNBOOK.md,
-08-validation/EXTERNAL_REVIEW_PACKET.md, and artifact-registry.csv. The canonical
+08-validation/EXTERNAL_REVIEW_PACKET.md,
+08-validation/external-gate-kit/README.md, and artifact-registry.csv. The canonical
 case remains at phase INTAKE. A clean build or matching hash does not establish
 novelty, scientific validity, independent reproduction, authorship, licensing,
 publication readiness, or submission authorization.
@@ -129,6 +138,11 @@ Frontiers draft build:
 Fresh-directory reproduction candidate:
   python3 implementation/python/external_reproduction_candidate.py \
     --case-root . --output-dir /ABSOLUTE/REVIEWER_CONTROLLED/OUTPUT
+
+Exact hermetic replay after the content-addressed runtime image is available:
+  python3 09-submission/hermetic-runtime/run_external_hermetic_replay.py \
+    --case-root /ABSOLUTE/PATH/TO/EXTRACTED/CASE \
+    --output-dir /ABSOLUTE/REVIEWER_CONTROLLED/HERMETIC_OUTPUT
 """.encode("utf-8")
 
 

@@ -15,13 +15,14 @@ freshness, evidence origin, claim scope, and exact request-response bindings. We
 study a typed assurance-lattice receipt (ALR) whose EVM credit gate uses a
 non-compensating meet rule: every required condition must pass, while failure or
 unknown status rejects activation with a deterministic reason code. The development
-prototype comprises an independent Python oracle, a Python reference kernel, and a
+prototype comprises a separately transcribed Python oracle, a Python reference kernel, and a
 Solidity 0.8.24 gate. We exhaustively executed all 729 states in a six-factor,
 three-level model and seven prespecified binding mutations. The local development
 run observed 0/728 false activations, 1/1 activation of the all-pass state, 729/729
 base decision-and-reason matches, 7/7 mutation rejections, and 736/736
 Python-generated-vector versus Solidity matches. A second same-owner local process
-reproduced byte-identical core result artifacts. These findings establish only
+reproduced byte-identical core result artifacts, and a later digest-pinned hermetic
+producer replay passed the Python and offline Foundry paths. These findings establish only
 development-level conformance to the frozen finite model. Novelty remains unresolved,
 the protocol was not independently verified before execution, the attack set is not
 exhaustive, no gas comparator was frozen, and no external or field validation was
@@ -93,7 +94,12 @@ excluded or imputed. P-values and observed power are inapplicable. [claim:C003]
 The run used Python 3.14.6, Foundry 1.5.1-stable, and Solidity 0.8.24 on macOS 15.1
 arm64. The runner captured argv, return codes, logs, and SHA-256 values without
 requiring network access. A second same-owner process replayed the workflow with a
-fixed protocol timestamp. [claim:C003]
+fixed protocol timestamp. A subsequent producer-controlled hermetic replay used a
+digest-pinned Linux amd64 image containing Foundry 1.5.1-v1.5.1 and exact Solidity
+0.8.24. With network disabled, a read-only root and case mount, dropped capabilities,
+and no new privileges, it reran the Python tests, finite evaluation,
+generated-vector hash check, both Solidity parity tests, figures, and manuscript
+build. This is reproducibility evidence, not independent replication. [claim:C003]
 [evidence:EV-ALR-PARITY-001,EV-ALR-REPLAY-001]
 
 ## Ethics and evidence boundary
@@ -114,6 +120,9 @@ two Foundry tests passed. [claim:C003]
 
 The same-owner replay reproduced identical SHA-256 values for the base CSV, mutation
 CSV, and Python summary. Timing-bearing logs and run manifests differed as expected.
+The hermetic replay returned zero for all eight declared commands, reproduced the
+frozen Python hashes, passed both offline Foundry tests, and produced a venue-neutral
+PDF byte-identical to the earlier pinned TeX build. These checks remain producer-owned.
 Figure 3 reports the first-reason distribution; its 486/162/54/18/6/2/1 pattern is a
 consequence of the fixed precedence and must not be interpreted as empirical risk or
 relative assurance importance. [claim:C003] [evidence:EV-ALR-REPLAY-001]
@@ -162,8 +171,10 @@ review, a prospective unchanged rerun, and external reproduction. [claim:C003]
 # Limitations
 
 The protocol and analysis plan were reviewed only by the producing AI-assisted
-workflow. The finite state model and mutation set may be incomplete. The same-owner
-replay is not independent replication. Foundry test-call gas is not transaction or
+workflow. The finite state model and mutation set may be incomplete. Neither the
+fresh-directory nor hermetic producer replay is independent replication. The derived
+container image is content-addressed locally but not publicly distributed. Foundry
+test-call gas is not transaction or
 production gas. The study did not evaluate semantic accuracy, decentralized
 adversaries, mainnet conditions, privacy, TEEs, consensus safety, user outcomes, or
 field impact. The literature search is bounded and awaits independent challenge,

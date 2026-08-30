@@ -1,0 +1,39 @@
+{
+  "captured_at": "2026-08-30T04:54:30Z",
+  "platform": "macOS-15.1-arm64-arm-64bit-Mach-O",
+  "python": "3.14.6",
+  "cwd": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system",
+  "run_id": "poi-alr-mpp-20260829T044029Z-b4e6442a-cd74f3",
+  "toolchain": {
+    "latexmk": "/Users/rainbow/.local/bin/latexmk",
+    "pdflatex": "/Users/rainbow/.local/bin/pdflatex",
+    "xelatex": "/Users/rainbow/.local/bin/xelatex",
+    "lualatex": "/Users/rainbow/.local/bin/lualatex",
+    "bibtex": "/Users/rainbow/.local/bin/bibtex",
+    "biber": "/Users/rainbow/.local/bin/biber",
+    "pandoc": "/opt/homebrew/bin/pandoc",
+    "pdfinfo": "/opt/homebrew/bin/pdfinfo",
+    "pdffonts": "/opt/homebrew/bin/pdffonts"
+  },
+  "tool_versions": {
+    "latexmk": "Latexmk, John Collins, 9 March 2026. Version 4.88",
+    "pdflatex": "pdfTeX 3.141592653-2.6-1.40.29 (TeX Live 2026)",
+    "xelatex": "XeTeX 3.141592653-2.6-0.999998 (TeX Live 2026)",
+    "lualatex": "This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)",
+    "bibtex": "BibTeX 0.99e (TeX Live 2026)",
+    "biber": "biber version: 2.21",
+    "pandoc": "pandoc 3.10.1",
+    "pdfinfo": "pdfinfo version 26.04.0",
+    "pdffonts": "pdffonts version 26.04.0"
+  },
+  "study_adapter_id": "benchmark_prospective_v1",
+  "runtime_image": "poi-alr/texlive-foundry-poppler@sha256:b33763e92d1295e4d1fec00e613084624ce6b805c1fc882ee5a72778039c6ebc",
+  "runtime_image_pinned": true,
+  "lockfiles": [
+    {
+      "path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/09-submission/hermetic-runtime/runtime.lock",
+      "sha256": "8a180399f5dd0f4ae662da2f1f7daf7599f457e8551d9563653c9b23890abcbb"
+    }
+  ],
+  "sbom_sha256": "55cd06de5387e426aac6cd0df7fe51b6f19c24a28746e4fc245bd5a0d9c91a65"
+}

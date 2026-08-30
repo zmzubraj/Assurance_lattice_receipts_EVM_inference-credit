@@ -1,0 +1,5 @@
+artifact_path,revision,sha256,disposition,direct_evidence,consequence,smallest_required_action,residual_risk
+00-governance/intake-original.md,1,b4e6442ac64366c6f04fa610276bd7870d02dda76b447b5435c128be778273bb,,,,,
+00-governance/intake.json,1,dc2ddb1024f077a09024a6a6b2f8a9174cb7671f53b3b516bee296a866ca8ce2,,,,,
+00-governance/program-charter.md,2,801d4057b9badb49c0d92f7ce97c58671713a2c9aa4882b2251a47c37dc7f0b9,,,,,
+00-governance/study-profile.json,2,65653add0ca0b90b4569d257a387897214be170a5c715efac00f7a4b1bd9f5da,,,,,

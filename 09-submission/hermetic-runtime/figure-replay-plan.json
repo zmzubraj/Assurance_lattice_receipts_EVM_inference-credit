@@ -1,0 +1,16 @@
+{
+  "schema_version": "POI_ALR_ARGV_REPLAY_PLAN_V1",
+  "scope": "TIKZ_FIGURE_REPLAY",
+  "commands": [
+    [
+      "python",
+      "09-submission/hermetic-runtime/replay_figures.py",
+      "--case-root",
+      "/workspace",
+      "--output-dir",
+      "/output/figures",
+      "--source-date-epoch",
+      "1787979600"
+    ]
+  ]
+}

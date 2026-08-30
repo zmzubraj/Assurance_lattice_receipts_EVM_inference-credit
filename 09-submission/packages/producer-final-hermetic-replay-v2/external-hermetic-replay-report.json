@@ -1,0 +1,199 @@
+{
+  "candidate_only": true,
+  "commands": [
+    {
+      "declared_argv": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "implementation/tests",
+        "-v"
+      ],
+      "index": 1,
+      "returncode": 0,
+      "stderr_path": "command-01.stderr.log",
+      "stderr_sha256": "2896fbfac932d58816527e7993dfda995d6663b3a1bdb23eaa037db20b01b274",
+      "stdout_path": "command-01.stdout.log",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "declared_argv": [
+        "python",
+        "implementation/python/run_evaluation.py",
+        "--output-dir",
+        "/output/analysis",
+        "--solidity-vectors",
+        "/output/analysis/GeneratedVectors.t.sol",
+        "--generated-at",
+        "2026-08-29T05:00:00Z"
+      ],
+      "index": 2,
+      "returncode": 0,
+      "stderr_path": "command-02.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "command-02.stdout.log",
+      "stdout_sha256": "d08323b9c7df20054b52017ae7e317910d96f1a737eb37b7678daf12887463f7"
+    },
+    {
+      "declared_argv": [
+        "python",
+        "09-submission/hermetic-runtime/run_hermetic_foundry.py",
+        "--case-root",
+        "/workspace",
+        "--output-dir",
+        "/output/analysis"
+      ],
+      "index": 3,
+      "returncode": 0,
+      "stderr_path": "command-03.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "command-03.stdout.log",
+      "stdout_sha256": "7bedb9f2ddcfb435d2fb60de29f31ae5731abf215ea7e0a967ef8abfaac124ab"
+    },
+    {
+      "declared_argv": [
+        "python",
+        "09-submission/hermetic-runtime/verify_hermetic_analysis.py",
+        "--case-root",
+        "/workspace",
+        "--output-dir",
+        "/output/analysis"
+      ],
+      "index": 4,
+      "returncode": 0,
+      "stderr_path": "command-04.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "command-04.stdout.log",
+      "stdout_sha256": "28ae06781622c85de2a620855431efd98602c00b424466a6236dba2378f3b628"
+    },
+    {
+      "declared_argv": [
+        "python",
+        "09-submission/hermetic-runtime/replay_figures.py",
+        "--case-root",
+        "/workspace",
+        "--output-dir",
+        "/output/figures",
+        "--source-date-epoch",
+        "1787979600"
+      ],
+      "index": 5,
+      "returncode": 0,
+      "stderr_path": "command-05.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "command-05.stdout.log",
+      "stdout_sha256": "1ebc3de3fb3a8a107b4d0d4e70c52312adb1516174af81d7d6efbc1d3d955ade"
+    },
+    {
+      "declared_argv": [
+        "latexmk",
+        "-pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-file-line-error",
+        "-outdir=/output",
+        "/workspace/07-manuscript/manuscript.tex"
+      ],
+      "index": 6,
+      "returncode": 0,
+      "stderr_path": "command-06.stderr.log",
+      "stderr_sha256": "bff266a0c363692d2928e92dadee41b2817c1a6ad8bfc392d9341f91ca72b572",
+      "stdout_path": "command-06.stdout.log",
+      "stdout_sha256": "7038a572dae513aa5a69034b1e64736647c40d9a0f0d789660da376f0da91e91"
+    },
+    {
+      "declared_argv": [
+        "pdfinfo",
+        "/output/manuscript.pdf"
+      ],
+      "index": 7,
+      "returncode": 0,
+      "stderr_path": "command-07.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "command-07.stdout.log",
+      "stdout_sha256": "b685c6f14dc65698f88dbcdc3650d1ea6d88f20eea1640c423229bd11b1fa1ee"
+    },
+    {
+      "declared_argv": [
+        "pdffonts",
+        "/output/manuscript.pdf"
+      ],
+      "index": 8,
+      "returncode": 0,
+      "stderr_path": "command-08.stderr.log",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_path": "command-08.stdout.log",
+      "stdout_sha256": "315177418af01035b7d5cf55b222152a45aa159087ac15182907b5a522f11df8"
+    }
+  ],
+  "decisive_checks": {
+    "all_eight_commands_zero": true,
+    "analysis_errors": [],
+    "analysis_status": "PASS",
+    "compile_passed": true,
+    "expected_pdf_sha256": "a6364b8b865afdcfbd5a885d8156bb9bd1a61d1f7a78934e42432ac1bda37400",
+    "figure_status": "PASS",
+    "fonts_embedded": true,
+    "foundry_failed_count": 0,
+    "foundry_status": "PASS",
+    "foundry_test_count": 2,
+    "human_rendered_page_review": "REQUIRED",
+    "layout_warnings": [],
+    "observed_pdf_sha256": "a6364b8b865afdcfbd5a885d8156bb9bd1a61d1f7a78934e42432ac1bda37400",
+    "pdf_hash_match": true,
+    "unresolved_references": []
+  },
+  "errors": [],
+  "evidence_origin": "SYNTHETIC_NON_EVIDENCE",
+  "generated_at": "2026-08-30T05:11:46Z",
+  "independence_established": false,
+  "input_checks": {
+    ".latexmkrc": {
+      "expected": "e2b60569765dd752fc60408e5f0dc4a43640d3fd13ae2a99a0a1c77236d502a2",
+      "match": true,
+      "observed": "e2b60569765dd752fc60408e5f0dc4a43640d3fd13ae2a99a0a1c77236d502a2"
+    },
+    "07-manuscript/latex/main.tex": {
+      "expected": "f197112acaa9af304553ba4f7ae17e995015898d6a1b39313a9805707679f05b",
+      "match": true,
+      "observed": "f197112acaa9af304553ba4f7ae17e995015898d6a1b39313a9805707679f05b"
+    },
+    "07-manuscript/latex/references.bib": {
+      "expected": "b63dae78195e3b7903c3f36852f351be8870744d8578ea2e80af8990c7c8c0b4",
+      "match": true,
+      "observed": "b63dae78195e3b7903c3f36852f351be8870744d8578ea2e80af8990c7c8c0b4"
+    },
+    "07-manuscript/manuscript.tex": {
+      "expected": "1cf14b0abc5f45673d2cebe6e0eeaf01575cb0458b0b01894055951ab2a20a25",
+      "match": true,
+      "observed": "1cf14b0abc5f45673d2cebe6e0eeaf01575cb0458b0b01894055951ab2a20a25"
+    },
+    "09-submission/hermetic-runtime/runtime-sbom.spdx.json": {
+      "expected": "55cd06de5387e426aac6cd0df7fe51b6f19c24a28746e4fc245bd5a0d9c91a65",
+      "match": true,
+      "observed": "55cd06de5387e426aac6cd0df7fe51b6f19c24a28746e4fc245bd5a0d9c91a65"
+    },
+    "09-submission/hermetic-runtime/runtime.lock": {
+      "expected": "8a180399f5dd0f4ae662da2f1f7daf7599f457e8551d9563653c9b23890abcbb",
+      "match": true,
+      "observed": "8a180399f5dd0f4ae662da2f1f7daf7599f457e8551d9563653c9b23890abcbb"
+    }
+  },
+  "limitations": [
+    "Execution and matching hashes do not establish scientific validity or novelty.",
+    "Foundry test-call gas is descriptive only and supports no production-gas claim.",
+    "A separately signed accountable external review is required for independence."
+  ],
+  "phase_promotion": "NOT_PERFORMED",
+  "runtime_image": "poi-alr/texlive-foundry-poppler@sha256:b33763e92d1295e4d1fec00e613084624ce6b805c1fc882ee5a72778039c6ebc",
+  "runtime_inspect": {
+    "image_id": "sha256:b33763e92d1295e4d1fec00e613084624ce6b805c1fc882ee5a72778039c6ebc",
+    "returncode": 0,
+    "stderr": ""
+  },
+  "schema_version": "POI_ALR_EXTERNAL_HERMETIC_REPLAY_V1",
+  "source_date_epoch": "1787979600",
+  "status": "PASS"
+}

@@ -1,0 +1,29 @@
+{
+  "analysis_status": "DEVELOPMENT_EXPLORATORY",
+  "errors": [],
+  "evidence_origin": "SYNTHETIC_NON_EVIDENCE",
+  "expected_hashes": {
+    "base-results.csv": "44affd48e439b0ea8669ca9767d951a9a96e46cdde1b2416cea439447bf7f250",
+    "mutation-results.csv": "f1ef61762a83096f68486b07e9db4948429d452fa2a7ca9af1de6d03bb4fb160"
+  },
+  "independence_established": false,
+  "observed_hashes": {
+    "base-results.csv": "44affd48e439b0ea8669ca9767d951a9a96e46cdde1b2416cea439447bf7f250",
+    "mutation-results.csv": "f1ef61762a83096f68486b07e9db4948429d452fa2a7ca9af1de6d03bb4fb160"
+  },
+  "phase_promotion": "NOT_PERFORMED",
+  "schema_version": "POI_ALR_HERMETIC_ANALYSIS_VERIFICATION_V1",
+  "status": "PASS",
+  "summary_invariants": {
+    "analysis_status": "DEVELOPMENT_EXPLORATORY",
+    "base_case_count": 729,
+    "base_reason_matches": 729,
+    "eligible_activations": 1,
+    "eligible_case_count": 1,
+    "evidence_origin": "SYNTHETIC_NON_EVIDENCE",
+    "false_activations": 0,
+    "ineligible_case_count": 728,
+    "mutation_count": 7,
+    "mutation_rejections": 7
+  }
+}

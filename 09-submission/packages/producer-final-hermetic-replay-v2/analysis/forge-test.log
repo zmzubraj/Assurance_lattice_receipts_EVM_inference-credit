@@ -1,0 +1,10 @@
+Compiling 2 files with Solc 0.8.24
+Solc 0.8.24 finished in 241.68ms
+Compiler run successful!
+
+Ran 2 tests for test/GeneratedVectors.t.sol:GeneratedVectorsTest
+[PASS] testPythonGeneratedBaseVectors729() (gas: 5491690)
+[PASS] testPythonGeneratedMutationVectors7() (gas: 39023)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 52.61ms (44.07ms CPU time)
+
+Ran 1 test suite in 88.06ms (52.61ms CPU time): 2 tests passed, 0 failed, 0 skipped (2 total tests)

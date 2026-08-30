@@ -133,16 +133,48 @@ For every gate, the producer gives the reviewer:
 
 The reviewer must inspect content, not merely check file existence or hashes. A hash proves which revision was reviewed; it does not prove scientific validity.
 
-For the reproducibility slice, the reviewer additionally runs the frozen candidate harness in a reviewer-controlled output directory:
+For the reproducibility slice, the reviewer first verifies the transferred minimum
+bundle, extracts it into a newly created reviewer-controlled directory, and runs the
+frozen candidate from that extracted copy. The fixed timestamp is part of the frozen
+hash contract:
 
 ```bash
-REPRO_OUTPUT=/ABSOLUTE/REVIEWER_CONTROLLED/OUTPUT/DIRECTORY
-python3 "$CASE_ROOT/implementation/python/external_reproduction_candidate.py" \
-  --case-root "$CASE_ROOT" \
-  --output-dir "$REPRO_OUTPUT"
+BUNDLE=/ABSOLUTE/PATH/poi-alr-mpp-minimum-artifact-bundle-v1.tar.gz
+VERIFY=/ABSOLUTE/PATH/verify_minimum_artifact_bundle.py
+REVIEW_ROOT=/ABSOLUTE/REVIEWER_CONTROLLED/poi-alr-review
+REPRO_OUTPUT=/ABSOLUTE/REVIEWER_CONTROLLED/poi-alr-reproduction
+
+python3 "$VERIFY" "$BUNDLE"
+mkdir -p "$REVIEW_ROOT" "$REPRO_OUTPUT"
+tar -xzf "$BUNDLE" -C "$REVIEW_ROOT"
+
+python3 "$REVIEW_ROOT/implementation/python/external_reproduction_candidate.py" \
+  --case-root "$REVIEW_ROOT" \
+  --output-dir "$REPRO_OUTPUT" \
+  --generated-at 2026-08-29T05:00:00Z
 ```
 
-The emitted report is candidate evidence only. The reviewer must hash it, document the environment and deviations, and sign a substantive reproducibility finding before it can support an external gate.
+The emitted report is candidate evidence only. The reviewer must hash it, document
+the environment and deviations, inspect the Python and Foundry logs, and sign a
+substantive reproducibility finding before it can support an external gate. A
+stronger exact container replay additionally requires the content-addressed runtime
+image or a reviewer-controlled rebuild from the included Dockerfile and lock; the
+current derived image is local-only, so this dependency must not be silently waived.
+
+After the exact image is available, execute the bundle-contained driver:
+
+```bash
+HERMETIC_OUTPUT=/ABSOLUTE/REVIEWER_CONTROLLED/poi-alr-hermetic-output
+
+python3 "$REVIEW_ROOT/09-submission/hermetic-runtime/run_external_hermetic_replay.py" \
+  --case-root "$REVIEW_ROOT" \
+  --output-dir "$HERMETIC_OUTPUT"
+```
+
+Stop if any frozen input hash, image identity, command return code, Foundry count,
+figure status, or PDF hash fails. Preserve `external-hermetic-replay-report.json`
+and all command logs. A passing report remains candidate evidence until the methods
+reviewer signs the exact report hash and substantive finding.
 
 ## 5. Reusable signing command
 
@@ -173,6 +205,13 @@ For final accountable-author actions, change `--verifier-type` to `ACCOUNTABLE_H
 ### Gate A — INTAKE
 
 Scientific reviewer actions:
+
+Use the prefilled hash-bound kit at
+`08-validation/external-gate-kit/`. Copy it to a reviewer-controlled writable
+directory, complete the declaration and all four findings, and run
+`validate_intake_review.py` as described in its `README.md`. A validator `PASS`
+establishes mechanical completeness only; it does not replace the substantive
+review or registered-key signatures below.
 
 1. Compare `intake-original.md` with the user-confirmed intake.
 2. Confirm `intake.json` is lossless normalization.

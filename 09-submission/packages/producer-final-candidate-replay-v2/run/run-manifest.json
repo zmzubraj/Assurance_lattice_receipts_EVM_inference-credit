@@ -1,0 +1,70 @@
+{
+  "analysis_status": "DEVELOPMENT_EXPLORATORY",
+  "artifacts": {
+    "03-design/analysis-plan.md": "614a149685504e2a6b7c75fc512763c2bcb22d529177bed06913a065a4ea1303",
+    "03-design/protocol.md": "753c330aef2f22e6848583f40ef4a458775d52d01c2978833665c21299246ccf",
+    "04-data/development/external-candidate/base-results.csv": "44affd48e439b0ea8669ca9767d951a9a96e46cdde1b2416cea439447bf7f250",
+    "04-data/development/external-candidate/forge-test.log": "009d80eb9ad43c5d87f3cee2adfea0c9876309db7d8abbe1f4286ce1fc161359",
+    "04-data/development/external-candidate/mutation-results.csv": "f1ef61762a83096f68486b07e9db4948429d452fa2a7ca9af1de6d03bb4fb160",
+    "04-data/development/external-candidate/python-evaluation.log": "edbd21a289fa640b373c3253ffea22ee821d38c3d05d4747b9f72d13dafdc4cf",
+    "04-data/development/external-candidate/python-summary.json": "b5048255525d7751f817fd3d5be510f1ee609bce06bfcd4c39e4c3d02a31178d",
+    "04-data/development/external-candidate/python-tests.log": "7351fdbb134b5ce84837f271e04c088923ae326e2fa8379913d845d2eee97c4a",
+    "implementation/python/alr_mpp.py": "9023486cff28870f4acbbc04f7c81ee72ceebf9c912955bac65e925aff974fac",
+    "implementation/python/run_evaluation.py": "7bf5d8dcfe69ef45d58d30196880f8ff10c3c11562b4cfa969d6ab08ac425e48",
+    "implementation/solidity/src/ALRReceiptGate.sol": "563f32e9e810177d8dd34311762913f940c75f068e3dc055952ace028247c162",
+    "implementation/solidity/test/GeneratedVectors.t.sol": "6fc0cec1f7e6f1b855aafa92932fca764a7745d60c7ffe20c6a5b2180ab506f4"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "implementation/tests",
+        "-v"
+      ],
+      "log": "04-data/development/external-candidate/python-tests.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "implementation/python/run_evaluation.py",
+        "--output-dir",
+        "/private/var/folders/mj/bbzf23ds62xb5n4l6s0ttwc00000gn/T/poi-alr-external-candidate-nws7yyxw/case/04-data/development/external-candidate",
+        "--solidity-vectors",
+        "/private/var/folders/mj/bbzf23ds62xb5n4l6s0ttwc00000gn/T/poi-alr-external-candidate-nws7yyxw/case/implementation/solidity/test/GeneratedVectors.t.sol",
+        "--generated-at",
+        "2026-08-29T05:00:00Z"
+      ],
+      "log": "04-data/development/external-candidate/python-evaluation.log",
+      "returncode": 0
+    },
+    {
+      "argv": [
+        "forge",
+        "test",
+        "--root",
+        "implementation/solidity",
+        "-vv"
+      ],
+      "log": "04-data/development/external-candidate/forge-test.log",
+      "returncode": 0
+    }
+  ],
+  "evidence_origin": "SYNTHETIC_NON_EVIDENCE",
+  "generated_at": "2026-08-29T05:00:00Z",
+  "limitations": [
+    "Protocol and methods review remain independently unverified.",
+    "This run supports only development-level software conformance.",
+    "Foundry gas figures are test-call measurements, not a frozen production comparator."
+  ],
+  "network_required": false,
+  "overall_returncode": 0,
+  "phase_promotion": "NOT_PERFORMED",
+  "protocol_id": "ALR-MPP-PILOT-V1",
+  "run_id": "external-candidate",
+  "schema_version": "ALR_MPP_DEVELOPMENT_RUN_MANIFEST_V1"
+}

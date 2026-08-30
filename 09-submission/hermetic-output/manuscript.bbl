@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{basu2026toolreceipts}
+Abhinaba Basu.
+\newblock Tool receipts, not zero-knowledge proofs: Practical hallucination
+  detection for {AI} agents, 2026.
+
+\bibitem{calboreanu2026lattice}
+Elias Calboreanu.
+\newblock {LATTICE}: A governance-first architecture for authorized autonomous
+  {AI} operations.
+\newblock {\em Frontiers in Artificial Intelligence}, 9:1800407, 2026.
+
+\bibitem{conway2024opml}
+KD~Conway, Cathie So, Xiaohang Yu, and Kartin Wong.
+\newblock {opML}: Optimistic machine learning on blockchain, 2024.
+
+\bibitem{alves2026eigenai}
+David Ribeiro~Alves, Vishnu Patankar, Matheus Pereira, Jamie Stephens, Nima
+  Vaziri, and Sreeram Kannan.
+\newblock {EigenAI}: Deterministic inference, verifiable results, 2026.
+
+\bibitem{richard2026agentic}
+Ulysse Richard, Heather Frase, Sarah Cao, Di~Cooke, Sebastian Kwon, and
+  Adrianna Tan.
+\newblock Testing and evaluation of agentic {AI} systems in military command
+  and control, 2026.
+
+\bibitem{sokolov2026freshness}
+Anton Sokolov.
+\newblock A challenge-nonce freshness gap in project veraison's {TPM} reference
+  schemes, found by appraising application-layer action evidence end-to-end,
+  2026.
+
+\end{thebibliography}

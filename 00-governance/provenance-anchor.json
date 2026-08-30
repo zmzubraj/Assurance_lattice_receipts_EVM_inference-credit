@@ -3,9 +3,9 @@
   "anchored_ledgers": {
     "00-governance/decision-ledger.jsonl": "527fb0fdb3c20492a7fe33e0329a6802acae5ed1d81a694e3ba07a73c8c76344",
     "00-governance/verification-ledger.jsonl": "",
-    "00-governance/provenance-ledger.jsonl": "41091a85aa0ee69d270f7a26330932f56e2270735151289b65e6faf5b5f5101a"
+    "00-governance/provenance-ledger.jsonl": "2c32a38034122f0d831aafa8452889a052a18f4a596c3a8f4f71dd98fec0fd3c"
   },
-  "anchor_hash": "ab0a304bf9681a5cb393d50454ca6ec0a10891e566e96382c209eb8d305f7b81",
+  "anchor_hash": "728d5a8ab0bdf29f92027ff9fe85b2fd6bf2e701133a723b94a012380e11ea11",
   "signing_key_id": "runtime-governance",
-  "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgzUv+qsYeiQzVranOPSjlviBfGu\n5IKT3Mxn7j55K2yLsAAAARcHJvdmVuYW5jZS1hbmNob3IAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAYSW2GTzcgyjZnaq8iTclxQdm6Qf/eFHflnwo1XCENqeVZK\nKyDnhVYip1We0VxdjuraxnLnb5QAKlj/eQiPZGDA==\n-----END SSH SIGNATURE-----\n"
+  "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgzUv+qsYeiQzVranOPSjlviBfGu\n5IKT3Mxn7j55K2yLsAAAARcHJvdmVuYW5jZS1hbmNob3IAAAAAAAAABnNoYTUxMgAAAFMA\nAAALc3NoLWVkMjU1MTkAAABAbihLgeNXKO/uuvst7TjOqVb2iWCW8WO0f7cIf4lLsM/p+7\n099OP2WhUuxN+I1tTjUi/ZbnVozVYFgSbLuCZ0CQ==\n-----END SSH SIGNATURE-----\n"
 }
