@@ -1,0 +1,205 @@
+% Frontiers in Blockchain, Technology and Code, initial-submission adaptation.
+% DEVELOPMENT DRAFT ONLY. Scientific and accountable-human gates remain open.
+\documentclass[utf8]{FrontiersinHarvard}
+
+\usepackage{url,hyperref,lineno,microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{setspace}
+\singlespacing
+\linenumbers
+
+\def\keyFont{\fontsize{8}{11}\helveticabold}
+\def\firstAuthorLast{Anonymous Development Draft}
+\def\Authors{Anonymous Development Draft}
+\def\Address{Authorship and affiliations pending accountable-human determination}
+\def\corrAuthor{Not assigned}
+\def\corrEmail{Not assigned}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\begin{document}
+\onecolumn
+\firstpage{1}
+
+\title[Assurance-lattice receipt development study]{Assurance-Lattice Receipts for Fail-Closed Ethereum Virtual Machine Inference Credit: A Reproducible Development Study}
+\author[\firstAuthorLast]{\Authors}
+\address{}
+\correspondance{}
+\extraAuth{}
+\maketitle
+
+\noindent\fcolorbox{orange!70!black}{orange!10}{\parbox{0.94\linewidth}{\centering\textbf{DEVELOPMENT DRAFT --- NOT SUBMISSION READY.} Independent novelty, protocol, provenance, reproduction, authorship, repository, license, fee, and accountable-human approval gates remain open.}}
+
+\medskip
+\noindent\textbf{Article type:} Technology and Code. \textbf{Target journal and section:} Frontiers in Blockchain, Blockchain Technologies (provisional). \textbf{Main-text word count:} 1,268 (deterministic source estimate). \textbf{Figures:} 3. \textbf{Tables:} 2.
+
+\begin{abstract}
+\section{}
+Blockchain-mediated artificial-intelligence inference needs more than evidence that computation occurred: credit activation can also depend on semantic disposition, authority, provenance, freshness, evidence origin, claim scope, and exact request--response bindings. We study a typed assurance-lattice receipt whose Ethereum Virtual Machine credit gate uses a non-compensating meet rule: every required condition must pass, while failure or unknown status rejects activation with a deterministic reason code. The development prototype comprises a separately transcribed Python oracle, a Python reference kernel, and a Solidity 0.8.24 gate. We exhaustively executed all 729 states in a six-factor, three-level model and seven prespecified binding mutations. The local development run observed 0/728 false activations, 1/1 activation of the all-pass state, 729/729 base decision-and-reason matches, 7/7 mutation rejections, and 736/736 Python-generated-vector versus Solidity matches. A second same-owner local process reproduced byte-identical core result artifacts. These findings establish only development-level conformance to the frozen finite model. Novelty remains unresolved, the protocol was not independently verified before execution, the attack set is not exhaustive, no gas comparator was frozen, and no external or field validation was performed.
+
+\tiny
+\keyFont{\section{Keywords:} blockchain assurance, Ethereum Virtual Machine, verifiable artificial-intelligence inference, fail-closed authorization, provenance, reproducible software evaluation}
+\end{abstract}
+
+\section{Introduction}
+
+Optimistic and deterministic approaches already provide mechanisms for verifiable blockchain-based machine-learning inference, including fraud-proof-style verification and public re-execution \citep{conway2024opml,alves2026eigenai}. Signed tool receipts can distinguish direct evidence from inference \citep{basu2026toolreceipts}, while an attestation study shows that omitted freshness checks can permit replay despite otherwise valid evidence \citep{sokolov2026freshness}. Governance-first architectures further show how deterministic execution gates, evidence chains, and explicit assumptions can be evaluated as systems properties \citep{calboreanu2026lattice}.
+
+These predecessors defeat any claim that receipts, deterministic gates, optimistic inference verification, provenance, or freshness are individually new. The narrower hypothesis examined here is whether their decision-relevant dispositions can remain typed and independently failing through an Ethereum Virtual Machine receipt-to-credit transition, rather than collapsing into a compensating confidence score. This remains a novelty hypothesis pending an independently owned search challenge and feature-level reconciliation with the strongest prior art.
+
+The development contribution is a formal fail-closed rule, a minimal Python/Solidity artifact, an exhaustive finite-state evaluation, and a provenance-preserving bundle of positive, negative, and inconclusive evidence. The study does not claim a new inference-proof primitive, semantic truth, production consensus safety, field impact, or publication readiness.
+
+\section{Method}
+
+\subsection{System and receipt rule}
+
+The assurance-lattice receipt contains six assurance dimensions: execution, semantic, authority, provenance, freshness, and origin/scope. Each takes \texttt{PASS}, \texttt{FAIL}, or \texttt{UNKNOWN}. Seven exact predicates cover unused-receipt status, request and response hash bindings, authority-epoch liveness, allowed evidence origin, claim-scope agreement, and type-tag validity. Eligibility is their conjunction (Figure~\ref{fig:architecture}).
+
+\subsection{Deterministic gate}
+
+\noindent\textbf{Algorithm 1: Fail-closed assurance-lattice-receipt eligibility.}
+\begin{enumerate}
+\item For dimensions in the frozen order execution, semantic, authority, provenance, freshness, and origin/scope, return its typed \texttt{FAIL} or \texttt{UNKNOWN} reason at the first non-pass state.
+\item Check, in order, that the receipt is unused; request and response hashes match; the authority epoch is live; evidence origin is allowed; claim scope matches; and the type tag is valid. Return the corresponding rejection reason at the first failed predicate.
+\item Return \texttt{ELIGIBLE} only if no rejection occurred.
+\end{enumerate}
+The frozen order makes diagnostics deterministic. Consequently, reason-frequency counts reflect precedence, not empirical risk or relative dimension importance.
+
+\subsection{Design and analysis}
+
+The base design is the complete Cartesian product $3^6=729$, a finite population rather than a statistical sample. The all-pass tuple is the only eligible base state. Seven additional fixtures introduce one exact-binding defect at a time. A separately transcribed oracle generates expected vectors outside the Python reference kernel; those vectors are compiled into the Solidity test. The oracle, kernel, and Solidity implementation nevertheless share the same frozen specification and producer, so common-mode error remains possible. Missing or malformed rows count as failures, and no rows are excluded or imputed. P-values and observed power are inapplicable.
+
+\subsection{Implementation and reproducibility}
+
+The development run used Python 3.14.6, Foundry 1.5.1-stable, and Solidity 0.8.24 on macOS 15.1 arm64. The runner captured argument vectors, return codes, logs, and SHA-256 values without network access. A second same-owner process replayed the workflow with a fixed protocol timestamp (Figure~\ref{fig:workflow}). A candidate harness now copies frozen inputs into a fresh temporary directory, verifies source hashes, re-executes the evaluation, and compares exact result hashes. The local producer-side harness passed, but it is not external reproduction or independent verification.
+
+\subsection{Project information required by the article type}
+
+\textbf{Project link and archival identifier:} not yet approved or created; this blocks submission. \textbf{Operating system:} development execution on macOS 15.1 arm64. \textbf{Programming languages:} Python 3.14.6 and Solidity 0.8.24. \textbf{Execution tooling:} Foundry 1.5.1-stable. \textbf{License and restrictions for non-academic use:} unresolved pending accountable-human source-authority and licensing review. No public availability is promised by this draft.
+
+\subsection{Ethics and evidence boundary}
+
+The evaluation used synthetic state fixtures and locally authorized existing source material. It involved no participants, personal data, live networks, or financial transactions. Institutional and venue-specific determinations remain pending accountable-human review.
+
+\subsection{Artificial-intelligence assistance}
+
+OpenAI Codex assisted with local code generation, execution, analysis, visual-source preparation, and drafting. Exact product model/version records and the final venue-compliant disclosure must be verified by accountable human authors. Artificial intelligence is not listed as an author; all scientific claims, citations, figures, and potential plagiarism require human verification before submission.
+
+\section{Results}
+
+All 729 base states executed. The 728 ineligible states produced zero activations; the all-pass state activated. Expected and observed base decisions and reasons agreed for 729/729 states. All seven binding mutations rejected, and all 736 shared Python-generated vectors matched Solidity outputs (Table~\ref{tab:results}). Three Python unit tests and two Foundry tests passed.
+
+The same-owner replay reproduced identical SHA-256 values for the base CSV, mutation CSV, and Python summary. Timing-bearing logs and run manifests differed as expected. Figure~\ref{fig:reasons} reports the first-reason distribution; its 486/162/54/18/6/2/1 pattern follows the fixed precedence and is not an empirical risk ranking.
+
+Several decisive outcomes remain negative or unresolved: independent protocol review did not precede execution; no numeric gas comparator was frozen; malformed-type parity is partial; independent reproduction and field validation were not performed; novelty is unresolved; and the prior proof-of-inference semantic result remains \texttt{NOT\_SUPPORTED} with a false-acceptance rate of 0.500 against a frozen 0.25 threshold. The prior negative is retained as context and not used as positive assurance-lattice-receipt evidence.
+
+\subsection{Examples of use and limitations}
+
+The prototype demonstrates one bounded use: deterministically refusing local credit when any typed assurance dimension is failed or unknown, or when one prespecified exact binding fails. It does not demonstrate semantic correctness, universal malformed-input coverage, decentralized adversaries, production consensus safety, privacy, trusted-execution-environment behavior, mainnet execution, user outcomes, or field impact. The finite model and mutation set may be incomplete, and the same-owner replay is not independent replication.
+
+\section{Discussion}
+
+Within the frozen model and seven named mutations, the Python and Solidity implementations obeyed the prespecified fail-closed rule. This narrow conformance result does not establish that the model captures every assurance dimension or attack, that semantic input is correct, or that local behavior transports to production. Assurance-case research likewise cautions that successful test processes do not automatically warrant inferences from tested to fielded behavior \citep{richard2026agentic}.
+
+Novelty is especially uncertain. LATTICE overlaps deterministic governance gates and auditable evidence chains; tool receipts overlap typed evidence sources; freshness work overlaps replay-resistant evidence currency; and opML/EigenAI overlap blockchain inference verification and enforcement. The remaining candidate difference is the specific typed, non-compensating Ethereum Virtual Machine receipt-to-credit composition and its exhaustive development contract. Whether this is material or obvious requires independent scientific judgment.
+
+\subsection{Scalability and boundary conditions}
+
+The $3^6$ base matrix is tractable because the prototype deliberately fixes six ternary dimensions. Exhaustive enumeration grows exponentially if new typed dimensions are added. The current result therefore supports a finite contract, not unrestricted assurance scaling. Foundry test-call gas is neither transaction gas nor production gas; no efficiency claim is made. A fair baseline and bounded gas protocol must be frozen before any scalability comparison.
+
+\subsection{Limitations and next falsification}
+
+The protocol and analysis plan were reviewed only within the producing artificial-intelligence-assisted workflow. The bounded literature search awaits an independent challenge, patent/standard refresh, and full-text predecessor reconciliation. A prospective unchanged rerun after independent protocol review is the cheapest next falsification step. External reproduction can then test whether the artifact and instructions suffice outside the producer's environment. Authorship, declarations, repository authority, licensing, venue fee, and submission approval remain open.
+
+\section{Conclusion}
+
+The prototype provides exact development evidence for one deliberately narrow claim: within the frozen finite model and seven named binding mutations, separately implemented Python and Solidity decision paths conformed to the same fail-closed rule. That result is a falsifiable software contract, but it is not evidence of semantic correctness, universal attack coverage, production safety, external generality, or material novelty. The minimum responsible publication path is therefore to preserve this claim ceiling while completing independent novelty and protocol review, a prospective unchanged rerun, and external reproduction.
+
+\section*{Conflict of Interest Statement}
+
+The conflict-of-interest declaration is unresolved and must be completed and approved by all accountable authors before submission.
+
+\section*{Author Contributions}
+
+Authorship eligibility, order, affiliations, initials, and CRediT roles are unresolved. No author-contribution statement is approved in this development draft.
+
+\section*{Funding}
+
+Funding and sponsor roles are unverified and must be completed by accountable authors before submission.
+
+\section*{Acknowledgments}
+
+OpenAI Codex assisted with local code generation, execution, analysis, visual-source preparation, and drafting. Accountable human authors must verify the tool name, version, model, source, affected content, citations, figures, and plagiarism status before approving the final acknowledgement.
+
+\section*{Data Availability Statement}
+
+Development code, generated state tables, logs, manifests, figure data, diagram source, and manuscript source are preserved locally in the research-system folder. No public repository, archival DOI or URI, license, or immutable release has been approved; public availability is therefore pending human decision, not promised.
+
+\section*{Supplemental Data}
+
+The minimum artifact bundle is prepared locally but is not authorized for public release. Its final public contents, licenses, exclusions, and persistent identifier require accountable-human approval.
+
+\bibliographystyle{Frontiers-Harvard}
+\bibliography{references}
+
+\clearpage
+\section*{Tables}
+
+\begin{table}[h!]
+\caption{Development conditions and analysis populations.}
+\label{tab:conditions}
+\begin{tabularx}{\linewidth}{@{}lYrr@{}}
+\toprule
+Condition & Definition & $n$ & Excluded \\
+\midrule
+Base & Complete six-dimension, three-level Cartesian product & 729 & 0 \\
+Mutations & One failed binding with all six dimensions passing & 7 & Compound faults \\
+Replay & Core artifacts compared across two same-owner processes & 3 & Timing logs \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[h!]
+\caption{Prespecified development outcomes. Intervals are not shown because the enumerated state space is a finite population rather than a sample.}
+\label{tab:results}
+\begin{tabularx}{\linewidth}{@{}Yrrl@{}}
+\toprule
+Outcome & Numerator & Denominator & Development decision \\
+\midrule
+False activations among ineligible states & 0 & 728 & Pass \\
+Activation of all-pass state & 1 & 1 & Pass \\
+Base decision and reason agreement & 729 & 729 & Pass \\
+Mutation rejection & 7 & 7 & Pass \\
+Python-generated vector/Solidity agreement & 736 & 736 & Pass \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\clearpage
+\section*{Figures}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.94\linewidth]{figures/figure1-architecture.pdf}
+\caption{Assurance-lattice-receipt development architecture. Six typed assurance dimensions and seven exact-binding predicates feed a non-compensating gate. Failure or unknown status rejects credit with a deterministic reason; only all-pass input activates local Ethereum Virtual Machine credit. The diagram is architectural, not empirical evidence. Alt text: six assurance inputs enter a typed receipt and an all-pass decision diamond that branches to deterministic rejection or local credit activation.}
+\label{fig:architecture}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[height=0.72\textheight]{figures/figure2-workflow.pdf}
+\caption{Development workflow and open gate. The current evidence stops before independent scientific and methods verification and a prospective unchanged rerun. Alt text: a vertical sequence runs from draft protocol through state generation, Python and Solidity comparison, and evidence preservation, ending at two dashed pending-review stages.}
+\label{fig:workflow}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.94\linewidth]{figures/figure3-reason-distribution.pdf}
+\caption{First-decision reason groups across the complete 729-state base matrix. Counts are deterministic products of Cartesian enumeration and the frozen precedence rule; they do not measure prevalence, severity, or assurance importance. Alt text: seven bars descend from 486 execution rejections to 162 semantic, 54 authority, 18 provenance, 6 freshness, 2 origin/scope, and 1 eligible state.}
+\label{fig:reasons}
+\end{figure}
+
+\end{document}

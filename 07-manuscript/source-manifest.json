@@ -1,0 +1,68 @@
+{
+  "schema_version": "ALR_MANUSCRIPT_SOURCE_MANIFEST_V1",
+  "checked_at": "2026-08-29",
+  "verification_policy": "AI-opened primary metadata is discovery-grade until an accountable human verifies the source and proposition.",
+  "sources": [
+    {
+      "source_id": "PA001",
+      "type": "peer_reviewed_article",
+      "title": "LATTICE: a governance-first architecture for authorized autonomous AI operations",
+      "authors": ["Elias Calboreanu"],
+      "year": 2026,
+      "doi": "10.3389/frai.2026.1800407",
+      "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1800407/full",
+      "status": "AI_METADATA_CHECKED_PENDING_HUMAN_VERIFICATION"
+    },
+    {
+      "source_id": "PA002",
+      "type": "preprint",
+      "title": "Tool Receipts, Not Zero-Knowledge Proofs: Practical Hallucination Detection for AI Agents",
+      "authors": ["Abhinaba Basu"],
+      "year": 2026,
+      "identifier": "arXiv:2603.10060v1",
+      "url": "https://arxiv.org/abs/2603.10060",
+      "status": "AI_METADATA_CHECKED_PENDING_HUMAN_VERIFICATION"
+    },
+    {
+      "source_id": "PA003",
+      "type": "preprint",
+      "title": "A Challenge-Nonce Freshness Gap in Project Veraison's TPM Reference Schemes, Found by Appraising Application-Layer Action Evidence End-to-End",
+      "authors": ["Anton Sokolov"],
+      "year": 2026,
+      "identifier": "arXiv:2608.03534v1",
+      "url": "https://arxiv.org/abs/2608.03534",
+      "status": "AI_METADATA_CHECKED_PENDING_HUMAN_VERIFICATION"
+    },
+    {
+      "source_id": "PA005",
+      "type": "preprint",
+      "title": "Testing and Evaluation of Agentic AI Systems In Military Command and Control",
+      "authors": ["Ulysse Richard", "Heather Frase", "Sarah Cao", "Di Cooke", "Sebastian Kwon", "Adrianna Tan"],
+      "year": 2026,
+      "identifier": "arXiv:2608.20597v1",
+      "url": "https://arxiv.org/abs/2608.20597",
+      "status": "AI_METADATA_CHECKED_PENDING_HUMAN_VERIFICATION"
+    },
+    {
+      "source_id": "PA006",
+      "type": "preprint",
+      "title": "opML: Optimistic Machine Learning on Blockchain",
+      "authors": ["KD Conway", "Cathie So", "Xiaohang Yu", "Kartin Wong"],
+      "year": 2024,
+      "identifier": "arXiv:2401.17555v2",
+      "url": "https://arxiv.org/abs/2401.17555",
+      "status": "AI_METADATA_CHECKED_PENDING_HUMAN_VERIFICATION"
+    },
+    {
+      "source_id": "PA008",
+      "type": "preprint",
+      "title": "EigenAI: Deterministic Inference, Verifiable Results",
+      "authors": ["David Ribeiro Alves", "Vishnu Patankar", "Matheus Pereira", "Jamie Stephens", "Nima Vaziri", "Sreeram Kannan"],
+      "year": 2026,
+      "identifier": "arXiv:2602.00182v1",
+      "url": "https://arxiv.org/abs/2602.00182",
+      "status": "AI_METADATA_CHECKED_PENDING_HUMAN_VERIFICATION"
+    }
+  ]
+}
+

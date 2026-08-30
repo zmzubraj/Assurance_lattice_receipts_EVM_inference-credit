@@ -1,0 +1,4 @@
+condition_id,dataset_or_cohort,population_or_setting,sample_size,inclusion,exclusion,provenance
+BASE,complete synthetic assurance-state matrix,local Python and Solidity development execution,729,all 3^6 tuples,none,04-data/development/alr-pilot-v1-run-001/base-results.csv
+MUTATION,prespecified single-fault binding mutations,all-PASS receipt with one failed binding,7,all seven named families,compound mutations,04-data/development/alr-pilot-v1-run-001/mutation-results.csv
+REPLAY,same-owner deterministic replay,same machine and toolchain,3,base CSV; mutation CSV; Python summary,timing-bearing logs,05-analysis/reproducibility-report.md

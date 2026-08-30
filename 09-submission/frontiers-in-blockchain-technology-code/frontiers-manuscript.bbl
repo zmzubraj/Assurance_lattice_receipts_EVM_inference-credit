@@ -1,0 +1,64 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\bibAnnoteFile}[1]{%
+  \IfFileExists{#1}{\begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ \input{#1}\end{quotation}}{}}
+\providecommand{\bibAnnote}[2]{%
+  \begin{quotation}\noindent\textsc{Key:} #1\\
+  \textsc{Annotation:}\ #2\end{quotation}}
+
+\bibitem[{Basu(2026)}]{basu2026toolreceipts}
+Basu, A. (2026).
+\newblock Tool receipts, not zero-knowledge proofs: Practical hallucination
+  detection for {AI} agents.
+\newblock ArXiv [Preprint]. Available at:
+  \url{https://arxiv.org/abs/2603.10060} (accessed August 30, 2026)
+\bibAnnoteFile{basu2026toolreceipts}
+
+\bibitem[{Calboreanu(2026)}]{calboreanu2026lattice}
+Calboreanu, E. (2026).
+\newblock {LATTICE}: A governance-first architecture for authorized autonomous
+  {AI} operations.
+\newblock \emph{Frontiers in Artificial Intelligence} 9, 1800407.
+\newblock \doi{10.3389/frai.2026.1800407}
+\bibAnnoteFile{calboreanu2026lattice}
+
+\bibitem[{Conway et~al.(2024)Conway, So, Yu, and Wong}]{conway2024opml}
+Conway, K., So, C., Yu, X., and Wong, K. (2024).
+\newblock {opML}: Optimistic machine learning on blockchain.
+\newblock ArXiv [Preprint]. Available at:
+  \url{https://arxiv.org/abs/2401.17555} (accessed August 30, 2026)
+\bibAnnoteFile{conway2024opml}
+
+\bibitem[{Ribeiro~Alves et~al.(2026)Ribeiro~Alves, Patankar, Pereira, Stephens,
+  Vaziri, and Kannan}]{alves2026eigenai}
+Ribeiro~Alves, D., Patankar, V., Pereira, M., Stephens, J., Vaziri, N., and
+  Kannan, S. (2026).
+\newblock {EigenAI}: Deterministic inference, verifiable results.
+\newblock ArXiv [Preprint]. Available at:
+  \url{https://arxiv.org/abs/2602.00182} (accessed August 30, 2026)
+\bibAnnoteFile{alves2026eigenai}
+
+\bibitem[{Richard et~al.(2026)Richard, Frase, Cao, Cooke, Kwon, and
+  Tan}]{richard2026agentic}
+Richard, U., Frase, H., Cao, S., Cooke, D., Kwon, S., and Tan, A. (2026).
+\newblock Testing and evaluation of agentic {AI} systems in military command
+  and control.
+\newblock ArXiv [Preprint]. Available at:
+  \url{https://arxiv.org/abs/2608.20597} (accessed August 30, 2026)
+\bibAnnoteFile{richard2026agentic}
+
+\bibitem[{Sokolov(2026)}]{sokolov2026freshness}
+Sokolov, A. (2026).
+\newblock A challenge-nonce freshness gap in project veraison's {TPM} reference
+  schemes, found by appraising application-layer action evidence end-to-end.
+\newblock ArXiv [Preprint]. Available at:
+  \url{https://arxiv.org/abs/2608.03534} (accessed August 30, 2026)
+\bibAnnoteFile{sokolov2026freshness}
+
+\end{thebibliography}

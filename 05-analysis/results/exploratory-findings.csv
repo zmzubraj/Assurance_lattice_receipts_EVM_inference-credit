@@ -1,0 +1,7 @@
+finding_id,claim_ids,analysis,estimate,uncertainty,status,post_hoc
+EXP-001,C003,Complete finite base-state execution,729/729 cases executed,"Finite model; no sampling interval",DEVELOPMENT_PASS,false
+EXP-002,C003,Reason-code precedence agreement,729/729 exact matches,"Finite model; no sampling interval",DEVELOPMENT_PASS,false
+EXP-003,C003,Prespecified single-fault mutation rejection,7/7 rejected,"Seven named families only; not an exhaustive attack space",DEVELOPMENT_PASS,false
+EXP-004,C003,Python-to-Solidity generated-vector agreement,736/736 exact matches,"Local Python 3.14.6 and Solidity 0.8.24 only",DEVELOPMENT_PASS,false
+EXP-005,C003,Same-owner deterministic replay,3/3 core artifact hashes identical,"Timing-bearing logs differ and independent reproduction is absent",DEVELOPMENT_PASS,false
+

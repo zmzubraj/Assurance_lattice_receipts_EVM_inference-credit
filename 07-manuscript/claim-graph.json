@@ -1,0 +1,877 @@
+{
+  "schema_version": 4,
+  "allowed_relation_types": [
+    "SUPPORTS",
+    "REFUTES",
+    "QUALIFIES",
+    "REQUIRES",
+    "REPLICATES",
+    "CONTRADICTS",
+    "LIMITS_SCOPE",
+    "DERIVED_FROM"
+  ],
+  "claims": {
+    "C001": {
+      "claim_id": "C001",
+      "exact_claim": "We hypothesize that the material differentiator is not a new LLM execution-verification primitive, but a non-compensating assurance lattice that combines cryptographic execution evidence, semantic disposition, authority and provenance freshness, evidence origin, scope, and hash bindings into a fail-closed receipt and credit decision.",
+      "claim_type": "novelty hypothesis",
+      "required_maturity": "V1 ANALYTIC",
+      "current_maturity": "V0 ASSERTED",
+      "status": "AT_RISK",
+      "excluded_generality": "",
+      "evidence_ids": [
+        "PA001",
+        "PA002",
+        "PA003",
+        "PA005",
+        "PA006",
+        "PA008"
+      ],
+      "artifact_paths": [
+        "01-novelty/evidence-ledger.csv"
+      ],
+      "claim_scope": "BOUNDED PRIOR-ART SEARCH THROUGH 2026-08-29",
+      "central": true,
+      "refuted": false,
+      "maturity_ceiling_rank": 0,
+      "maturity_ceiling": "V0 ASSERTED",
+      "scope_ceiling_rank": 0,
+      "scope_ceiling": "ASSERTED",
+      "required_maturity_rank": 1,
+      "supports_claim": false,
+      "external_validation_required": false
+    },
+    "C002": {
+      "claim_id": "C002",
+      "exact_claim": "Existing PoI MPP code, E1-E8 artifacts, the externally attested negative E3 result, local Qwen2.5-1.5B assets, Python and Foundry tooling, publication figures and tables, and prior-art records are available locally. The first submission will avoid new semantic data collection and will exclude production consensus, mainnet, TEE, frontier-model, and real-world deployment claims. The internal implementation and manuscript phase is provisionally planned as a seven-working-day sprint; independent scientific review, accountable authorship, declarations, venue selection, and final submission approval remain external human gates.",
+      "claim_type": "feasibility hypothesis",
+      "required_maturity": "V2 SIMULATED",
+      "current_maturity": "V0 ASSERTED",
+      "status": "PLAUSIBLE",
+      "excluded_generality": "",
+      "evidence_ids": [
+        "EV-ALR-BASE-001",
+        "EV-ALR-PARITY-001"
+      ],
+      "artifact_paths": [],
+      "claim_scope": "LOCAL SOFTWARE-ONLY DEVELOPMENT SCOPE",
+      "central": false,
+      "refuted": false,
+      "maturity_ceiling_rank": 0,
+      "maturity_ceiling": "V0 ASSERTED",
+      "scope_ceiling_rank": 0,
+      "scope_ceiling": "ASSERTED",
+      "required_maturity_rank": 2,
+      "supports_claim": false,
+      "external_validation_required": true
+    },
+    "C003": {
+      "claim_id": "C003",
+      "exact_claim": "A formal assurance-lattice model; an executable Python and Solidity receipt kernel; an exhaustive assurance-state matrix; adversarial replay, substitution, downgrade, stale-authority, and evidence-laundering tests; local Foundry gas measurements; a real negative E3 case study; reproducible artifacts; editable tables and diagrams; and a venue-ready evidence-bound research manuscript.",
+      "claim_type": "solution-viability hypothesis",
+      "required_maturity": "V3 INTERNAL",
+      "current_maturity": "V0 ASSERTED",
+      "status": "AT_RISK",
+      "excluded_generality": "",
+      "evidence_ids": [
+        "EV-ALR-BASE-001",
+        "EV-ALR-MUT-001",
+        "EV-ALR-PARITY-001",
+        "EV-ALR-REPLAY-001"
+      ],
+      "artifact_paths": [
+        "04-data/provenance-manifest.csv"
+      ],
+      "claim_scope": "729 BASE STATES; SEVEN NAMED MUTATIONS; LOCAL TOOLCHAIN",
+      "central": true,
+      "refuted": false,
+      "maturity_ceiling_rank": 0,
+      "maturity_ceiling": "V0 ASSERTED",
+      "scope_ceiling_rank": 0,
+      "scope_ceiling": "ASSERTED",
+      "required_maturity_rank": 3,
+      "supports_claim": false,
+      "external_validation_required": false
+    }
+  },
+  "evidence": {
+    "EV-ALR-BASE-001": {
+      "evidence_id": "EV-ALR-BASE-001",
+      "claim_ids": [
+        "C003"
+      ],
+      "origin": "SYNTHETIC_DEMONSTRATION",
+      "maturity": "V2 SIMULATED",
+      "scope": "SIMULATED",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "04-data/provenance-manifest.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "EV-ALR-MUT-001": {
+      "evidence_id": "EV-ALR-MUT-001",
+      "claim_ids": [
+        "C003"
+      ],
+      "origin": "SYNTHETIC_DEMONSTRATION",
+      "maturity": "V2 SIMULATED",
+      "scope": "SIMULATED",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "04-data/provenance-manifest.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "EV-ALR-PARITY-001": {
+      "evidence_id": "EV-ALR-PARITY-001",
+      "claim_ids": [
+        "C003"
+      ],
+      "origin": "INTERNAL_EXPERIMENT",
+      "maturity": "V3 INTERNAL",
+      "scope": "INTERNAL",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "04-data/provenance-manifest.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "EV-ALR-REPLAY-001": {
+      "evidence_id": "EV-ALR-REPLAY-001",
+      "claim_ids": [
+        "C003"
+      ],
+      "origin": "INTERNAL_EXPERIMENT",
+      "maturity": "V3 INTERNAL",
+      "scope": "INTERNAL",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "04-data/provenance-manifest.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "PA001": {
+      "evidence_id": "PA001",
+      "claim_ids": [
+        "C001"
+      ],
+      "origin": "REAL_OBSERVED",
+      "maturity": "V1 ANALYTIC",
+      "scope": "ANALYTIC",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "01-novelty/evidence-ledger.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "PA002": {
+      "evidence_id": "PA002",
+      "claim_ids": [
+        "C001"
+      ],
+      "origin": "REAL_OBSERVED",
+      "maturity": "V1 ANALYTIC",
+      "scope": "ANALYTIC",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "01-novelty/evidence-ledger.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "PA003": {
+      "evidence_id": "PA003",
+      "claim_ids": [
+        "C001"
+      ],
+      "origin": "REAL_OBSERVED",
+      "maturity": "V1 ANALYTIC",
+      "scope": "ANALYTIC",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "01-novelty/evidence-ledger.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "PA005": {
+      "evidence_id": "PA005",
+      "claim_ids": [
+        "C001"
+      ],
+      "origin": "REAL_OBSERVED",
+      "maturity": "V1 ANALYTIC",
+      "scope": "ANALYTIC",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "01-novelty/evidence-ledger.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "PA006": {
+      "evidence_id": "PA006",
+      "claim_ids": [
+        "C001"
+      ],
+      "origin": "REAL_OBSERVED",
+      "maturity": "V1 ANALYTIC",
+      "scope": "ANALYTIC",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "01-novelty/evidence-ledger.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    },
+    "PA008": {
+      "evidence_id": "PA008",
+      "claim_ids": [
+        "C001"
+      ],
+      "origin": "REAL_OBSERVED",
+      "maturity": "V1 ANALYTIC",
+      "scope": "ANALYTIC",
+      "status": "PARTIAL",
+      "authorized": true,
+      "independent": false,
+      "source_artifact": "01-novelty/evidence-ledger.csv",
+      "supported_maturity_rank": 0,
+      "supported_scope_rank": 0
+    }
+  },
+  "artifact_to_claims": {
+    "04-data/provenance-manifest.csv": [
+      "C003"
+    ],
+    "01-novelty/evidence-ledger.csv": [
+      "C001"
+    ]
+  },
+  "evidence_to_claims": {
+    "EV-ALR-BASE-001": [
+      "C002",
+      "C003"
+    ],
+    "EV-ALR-MUT-001": [
+      "C003"
+    ],
+    "EV-ALR-PARITY-001": [
+      "C002",
+      "C003"
+    ],
+    "EV-ALR-REPLAY-001": [
+      "C003"
+    ],
+    "PA001": [
+      "C001"
+    ],
+    "PA002": [
+      "C001"
+    ],
+    "PA003": [
+      "C001"
+    ],
+    "PA005": [
+      "C001"
+    ],
+    "PA006": [
+      "C001"
+    ],
+    "PA008": [
+      "C001"
+    ]
+  },
+  "edges": [
+    {
+      "edge_id": "EDGE-requires-C003-EV-ALR-BASE-001",
+      "source": "claim:C003",
+      "target": "evidence:EV-ALR-BASE-001",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-EV-ALR-BASE-001-C003",
+      "source": "evidence:EV-ALR-BASE-001",
+      "target": "claim:C003",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-EV-ALR-BASE-001-C003",
+      "source": "evidence:EV-ALR-BASE-001",
+      "target": "claim:C003",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-EV-ALR-BASE-001",
+      "source": "evidence:EV-ALR-BASE-001",
+      "target": "artifact:04-data/provenance-manifest.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C003-EV-ALR-MUT-001",
+      "source": "claim:C003",
+      "target": "evidence:EV-ALR-MUT-001",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-EV-ALR-MUT-001-C003",
+      "source": "evidence:EV-ALR-MUT-001",
+      "target": "claim:C003",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-EV-ALR-MUT-001-C003",
+      "source": "evidence:EV-ALR-MUT-001",
+      "target": "claim:C003",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-EV-ALR-MUT-001",
+      "source": "evidence:EV-ALR-MUT-001",
+      "target": "artifact:04-data/provenance-manifest.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C003-EV-ALR-PARITY-001",
+      "source": "claim:C003",
+      "target": "evidence:EV-ALR-PARITY-001",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-EV-ALR-PARITY-001-C003",
+      "source": "evidence:EV-ALR-PARITY-001",
+      "target": "claim:C003",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-EV-ALR-PARITY-001-C003",
+      "source": "evidence:EV-ALR-PARITY-001",
+      "target": "claim:C003",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-EV-ALR-PARITY-001",
+      "source": "evidence:EV-ALR-PARITY-001",
+      "target": "artifact:04-data/provenance-manifest.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C003-EV-ALR-REPLAY-001",
+      "source": "claim:C003",
+      "target": "evidence:EV-ALR-REPLAY-001",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-EV-ALR-REPLAY-001-C003",
+      "source": "evidence:EV-ALR-REPLAY-001",
+      "target": "claim:C003",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-EV-ALR-REPLAY-001-C003",
+      "source": "evidence:EV-ALR-REPLAY-001",
+      "target": "claim:C003",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-EV-ALR-REPLAY-001",
+      "source": "evidence:EV-ALR-REPLAY-001",
+      "target": "artifact:04-data/provenance-manifest.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C001-PA001",
+      "source": "claim:C001",
+      "target": "evidence:PA001",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-PA001-C001",
+      "source": "evidence:PA001",
+      "target": "claim:C001",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-PA001-C001",
+      "source": "evidence:PA001",
+      "target": "claim:C001",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-PA001",
+      "source": "evidence:PA001",
+      "target": "artifact:01-novelty/evidence-ledger.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C001-PA002",
+      "source": "claim:C001",
+      "target": "evidence:PA002",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-PA002-C001",
+      "source": "evidence:PA002",
+      "target": "claim:C001",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-PA002-C001",
+      "source": "evidence:PA002",
+      "target": "claim:C001",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-PA002",
+      "source": "evidence:PA002",
+      "target": "artifact:01-novelty/evidence-ledger.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C001-PA003",
+      "source": "claim:C001",
+      "target": "evidence:PA003",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-PA003-C001",
+      "source": "evidence:PA003",
+      "target": "claim:C001",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-PA003-C001",
+      "source": "evidence:PA003",
+      "target": "claim:C001",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-PA003",
+      "source": "evidence:PA003",
+      "target": "artifact:01-novelty/evidence-ledger.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C001-PA005",
+      "source": "claim:C001",
+      "target": "evidence:PA005",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-PA005-C001",
+      "source": "evidence:PA005",
+      "target": "claim:C001",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-PA005-C001",
+      "source": "evidence:PA005",
+      "target": "claim:C001",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-PA005",
+      "source": "evidence:PA005",
+      "target": "artifact:01-novelty/evidence-ledger.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C001-PA006",
+      "source": "claim:C001",
+      "target": "evidence:PA006",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-PA006-C001",
+      "source": "evidence:PA006",
+      "target": "claim:C001",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-PA006-C001",
+      "source": "evidence:PA006",
+      "target": "claim:C001",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-PA006",
+      "source": "evidence:PA006",
+      "target": "artifact:01-novelty/evidence-ledger.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-requires-C001-PA008",
+      "source": "claim:C001",
+      "target": "evidence:PA008",
+      "relation_type": "REQUIRES",
+      "active": true,
+      "basis": "Claim/evidence matrix or evidence-status linkage."
+    },
+    {
+      "edge_id": "EDGE-supports-PA008-C001",
+      "source": "evidence:PA008",
+      "target": "claim:C001",
+      "relation_type": "SUPPORTS",
+      "active": false,
+      "basis": "Authorized supported evidence."
+    },
+    {
+      "edge_id": "EDGE-replicates-PA008-C001",
+      "source": "evidence:PA008",
+      "target": "claim:C001",
+      "relation_type": "REPLICATES",
+      "active": false,
+      "basis": "Evidence record marked independent."
+    },
+    {
+      "edge_id": "EDGE-derived-PA008",
+      "source": "evidence:PA008",
+      "target": "artifact:01-novelty/evidence-ledger.csv",
+      "relation_type": "DERIVED_FROM",
+      "active": true,
+      "basis": "Evidence ledger source_artifact reference."
+    },
+    {
+      "edge_id": "EDGE-qualifies-C001",
+      "source": "artifact:07-manuscript/claim-evidence-matrix.csv",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Claim uncertainty or alternative explanation narrows interpretation."
+    },
+    {
+      "edge_id": "EDGE-qualifies-C002",
+      "source": "artifact:07-manuscript/claim-evidence-matrix.csv",
+      "target": "claim:C002",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Claim uncertainty or alternative explanation narrows interpretation."
+    },
+    {
+      "edge_id": "EDGE-qualifies-C003",
+      "source": "artifact:07-manuscript/claim-evidence-matrix.csv",
+      "target": "claim:C003",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Claim uncertainty or alternative explanation narrows interpretation."
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA001",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA001",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "LATTICE already has signed policy bundles deterministic governance fail-safe execution confidence capping and evidence-chain validation"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA001",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "LATTICE already has signed policy bundles deterministic governance fail-safe execution confidence capping and evidence-chain validation"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA002",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA002",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "NabaOS already uses signed receipts and epistemic evidence classes for practical AI-agent verification"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA002",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "NabaOS already uses signed receipts and epistemic evidence classes for practical AI-agent verification"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA003",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA003",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "AEP/RATS work already binds action authorizing principal and outcome and shows nonce freshness is essential"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA003",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "AEP/RATS work already binds action authorizing principal and outcome and shows nonce freshness is essential"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA004",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA004",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "FCAC already makes automation authorization conditional on fresh audit evidence"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA004",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "FCAC already makes automation authorization conditional on fresh audit evidence"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA006",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA006",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "opML already supplies optimistic ML fraud-proof mechanics"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA006",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "opML already supplies optimistic ML fraud-proof mechanics"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA007",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA007",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "CommitLLM already binds committed inference to challenge-time audit artifacts"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA007",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "CommitLLM already binds committed inference to challenge-time audit artifacts"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA008",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA008",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "EigenAI overlaps deterministic inference public audit and cryptoeconomic enforcement"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA008",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "EigenAI overlaps deterministic inference public audit and cryptoeconomic enforcement"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA010",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA010",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "ProvAuditChain overlaps gas-efficient on-chain provenance for AI audit artifacts"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA010",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "ProvAuditChain overlaps gas-efficient on-chain provenance for AI audit artifacts"
+    },
+    {
+      "edge_id": "EDGE-qualifies-novelty-C001",
+      "source": "predecessor:PA012",
+      "target": "claim:C001",
+      "relation_type": "QUALIFIES",
+      "active": true,
+      "basis": "Novelty matrix qualification or residual uncertainty."
+    },
+    {
+      "edge_id": "EDGE-refutes-C001",
+      "source": "predecessor:PA012",
+      "target": "claim:C001",
+      "relation_type": "REFUTES",
+      "active": false,
+      "basis": "Patent families overlap blockchain ML verification provenance and verification-linked transactions"
+    },
+    {
+      "edge_id": "EDGE-contradicts-C001",
+      "source": "predecessor:PA012",
+      "target": "claim:C001",
+      "relation_type": "CONTRADICTS",
+      "active": false,
+      "basis": "Patent families overlap blockchain ML verification provenance and verification-linked transactions"
+    },
+    {
+      "edge_id": "EDGE-limits-scope-C001",
+      "source": "claim:C001",
+      "target": "claim:C001",
+      "relation_type": "LIMITS_SCOPE",
+      "active": false,
+      "basis": "Scope ceiling recorded."
+    },
+    {
+      "edge_id": "EDGE-limits-scope-C002",
+      "source": "claim:C002",
+      "target": "claim:C002",
+      "relation_type": "LIMITS_SCOPE",
+      "active": false,
+      "basis": "Scope ceiling recorded."
+    },
+    {
+      "edge_id": "EDGE-limits-scope-C003",
+      "source": "claim:C003",
+      "target": "claim:C003",
+      "relation_type": "LIMITS_SCOPE",
+      "active": false,
+      "basis": "Scope ceiling recorded."
+    }
+  ]
+}

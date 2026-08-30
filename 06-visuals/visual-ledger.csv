@@ -1,0 +1,6 @@
+visual_id,type,claim_ids,source_data,source_code,caption,accessibility_status,review_status
+F1,architecture,C001,03-design/contribution-contract.md,06-visuals/diagrams/architecture.mmd,"ALR development architecture and fail-closed decision path.",AI_LEGIBILITY_CHECKED_PENDING_HUMAN,AI_RENDERED_REVIEW_COMPLETED_PENDING_HUMAN
+F2,workflow,C002,03-design/protocol.md,06-visuals/diagrams/workflow.mmd,"Development workflow and explicit open external gate.",AI_LEGIBILITY_CHECKED_PENDING_HUMAN,AI_RENDERED_REVIEW_COMPLETED_PENDING_HUMAN
+F3,quantitative_bar,C002,06-visuals/figures/reason-distribution-data.csv,implementation/python/generate_paper_artifacts.py,"First-decision reason groups across the complete base matrix; precedence counts only.",AI_GRAYSCALE_AND_LABEL_CHECKED_PENDING_HUMAN,AI_RENDERED_REVIEW_COMPLETED_PENDING_HUMAN
+T1,table,C002,04-data/provenance-manifest.csv,07-manuscript/latex/main.tex,"Development conditions and analysis populations.",TEXT_TABLE_ACCESSIBLE_PENDING_HUMAN,AI_RENDERED_REVIEW_COMPLETED_PENDING_HUMAN
+T2,table,C002;C003,05-analysis/results/primary-results.csv,implementation/python/generate_paper_artifacts.py,"Prespecified finite-population development outcomes.",TEXT_TABLE_ACCESSIBLE_PENDING_HUMAN,AI_RENDERED_REVIEW_COMPLETED_PENDING_HUMAN

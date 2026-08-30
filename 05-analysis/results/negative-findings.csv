@@ -1,0 +1,9 @@
+finding_id,claim_ids,test,result,uncertainty,implication
+NEG-001,C001,Independent strongest-prior-art challenge,NOT PERFORMED,"Novelty remains UNRESOLVED",No novelty-survival claim is permitted
+NEG-002,C003,Independent protocol and methods verification,NOT PERFORMED,"Development execution preceded external review",Current results cannot be confirmatory or phase-promoting
+NEG-003,C003,Frozen gas comparator and threshold,ABSENT,"Foundry reports test-harness gas only",No bounded-cost progression criterion is satisfied
+NEG-004,C003,Malformed assurance-type cross-runtime vector,PARTIAL,"Solidity has a rejection path but Python malformed construction was not compared",Type-confusion parity requires an added prospective vector
+NEG-005,C003,External reproduction,NOT PERFORMED,"Replay was same owner same machine",Evidence maturity cannot be upgraded to V4 EXTERNAL
+NEG-006,C003,Real-world or production validation,OUT OF SCOPE,"Synthetic local state model only",No deployment reliability decentralization or field-impact claim is supported
+NEG-007,C003,Prior PoI E3 semantic threshold,FAR 0.500 exceeded alpha_sem 0.25,"Historical authorized context; evaluator identity binding and current artifact hash remain open",C3-v1 remains NOT_SUPPORTED and cannot be used as positive semantic evidence
+

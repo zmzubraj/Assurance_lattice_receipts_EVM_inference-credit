@@ -1,0 +1,4 @@
+figure_id,panels,source_data,source_code,output_path,sha256,format,final_size_check
+F1,1,03-design/contribution-contract.md,06-visuals/diagrams/architecture-content.tex,07-manuscript/latex/main.pdf,6700c8ffb31889bb15576178fdf3232ec730532f73333d13eaf9daa6821f1ac5,PDF_EMBEDDED_TIKZ,AI_PASS_PENDING_ACCOUNTABLE_HUMAN
+F2,1,03-design/protocol.md,06-visuals/diagrams/workflow-content.tex,07-manuscript/latex/main.pdf,6700c8ffb31889bb15576178fdf3232ec730532f73333d13eaf9daa6821f1ac5,PDF_EMBEDDED_TIKZ,AI_PASS_PENDING_ACCOUNTABLE_HUMAN
+F3,1,06-visuals/figures/reason-distribution-data.csv,06-visuals/figures/reason-distribution-content.tex,07-manuscript/latex/main.pdf,6700c8ffb31889bb15576178fdf3232ec730532f73333d13eaf9daa6821f1ac5,PDF_EMBEDDED_TIKZ,AI_PASS_PENDING_ACCOUNTABLE_HUMAN

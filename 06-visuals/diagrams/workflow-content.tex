@@ -1,0 +1,16 @@
+\begin{tikzpicture}[
+  node distance=6mm,
+  flowbox/.style={draw=blue!65!black, rounded corners=2pt, fill=blue!5, align=center, minimum width=47mm, minimum height=7mm, font=\scriptsize},
+  pending/.style={draw=orange!80!black, dashed, rounded corners=2pt, fill=orange!7, align=center, minimum width=47mm, minimum height=7mm, font=\scriptsize},
+  arrow/.style={-{Stealth[length=2mm]}, thick}
+]
+\node[flowbox] (protocol) {Draft protocol and analysis plan};
+\node[flowbox, below=of protocol] (generate) {Generate 729 base states and 7 mutations};
+\node[flowbox, below=of generate] (python) {Python oracle and reference-kernel execution};
+\node[flowbox, below=of python] (solidity) {Compile expected vectors into Solidity tests};
+\node[flowbox, below=of solidity] (compare) {Compare 736 decisions and reason codes};
+\node[flowbox, below=of compare] (preserve) {Preserve raw outputs, hashes, and negative findings};
+\node[pending, below=of preserve] (gate) {Independent scientific and methods gate: pending};
+\node[pending, below=of gate] (rerun) {Prospective unchanged rerun: not yet authorized};
+\foreach \a/\b in {protocol/generate,generate/python,python/solidity,solidity/compare,compare/preserve,preserve/gate,gate/rerun} \draw[arrow] (\a) -- (\b);
+\end{tikzpicture}

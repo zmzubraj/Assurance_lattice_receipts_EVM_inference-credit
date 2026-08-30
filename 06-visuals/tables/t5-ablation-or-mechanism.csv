@@ -1,0 +1,8 @@
+component,condition,metric,estimate,uncertainty,interpretation
+execution,execution is FAIL or UNKNOWN,unsafe activations,0/486,complete finite subset; no sampling interval,fails closed within frozen model
+semantic,semantic is FAIL or UNKNOWN,unsafe activations,0/486,complete finite subset; no sampling interval,fails closed within frozen model
+authority,authority is FAIL or UNKNOWN,unsafe activations,0/486,complete finite subset; no sampling interval,fails closed within frozen model
+provenance,provenance is FAIL or UNKNOWN,unsafe activations,0/486,complete finite subset; no sampling interval,fails closed within frozen model
+freshness,freshness is FAIL or UNKNOWN,unsafe activations,0/486,complete finite subset; no sampling interval,fails closed within frozen model
+origin_scope,origin_scope is FAIL or UNKNOWN,unsafe activations,0/486,complete finite subset; no sampling interval,fails closed within frozen model
+exact bindings,one binding fails while all dimensions PASS,unsafe activations,0/7,seven named single-fault families only,fails closed for prespecified mutations

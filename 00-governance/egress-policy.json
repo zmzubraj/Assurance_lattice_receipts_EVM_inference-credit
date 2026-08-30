@@ -1,0 +1,18 @@
+{
+  "policy_version": 2,
+  "external_processing": "PUBLIC_METADATA_OFFICIAL_WEB_AND_USER_AUTHORIZED_PRIVATE_GITHUB_REPOSITORY",
+  "allowed_channels": [
+    "official_public_web",
+    "Crossref_public_metadata",
+    "OpenAlex_public_metadata",
+    "arXiv_public_metadata",
+    "github_private_repository:zmzubraj/assurance-lattice-receipts-evm-inference-credit"
+  ],
+  "authorization_basis": "Explicit user instruction on 2026-08-30 to upload the paper research bundle to the authenticated zmzubraj GitHub account",
+  "authorized_visibility": "PRIVATE",
+  "denied_content": [
+    "raw E3 archive contents",
+    "private keys or credentials",
+    "confidential evaluator records"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 4,
+  "adapter_id": "benchmark_prospective_v1",
+  "field": "Computer science: dependable and secure AI/blockchain systems",
+  "study_type": "computational_benchmark",
+  "jurisdiction": "Bangladesh",
+  "jurisdiction_basis": "Local execution and accountable-author location; the selected venue's current publication, disclosure, and submission rules will additionally govern the submission package.",
+  "ethics_category": "software_protocol_no_human_participants",
+  "reporting_guidelines": [
+    "DOMAIN_BENCHMARK_REPORTING_STANDARD_REQUIRED",
+    "TARGET_VENUE_CHECKLIST_REQUIRED"
+  ],
+  "evidence_standard": "Evidence-bound computational systems evaluation with explicit analytic, simulated, real-model, and local-Foundry origin labels; claim scope capped by the weakest authorized evidence.",
+  "article_type": "Full-length research article",
+  "status": "DRAFT_RESOLVED_PENDING_INDEPENDENT_VERIFICATION",
+  "notes": "Derived from the user-confirmed six-field intake. No new human-participant or personal-data collection is in scope. Current official field and venue reporting requirements, accountable-human authority, and independent scientific verification remain open gates."
+}

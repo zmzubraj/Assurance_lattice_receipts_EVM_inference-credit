@@ -1,0 +1,12 @@
+remediation_id,question_id,claim_ids,action,owner,status,evidence,verified_by
+R001,KQ-NOV-01,C001,"Run independent full-text and non-paper prior-art challenge",independent-scientific-reviewer,OPEN,01-novelty/independent-search-challenge.md,
+R002,KQ-NOV-02,C001,"Reconcile strongest predecessor and decide NOVELTY_SURVIVES REFRAME or STOP",independent-scientific-reviewer,OPEN,01-novelty/novelty-matrix.csv,
+R003,KQ-DES-01,C003,"Approve frozen protocol then authorize unchanged prospective rerun",independent-methods-reviewer,OPEN,03-design/protocol.md,
+R004,KQ-DES-02,C003,"Freeze compound malformed ABI replay-window and authority-transition boundary tests or narrow claim",root-integration-owner,OPEN,03-design/failure-envelope.md,
+R005,KQ-CMP-01,C001|C003,"Implement one strongest fair baseline and freeze gas measurement protocol",root-integration-owner,OPEN,03-design/analysis-plan.md,
+R006,KQ-REP-01,C003,"Reproduce central results in an independently controlled clean environment",external-reproducer,OPEN,05-analysis/reproducibility-report.md,
+R007,KQ-ETH-01,C002,"Confirm institutional applicability source authority public-release scope and license",accountable-author,WAITING_EXTERNAL,00-governance/study-profile.json,
+R008,KQ-AUTH-01,C001|C003,"Finalize authorship affiliations CRediT funding conflicts and AI disclosure",accountable-author,WAITING_EXTERNAL,07-manuscript/manuscript.md,
+R009,KQ-VEN-01,C001|C003,"Choose Frontiers Technology and Code or IEEE Access and authorize applicable fee/release obligations",accountable-author,WAITING_EXTERNAL,09-submission/venue-portfolio.csv,
+R010,KQ-PKG-01,C003,"Run approved digest-pinned offline hermetic build and bind PDF/package hashes",reproducibility-owner,OPEN,09-submission/build-manifest.json,
+R011,KQ-APP-01,C001|C003,"Review final manuscript PDF submission portal and explicitly approve or decline submission",accountable-author,WAITING_EXTERNAL,09-submission/human-approval.md,

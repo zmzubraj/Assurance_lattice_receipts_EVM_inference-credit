@@ -1,0 +1,23 @@
+\begin{tikzpicture}[
+  node distance=5mm and 6mm,
+  box/.style={draw=blue!65!black, rounded corners=2pt, fill=blue!6, align=center, minimum height=7mm, font=\scriptsize},
+  gate/.style={diamond, draw=orange!80!black, fill=orange!8, aspect=2.1, align=center, font=\scriptsize},
+  reject/.style={draw=black, dashed, fill=gray!10, align=center, minimum height=7mm, font=\scriptsize},
+  arrow/.style={-{Stealth[length=2mm]}, thick}
+]
+\node[box] (exec) {Execution};
+\node[box, below=of exec] (sem) {Semantic};
+\node[box, below=of sem] (auth) {Authority};
+\node[box, below=of auth] (prov) {Provenance};
+\node[box, below=of prov] (fresh) {Freshness};
+\node[box, below=of fresh] (scope) {Origin and scope};
+\node[box, right=14mm of auth, minimum width=27mm, minimum height=18mm] (receipt) {Typed ALR receipt\\plus exact bindings};
+\node[gate, right=12mm of receipt] (meet) {All required\\conditions PASS?};
+\node[reject, above right=7mm and 10mm of meet] (reject) {Reject credit\\with reason code};
+\node[box, below right=7mm and 10mm of meet] (activate) {Activate local\\EVM credit};
+\foreach \n in {exec,sem,auth,prov,fresh,scope} \draw[arrow] (\n.east) -- (receipt.west);
+\draw[arrow] (receipt) -- (meet);
+\draw[arrow,dashed] (meet) -- node[above,sloped,font=\tiny]{No or unknown} (reject);
+\draw[arrow] (meet) -- node[below,sloped,font=\tiny]{Yes} (activate);
+\end{tikzpicture}
+

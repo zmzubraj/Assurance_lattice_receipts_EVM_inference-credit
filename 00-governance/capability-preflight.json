@@ -1,0 +1,21 @@
+{
+  "available_agent_types": [
+    "root-integration-owner"
+  ],
+  "available_tools": [
+    "local filesystem inspection",
+    "apply_patch file editing",
+    "local command execution",
+    "official public web research",
+    "local Python",
+    "local Foundry when present",
+    "local TeX/Pandoc toolchain when present"
+  ],
+  "delegation_allowed": false,
+  "execution_mode": "direct root execution with independent human verification gates preserved",
+  "limitations": [
+    "No callable scientific subagent runtime is currently available.",
+    "AI self-review cannot satisfy independent scientific verification.",
+    "Human approval and editorial decisions remain external."
+  ]
+}

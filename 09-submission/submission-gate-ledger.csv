@@ -1,0 +1,8 @@
+gate_id,critical,judgment,artifact_paths,evidence_ids,rule_version,action
+SG-SCI-01,true,FAIL,,PA001|PA002|PA003|PA005|PA006|PA008,v4.0,"Complete and independently verify novelty methods and adversarial QA gates."
+SG-RES-01,true,PARTIAL,,EV-ALR-BASE-001|EV-ALR-MUT-001|EV-ALR-PARITY-001,v4.0,"Preserve finite-model claim ceiling and complete prospective unchanged rerun."
+SG-REP-01,true,FAIL,,EV-ALR-REPLAY-001,v4.0,"Obtain external reproduction and execute the approved hermetic replay/build."
+SG-VEN-01,true,FAIL,,,v4.0,"Producer-side Frontiers adaptation exists; accountable authors must approve final venue section article type metadata and fee path."
+SG-AUTH-01,true,FAIL,,,v4.0,"Resolve authorship affiliations CRediT funding conflicts ethics and AI disclosure."
+SG-PKG-01,true,PARTIAL,,EV-ALR-REPLAY-001,v4.0,"Deterministic local-review bundle exists; create canonical digest-pinned hermetic build PDF-QA and package manifests."
+SG-HUM-01,true,FAIL,,,v4.0,"Obtain accountable-human rendered-page portal and submission approval."

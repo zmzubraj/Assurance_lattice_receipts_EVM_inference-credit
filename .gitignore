@@ -1,0 +1,33 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Solidity build caches
+implementation/solidity/cache/
+implementation/solidity/out/
+
+# LaTeX disposable intermediates (retain source, bibliography, and PDFs)
+07-manuscript/latex/*.aux
+07-manuscript/latex/*.blg
+07-manuscript/latex/*.fdb_latexmk
+07-manuscript/latex/*.fls
+07-manuscript/latex/*.log
+07-manuscript/latex/*.out
+09-submission/frontiers-in-blockchain-technology-code/*.aux
+09-submission/frontiers-in-blockchain-technology-code/*.blg
+09-submission/frontiers-in-blockchain-technology-code/*.fdb_latexmk
+09-submission/frontiers-in-blockchain-technology-code/*.fls
+09-submission/frontiers-in-blockchain-technology-code/*.log
+09-submission/frontiers-in-blockchain-technology-code/*.out
+09-submission/frontiers-in-blockchain-technology-code/missfont.log
+09-submission/frontiers-in-blockchain-technology-code/figures/*.aux
+09-submission/frontiers-in-blockchain-technology-code/figures/*.fdb_latexmk
+09-submission/frontiers-in-blockchain-technology-code/figures/*.fls
+09-submission/frontiers-in-blockchain-technology-code/figures/*.log
+
+# Confidential evaluator routing stays local
+00-governance/external-gate-reuse-ledger.csv
+
+# OS/editor noise
+.DS_Store
+*.swp

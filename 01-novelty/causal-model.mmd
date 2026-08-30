@@ -1,0 +1,21 @@
+flowchart LR
+    E[Execution evidence] --> R[Typed assurance receipt]
+    S[Semantic disposition] --> R
+    A[Authority record and epoch] --> R
+    P[Provenance and artifact hashes] --> R
+    F[Freshness and nonce] --> R
+    O[Evidence origin and claim scope] --> R
+
+    R --> B{All exact bindings valid?}
+    B -- No --> X[Reject and preserve reason]
+    B -- Yes --> M{Meet of every required dimension passes?}
+    M -- No or unknown --> X
+    M -- Yes --> C[Activate bounded protocol credit]
+
+    C --> L[Receipt and credit event log]
+    X --> L
+    L --> Q[Deterministic replay and adversarial audit]
+
+    T[Replay substitution downgrade type-confusion stale-authority attacks] --> B
+    T --> M
+

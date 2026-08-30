@@ -1,0 +1,37 @@
+\begin{tikzpicture}[x=1.15cm,y=0.011cm]
+\draw[->] (-0.55,0) -- (6.75,0) node[right,font=\scriptsize]{First decision group};
+\draw[->] (-0.55,0) -- (-0.55,535) node[above,font=\scriptsize]{States};
+\draw[gray!35] (-0.6,0) -- (6.55,0);
+\node[anchor=east,font=\tiny] at (-0.62,0) {0};
+\draw[gray!35] (-0.6,100) -- (6.55,100);
+\node[anchor=east,font=\tiny] at (-0.62,100) {100};
+\draw[gray!35] (-0.6,200) -- (6.55,200);
+\node[anchor=east,font=\tiny] at (-0.62,200) {200};
+\draw[gray!35] (-0.6,300) -- (6.55,300);
+\node[anchor=east,font=\tiny] at (-0.62,300) {300};
+\draw[gray!35] (-0.6,400) -- (6.55,400);
+\node[anchor=east,font=\tiny] at (-0.62,400) {400};
+\draw[gray!35] (-0.6,500) -- (6.55,500);
+\node[anchor=east,font=\tiny] at (-0.62,500) {500};
+\filldraw[fill=blue!62,draw=black] (-0.36,0) rectangle (0.36,486);
+\node[font=\tiny,anchor=south] at (0,491) {486};
+\node[font=\tiny,rotate=40,anchor=east] at (0,-8) {Execution};
+\filldraw[fill=blue!62,draw=black] (0.64,0) rectangle (1.36,162);
+\node[font=\tiny,anchor=south] at (1,167) {162};
+\node[font=\tiny,rotate=40,anchor=east] at (1,-8) {Semantic};
+\filldraw[fill=blue!62,draw=black] (1.64,0) rectangle (2.36,54);
+\node[font=\tiny,anchor=south] at (2,59) {54};
+\node[font=\tiny,rotate=40,anchor=east] at (2,-8) {Authority};
+\filldraw[fill=blue!62,draw=black] (2.64,0) rectangle (3.36,18);
+\node[font=\tiny,anchor=south] at (3,23) {18};
+\node[font=\tiny,rotate=40,anchor=east] at (3,-8) {Provenance};
+\filldraw[fill=blue!62,draw=black] (3.64,0) rectangle (4.36,6);
+\node[font=\tiny,anchor=south] at (4,11) {6};
+\node[font=\tiny,rotate=40,anchor=east] at (4,-8) {Freshness};
+\filldraw[fill=blue!62,draw=black] (4.64,0) rectangle (5.36,2);
+\node[font=\tiny,anchor=south] at (5,7) {2};
+\node[font=\tiny,rotate=40,anchor=east] at (5,-8) {Origin Scope};
+\filldraw[fill=orange!75,draw=black] (5.64,0) rectangle (6.36,1);
+\node[font=\tiny,anchor=south] at (6,6) {1};
+\node[font=\tiny,rotate=40,anchor=east] at (6,-8) {Eligible};
+\end{tikzpicture}

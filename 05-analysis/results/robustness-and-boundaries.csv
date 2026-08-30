@@ -1,0 +1,7 @@
+test_id,claim_ids,condition,estimate,uncertainty,decision,boundary
+ROB-001,C003,Second same-owner process replay,3/3 core hashes identical,"Logs contain timing and path differences",PASS_DEVELOPMENT,"No independent machine or independent operator"
+ROB-002,C003,All states containing at least one UNKNOWN,665/665 rejected,"Exact finite subset under frozen precedence",PASS_DEVELOPMENT,"UNKNOWN semantics are modeled not empirically validated"
+ROB-003,C003,Single binding fault with all assurance dimensions PASS,7/7 rejected,"Only one fault at a time",PASS_DEVELOPMENT,"Compound binding faults use precedence but were not separately enumerated"
+ROB-004,C003,Malformed assurance ordinal in Solidity,TYPE_TAG_INVALID path implemented,"No Python malformed-enum vector because Python IntEnum construction rejects it",PARTIAL,"Cross-runtime malformed-type parity remains untested"
+ROB-005,C003,Foundry exhaustive test calls,5491690 base-test gas and 39023 mutation-test gas,"Test harness totals not production transaction gas",DESCRIPTIVE_ONLY,"No frozen minimal comparator or production threshold"
+

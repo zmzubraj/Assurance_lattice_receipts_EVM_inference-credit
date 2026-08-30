@@ -1,0 +1,8 @@
+mutation_id,binding_flags,expected_eligible,observed_eligible,expected_reason,observed_reason,match
+consumed_receipt_replay,126,false,false,RECEIPT_REPLAY,RECEIPT_REPLAY,true
+request_hash_substitution,125,false,false,REQUEST_HASH_MISMATCH,REQUEST_HASH_MISMATCH,true
+response_hash_substitution,123,false,false,RESPONSE_HASH_MISMATCH,RESPONSE_HASH_MISMATCH,true
+stale_authority_epoch,119,false,false,AUTHORITY_EPOCH_STALE,AUTHORITY_EPOCH_STALE,true
+disallowed_evidence_origin,111,false,false,EVIDENCE_ORIGIN_DISALLOWED,EVIDENCE_ORIGIN_DISALLOWED,true
+claim_scope_mismatch,95,false,false,CLAIM_SCOPE_MISMATCH,CLAIM_SCOPE_MISMATCH,true
+invalid_type_tag,63,false,false,TYPE_TAG_INVALID,TYPE_TAG_INVALID,true

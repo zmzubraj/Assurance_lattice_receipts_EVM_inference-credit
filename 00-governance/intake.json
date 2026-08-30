@@ -1,0 +1,19 @@
+{
+  "schema_version": 4,
+  "run_id": "poi-alr-mpp-20260829T044029Z-b4e6442a-cd74f3",
+  "input_revision": 1,
+  "raw_sha256": "b4e6442ac64366c6f04fa610276bd7870d02dda76b447b5435c128be778273bb",
+  "captured_at": "2026-08-29T04:40:29Z",
+  "fields": {
+    "system_name": "PoI-ALR-MPP",
+    "research_topic_name": "Non-compensating assurance-lattice receipts for EVM-settled AI inference, evaluated using the existing PoI MPP evidence bundle, local Foundry measurements, and reproducible adversarial protocol tests.",
+    "core_research_question": "Can an assurance-typed EVM receipt kernel prevent failed, inconclusive, stale, mismatched, unauthorized, or synthetic evidence from activating protocol credit, while preserving deterministic replay and bounded local settlement cost?",
+    "novelty_statement": "We hypothesize that the material differentiator is not a new LLM execution-verification primitive, but a non-compensating assurance lattice that combines cryptographic execution evidence, semantic disposition, authority and provenance freshness, evidence origin, scope, and hash bindings into a fail-closed receipt and credit decision.",
+    "target_contribution": "A formal assurance-lattice model; an executable Python and Solidity receipt kernel; an exhaustive assurance-state matrix; adversarial replay, substitution, downgrade, stale-authority, and evidence-laundering tests; local Foundry gas measurements; a real negative E3 case study; reproducible artifacts; editable tables and diagrams; and a venue-ready evidence-bound research manuscript.",
+    "possible_feasibility": "Existing PoI MPP code, E1-E8 artifacts, the externally attested negative E3 result, local Qwen2.5-1.5B assets, Python and Foundry tooling, publication figures and tables, and prior-art records are available locally. The first submission will avoid new semantic data collection and will exclude production consensus, mainnet, TEE, frontier-model, and real-world deployment claims. The internal implementation and manuscript phase is provisionally planned as a seven-working-day sprint; independent scientific review, accountable authorship, declarations, venue selection, and final submission approval remain external human gates."
+  },
+  "assertion_policy": {
+    "novelty_statement": "E1 ASSERTED; novelty remains UNRESOLVED",
+    "possible_feasibility": "E1 ASSERTED; feasibility remains UNASSESSED"
+  }
+}

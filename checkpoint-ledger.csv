@@ -1,0 +1,2 @@
+checkpoint_id,run_id,phase,cell_id,lease_id,status,artifact_hashes,summary,resume_instruction,created_at
+CP-INTAKE-001,poi-alr-mpp-20260829T044029Z-b4e6442a-cd74f3,INTAKE,intake_integration,ROOT-OWNED,OPEN,b4e6442ac64366c6f04fa610276bd7870d02dda76b447b5435c128be778273bb,Atomic kickoff completed; scientific and authority gates remain open.,Resume at INTAKE and verify governance boundaries.,2026-08-29T04:40:29Z

@@ -1,0 +1,11 @@
+evidence_id,claim_ids,origin,maturity,scope,status,authorized,independent,source_artifact
+EV-ALR-BASE-001,C003,SYNTHETIC_DEMONSTRATION,V2 SIMULATED,SIMULATED,PARTIAL,true,false,04-data/provenance-manifest.csv
+EV-ALR-MUT-001,C003,SYNTHETIC_DEMONSTRATION,V2 SIMULATED,SIMULATED,PARTIAL,true,false,04-data/provenance-manifest.csv
+EV-ALR-PARITY-001,C003,INTERNAL_EXPERIMENT,V3 INTERNAL,INTERNAL,PARTIAL,true,false,04-data/provenance-manifest.csv
+EV-ALR-REPLAY-001,C003,INTERNAL_EXPERIMENT,V3 INTERNAL,INTERNAL,PARTIAL,true,false,04-data/provenance-manifest.csv
+PA001,C001,REAL_OBSERVED,V1 ANALYTIC,ANALYTIC,PARTIAL,true,false,01-novelty/evidence-ledger.csv
+PA002,C001,REAL_OBSERVED,V1 ANALYTIC,ANALYTIC,PARTIAL,true,false,01-novelty/evidence-ledger.csv
+PA003,C001,REAL_OBSERVED,V1 ANALYTIC,ANALYTIC,PARTIAL,true,false,01-novelty/evidence-ledger.csv
+PA005,C001,REAL_OBSERVED,V1 ANALYTIC,ANALYTIC,PARTIAL,true,false,01-novelty/evidence-ledger.csv
+PA006,C001,REAL_OBSERVED,V1 ANALYTIC,ANALYTIC,PARTIAL,true,false,01-novelty/evidence-ledger.csv
+PA008,C001,REAL_OBSERVED,V1 ANALYTIC,ANALYTIC,PARTIAL,true,false,01-novelty/evidence-ledger.csv

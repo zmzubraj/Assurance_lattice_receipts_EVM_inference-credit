@@ -1,0 +1,6 @@
+method,baseline_type,metric,estimate,uncertainty,sample_size,source_artifact
+ALR candidate,proposed development artifact,cross-runtime conformance,736/736,development-only; independent verification pending,736,05-analysis/results/primary-results.csv
+LATTICE,strongest governance predecessor,feature-overlap disposition,close/defeating,independent full-text reconciliation pending,1,01-novelty/novelty-matrix.csv
+Tool Receipts / NabaOS,receipt predecessor,feature-overlap disposition,close/defeating,settlement materiality unresolved,1,01-novelty/novelty-matrix.csv
+opML,optimistic ML verification predecessor,primitive-novelty disposition,defeats primitive claim,composition obviousness unresolved,1,01-novelty/novelty-matrix.csv
+EigenAI,deterministic inference predecessor,feature-overlap disposition,close,lifecycle difference unresolved,1,01-novelty/novelty-matrix.csv

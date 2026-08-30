@@ -1,0 +1,16 @@
+risk_id,category,description,likelihood,impact,status,owner,mitigation,verification
+R001,novelty,"LATTICE NabaOS AEP or another predecessor defeats the mechanism-level differentiator",HIGH,HIGH,OPEN,independent-scientific-reviewer,"feature-level matrix and independent search challenge","signed novelty disposition"
+R002,obviousness,"ALR is judged routine composition of known assurance and settlement components",MEDIUM,HIGH,OPEN,independent-scientific-reviewer,"define unique risky prediction and compare with equal baselines","hostile domain review"
+R003,model-completeness,"six three-state dimensions omit a material assurance state or interaction",MEDIUM,HIGH,OPEN,methods-reviewer,"threat-model review and boundary-state expansion before freeze","signed protocol review"
+R004,safety,"an ineligible state activates credit",LOW,HIGH,OPEN,implementation-owner,"exhaustive enumeration and fail-closed defaults","zero false activations in frozen matrix"
+R005,semantic-drift,"Python and Solidity reason semantics diverge",MEDIUM,HIGH,OPEN,implementation-owner,"single canonical enum and differential tests","exact cross-runtime agreement"
+R006,replay,"stale authority nonce or receipt replay activates credit",MEDIUM,HIGH,OPEN,security-reviewer,"domain separation epoch binding nonce and consumed-receipt state","adversarial mutation suite"
+R007,provenance,"reused local evidence lacks adequate publication or transformation rights",MEDIUM,HIGH,BLOCKED,accountable-author,"signed provenance and rights review; exclude uncertain assets","verified provenance manifest"
+R008,e3-lineage,"historical E3 authority record hash drift prevents clean attestation-chain use",HIGH,MEDIUM,OPEN,external-e3-authority,"restore historical inputs or issue dated reconciliation","independently verified reconciliation"
+R009,measurement,"gas comparison uses an unfair or post-hoc baseline",MEDIUM,MEDIUM,OPEN,methods-reviewer,"freeze baseline and measurement environment before result inspection","signed analysis plan"
+R010,reproducibility,"local hidden dependency prevents clean replay",MEDIUM,HIGH,OPEN,reproducibility-reviewer,"lock environment capture commands hashes and seeds","clean-environment replay"
+R011,scope-inflation,"manuscript generalizes local synthetic tests to production or real-world impact",MEDIUM,HIGH,OPEN,manuscript-owner,"claim-evidence ceilings and explicit exclusions","independent claim audit"
+R012,schedule,"seven-day internal sprint is confused with external review and submission time",HIGH,MEDIUM,OPEN,root-integration-owner,"separate internal critical path from external gates","dated gate ledger"
+R013,venue,"late venue choice changes format page limit or disclosure obligations",MEDIUM,MEDIUM,OPEN,accountable-author,"select a dated venue portfolio before final build","official-rule audit"
+R014,review,"no qualified independent reviewer is registered",HIGH,HIGH,BLOCKED,accountable-author,"external trust bootstrap and identity binding","signed verifier registry"
+

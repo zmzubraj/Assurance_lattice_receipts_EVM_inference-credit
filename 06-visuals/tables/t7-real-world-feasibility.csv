@@ -1,0 +1,5 @@
+factor,setting,measure,estimate,uncertainty,threshold,decision,failure_mode
+functional conformance,same-owner local development,shared-vector agreement,736/736,synthetic local scope,736/736,PASS_DEVELOPMENT,independent verification absent
+gas boundedness,Foundry test harness,test-call gas,5491690 base; 39023 mutations,not transaction or production gas,NOT_FROZEN,NOT_ASSESSABLE,no fair baseline
+external reproducibility,independent machine/operator,reproduction status,not performed,same-owner replay only,independent signed replay,BLOCKED,external reviewer pending
+real-world validity,production or field,field evidence,absent,out of MPP scope,N/A only after claim narrowing,NO_CLAIM,cannot generalize beyond local model

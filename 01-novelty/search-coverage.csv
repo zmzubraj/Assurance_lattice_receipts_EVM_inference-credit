@@ -1,0 +1,13 @@
+query_id,surface,query,searched_at,result_count,screened_count,access_status
+Q001-openalex_works,OpenAlex,assurance lattice blockchain evidence,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q001-crossref_rest_v1,Crossref,assurance lattice blockchain evidence,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q002-openalex_works,OpenAlex,non-compensating assurance blockchain,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q002-crossref_rest_v1,Crossref,non-compensating assurance blockchain,2026-08-29,25,25,LIVE_METADATA_CAPTURED_LOW_PRECISION
+Q003-openalex_works,OpenAlex,evidence freshness smart contract provenance,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q003-crossref_rest_v1,Crossref,evidence freshness smart contract provenance,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q004-openalex_works,OpenAlex,verifiable AI inference receipt settlement,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q004-crossref_rest_v1,Crossref,verifiable AI inference receipt settlement,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q005-openalex_works,OpenAlex,proof of inference blockchain credit,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q005-crossref_rest_v1,Crossref,proof of inference blockchain credit,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q006-openalex_works,OpenAlex,semantic verification blockchain inference,2026-08-29,25,25,LIVE_METADATA_CAPTURED
+Q006-crossref_rest_v1,Crossref,semantic verification blockchain inference,2026-08-29,25,25,LIVE_METADATA_CAPTURED

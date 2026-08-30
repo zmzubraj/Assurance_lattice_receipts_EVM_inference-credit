@@ -1,0 +1,251 @@
+{
+  "generated_at": "2026-08-29T04:52:10Z",
+  "run_id": "poi-alr-mpp-20260829T044029Z-b4e6442a-cd74f3",
+  "adapter_id": "benchmark_prospective_v1",
+  "fixture_set": "LIVE_SNAPSHOT",
+  "offline_only": false,
+  "live_network_permitted": true,
+  "may_assert_novelty": false,
+  "query_metadata_schema": {
+    "version": 1,
+    "required_keys": [
+      "query_id",
+      "source",
+      "endpoint",
+      "params",
+      "checked_date"
+    ]
+  },
+  "live_sources": [
+    {
+      "source_id": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "documentation_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+      "checked_date": "2026-08-01",
+      "network_policy": "explicit_egress_authorized_only",
+      "offline_test_mode": "fixture_only",
+      "cache_required": true,
+      "user_agent_required": true,
+      "mailto_required": true,
+      "status_backoff_policy": "respect_http_status_retry_after_and_exponential_backoff"
+    },
+    {
+      "source_id": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "documentation_url": "https://developers.openalex.org/",
+      "checked_date": "2026-08-01",
+      "network_policy": "explicit_egress_authorized_only",
+      "offline_test_mode": "fixture_only"
+    },
+    {
+      "source_id": "ncbi_eutils",
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+      "documentation_url": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+      "checked_date": "2026-08-01",
+      "network_policy": "explicit_egress_authorized_only",
+      "offline_test_mode": "fixture_only"
+    },
+    {
+      "source_id": "arxiv_api",
+      "endpoint": "https://export.arxiv.org/api/query",
+      "documentation_url": "https://info.arxiv.org/help/api/index.html",
+      "checked_date": "2026-08-01",
+      "network_policy": "explicit_egress_authorized_only",
+      "offline_test_mode": "fixture_only"
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "assurance lattice blockchain evidence",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=assurance+lattice+blockchain+evidence&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:51:52Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "8ecdb8e39f8306128a4b3b4c9482cc228bf892442d2d89e174c4126b7a924348",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q001-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "assurance lattice blockchain evidence",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=assurance+lattice+blockchain+evidence&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:51:50Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "55937b0626719f81c49f709626fbeddb24b3d297cd58d9f68e01065c1c7fcc89",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q001-openalex_works.json"
+    },
+    {
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "non-compensating assurance blockchain",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=non-compensating+assurance+blockchain&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:51:55Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "ecf538be068dbd1b7867ade602a34c41531d1fda2a0d9e7c6cdc3dcbe5fb8ac4",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q002-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "non-compensating assurance blockchain",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=non-compensating+assurance+blockchain&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:51:53Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "d32ab50547e0833ae2fac83b3f78605bbd4f4231b19265625584d34b4a6ccc37",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q002-openalex_works.json"
+    },
+    {
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "evidence freshness smart contract provenance",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=evidence+freshness+smart+contract+provenance&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:51:59Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "5dcc91f3bf533a77e98640fbc8c88a27ab12d49c011f922e7257e883e0ea749d",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q003-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "evidence freshness smart contract provenance",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=evidence+freshness+smart+contract+provenance&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:51:57Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "ffec97cec34b5cc38ba2ce8b0dfbf691af8ede47ae9a5cde17d50d49ce292128",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q003-openalex_works.json"
+    },
+    {
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "verifiable AI inference receipt settlement",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=verifiable+AI+inference+receipt+settlement&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:52:03Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "ee2773a88a826a53332de6ed501835e0550a6899b59e5cf76bec789255bba11e",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q004-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "verifiable AI inference receipt settlement",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=verifiable+AI+inference+receipt+settlement&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:52:01Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "51cf5bda13ec09f49001ff53b7f11920a8a7c4fc421f458f97a18bca3f5341db",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q004-openalex_works.json"
+    },
+    {
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "proof of inference blockchain credit",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=proof+of+inference+blockchain+credit&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:52:07Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "ec97099e609c1f38921b7302bd824164940dc13160458826dc8e13b071cd7312",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q005-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "proof of inference blockchain credit",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=proof+of+inference+blockchain+credit&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:52:05Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "2caaf40ccbc8caca8511f0c158150ea040fba368c06cc872a85533e8f73c7f10",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q005-openalex_works.json"
+    },
+    {
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "endpoint": "https://api.crossref.org/works",
+      "params": {
+        "query.bibliographic": "semantic verification blockchain inference",
+        "rows": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.crossref.org/works?query.bibliographic=semantic+verification+blockchain+inference&rows=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:52:10Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "f23c0cb7054346023086dd9a1b570fb5434291101c68af3cbbf1afa4929f820a",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q006-crossref_rest_v1.json"
+    },
+    {
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "endpoint": "https://api.openalex.org/works",
+      "params": {
+        "search": "semantic verification blockchain inference",
+        "per-page": 25,
+        "mailto": "zmzubraj@gmail.com"
+      },
+      "request_url": "https://api.openalex.org/works?search=semantic+verification+blockchain+inference&per-page=25&mailto=zmzubraj%40gmail.com",
+      "checked_date": "2026-08-29T04:52:09Z",
+      "cache_hit": false,
+      "status": 200,
+      "response_sha256": "bd3ad00a17bbb84812fd845c6e2e739ef34e0379492ce4efba054034e4f04b27",
+      "raw_path": "/Users/rainbow/Documents/ZTech/Research/poi_alr_mpp_research_system/01-novelty/prior-art-raw/Q006-openalex_works.json"
+    }
+  ]
+}

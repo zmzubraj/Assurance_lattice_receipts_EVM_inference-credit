@@ -1,0 +1,2721 @@
+{
+  "generated_at": "2026-08-29T04:52:10Z",
+  "run_id": "poi-alr-mpp-20260829T044029Z-b4e6442a-cd74f3",
+  "adapter_id": "benchmark_prospective_v1",
+  "fixture_set": "LIVE_SNAPSHOT",
+  "offline_only": false,
+  "may_assert_novelty": false,
+  "raw_snapshot_schema": {
+    "version": 1,
+    "required_keys": [
+      "record_id",
+      "query_id",
+      "source",
+      "title",
+      "published_at",
+      "url"
+    ]
+  },
+  "records": [
+    {
+      "record_id": "10.22214/ijraset.2026.79661",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A Decentralized Blockchain Network for Comprehensive Evidence Protection and Integrity Assurance",
+      "published_at": "2026-4-30",
+      "url": "https://doi.org/10.22214/ijraset.2026.79661",
+      "doi": "10.22214/ijraset.2026.79661"
+    },
+    {
+      "record_id": "10.1109/blockchain67634.2025.00026",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "An Innovative NFT Approach to Ownership Assurance via Digital Content Similarity",
+      "published_at": "2025-10-30",
+      "url": "https://doi.org/10.1109/blockchain67634.2025.00026",
+      "doi": "10.1109/blockchain67634.2025.00026"
+    },
+    {
+      "record_id": "10.1201/9781003211723-9",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain Application Development",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-9",
+      "doi": "10.1201/9781003211723-9"
+    },
+    {
+      "record_id": "10.4018/979-8-3373-9730-6.ch004",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain in Criminal Investigations",
+      "published_at": "2026-6-25",
+      "url": "https://doi.org/10.4018/979-8-3373-9730-6.ch004",
+      "doi": "10.4018/979-8-3373-9730-6.ch004"
+    },
+    {
+      "record_id": "10.1201/9781003211723-11",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain System Implementation",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-11",
+      "doi": "10.1201/9781003211723-11"
+    },
+    {
+      "record_id": "10.1201/9781003211723-1",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain Technology",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-1",
+      "doi": "10.1201/9781003211723-1"
+    },
+    {
+      "record_id": "10.2139/ssrn.5521198",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain Technology as a Quality Assurance Mechanism in Asymmetric Information Duopolies",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5521198",
+      "doi": "10.2139/ssrn.5521198"
+    },
+    {
+      "record_id": "10.1201/9781003211723-3",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain Tokens and Cryptocurrencies",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-3",
+      "doi": "10.1201/9781003211723-3"
+    },
+    {
+      "record_id": "10.1201/9781003211723-15",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-as-a-Service",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-15",
+      "doi": "10.1201/9781003211723-15"
+    },
+    {
+      "record_id": "10.32920/17188610",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Based Delivery Assurance",
+      "published_at": "2021-12-20",
+      "url": "https://doi.org/10.32920/17188610",
+      "doi": "10.32920/17188610"
+    },
+    {
+      "record_id": "10.32920/17188610.v1",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Based Delivery Assurance",
+      "published_at": "2021-12-20",
+      "url": "https://doi.org/10.32920/17188610.v1",
+      "doi": "10.32920/17188610.v1"
+    },
+    {
+      "record_id": "10.1016/j.bcra.2025.100407",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Based Efficient Integrity Auditing and Deduplication for Outsourced Data with Privacy Assurance",
+      "published_at": "2025-10",
+      "url": "https://doi.org/10.1016/j.bcra.2025.100407",
+      "doi": "10.1016/j.bcra.2025.100407"
+    },
+    {
+      "record_id": "10.33140/jeee.03.03.01",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Driven Assurance: Transforming Adaptive Video Streaming with TamperResistant Quality of Service Metrics",
+      "published_at": "2024-5-2",
+      "url": "https://doi.org/10.33140/jeee.03.03.01",
+      "doi": "10.33140/jeee.03.03.01"
+    },
+    {
+      "record_id": "10.4018/979-8-3373-9730-6.ch006",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Cross-Border Evidence Sharing",
+      "published_at": "2026-6-25",
+      "url": "https://doi.org/10.4018/979-8-3373-9730-6.ch006",
+      "doi": "10.4018/979-8-3373-9730-6.ch006"
+    },
+    {
+      "record_id": "10.1201/9781003211723-8",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Designing a Blockchain Application",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-8",
+      "doi": "10.1201/9781003211723-8"
+    },
+    {
+      "record_id": "10.3389/fbloc.2021.622090",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Evaluating Trust Assurance in Indy-Based Identity Networks Using Public Ledger Data",
+      "published_at": "2021-4-30",
+      "url": "https://doi.org/10.3389/fbloc.2021.622090",
+      "doi": "10.3389/fbloc.2021.622090"
+    },
+    {
+      "record_id": "10.4108/eetsis.3536",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Framework for Data Provenance Assurance in Cloud Environment using Ethereum Blockchain",
+      "published_at": "2023-10-9",
+      "url": "https://doi.org/10.4108/eetsis.3536",
+      "doi": "10.4108/eetsis.3536"
+    },
+    {
+      "record_id": "10.4018/979-8-3373-0117-4.ch007",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Harnessing AI and Blockchain in Sustainability Assurance",
+      "published_at": "2025-2-26",
+      "url": "https://doi.org/10.4018/979-8-3373-0117-4.ch007",
+      "doi": "10.4018/979-8-3373-0117-4.ch007"
+    },
+    {
+      "record_id": "10.1016/j.bcra.2026.100515",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Lattice-Based Signature Blockchain Design and Key Storage Optimization",
+      "published_at": "2026-6",
+      "url": "https://doi.org/10.1016/j.bcra.2026.100515",
+      "doi": "10.1016/j.bcra.2026.100515"
+    },
+    {
+      "record_id": "10.2478/ias-2024-0007",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Multiparty trust levels in evidence management: Ensuring tamper-proof chain of custody in blockchain.",
+      "published_at": "2024-12-1",
+      "url": "https://doi.org/10.2478/ias-2024-0007",
+      "doi": "10.2478/ias-2024-0007"
+    },
+    {
+      "record_id": "10.1049/blc2.70011",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Research on the Application of Blockchain Technology in Network Quality Assurance and Trust Building",
+      "published_at": "2025-1",
+      "url": "https://doi.org/10.1049/blc2.70011",
+      "doi": "10.1049/blc2.70011"
+    },
+    {
+      "record_id": "10.1201/9781003211723-10",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Testing and Auditing Blockchain Applications",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-10",
+      "doi": "10.1201/9781003211723-10"
+    },
+    {
+      "record_id": "10.1201/9781003211723",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Auditor's Guide to Blockchain Technology",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723",
+      "doi": "10.1201/9781003211723"
+    },
+    {
+      "record_id": "10.1108/cr-12-2024-0258",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The effect of blockchain technology on the accounting and assurance profession: evidence from GCC",
+      "published_at": "2026-2-13",
+      "url": "https://doi.org/10.1108/cr-12-2024-0258",
+      "doi": "10.1108/cr-12-2024-0258"
+    },
+    {
+      "record_id": "10.2139/ssrn.4043164",
+      "query_id": "Q001-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Use of Blockchain Technology in Data Integrity Assurance",
+      "published_at": "2022",
+      "url": "https://doi.org/10.2139/ssrn.4043164",
+      "doi": "10.2139/ssrn.4043164"
+    },
+    {
+      "record_id": "https://openalex.org/W4312871233",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "A Comprehensive Insight into Blockchain Technology: Past Development, Present Impact and Future Considerations",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.14569/ijacsa.2022.01311101",
+      "doi": "10.14569/ijacsa.2022.01311101"
+    },
+    {
+      "record_id": "https://openalex.org/W4390954351",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "A Review of Blockchain’s Role in E-Commerce Transactions: Open Challenges, and Future Research Directions",
+      "published_at": "2024-01-17",
+      "url": "https://doi.org/10.3390/computers13010027",
+      "doi": "10.3390/computers13010027"
+    },
+    {
+      "record_id": "https://openalex.org/W3029616339",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on Blockchain Interoperability: Past, Present, and Future Trends",
+      "published_at": "2021-10-04",
+      "url": "https://doi.org/10.1145/3471140",
+      "doi": "10.1145/3471140"
+    },
+    {
+      "record_id": "https://openalex.org/W3034459010",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on Ethereum Systems Security",
+      "published_at": "2020-06-12",
+      "url": "https://doi.org/10.1145/3391195",
+      "doi": "10.1145/3391195"
+    },
+    {
+      "record_id": "https://openalex.org/W2901598045",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "A systematic literature review of blockchain-based applications: Current status, classification and open issues",
+      "published_at": "2018-11-22",
+      "url": "https://doi.org/10.1016/j.tele.2018.11.006",
+      "doi": "10.1016/j.tele.2018.11.006"
+    },
+    {
+      "record_id": "https://openalex.org/W4316037767",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "A systematic literature review of the tension between the GDPR and public blockchain systems",
+      "published_at": "2023-01-13",
+      "url": "https://doi.org/10.1016/j.bcra.2023.100129",
+      "doi": "10.1016/j.bcra.2023.100129"
+    },
+    {
+      "record_id": "https://openalex.org/W2995022099",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Advances and Open Problems in Federated Learning",
+      "published_at": "2020-12-02",
+      "url": "https://doi.org/10.1561/2200000083",
+      "doi": "10.1561/2200000083"
+    },
+    {
+      "record_id": "https://openalex.org/W4313414304",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "AI-Powered Blockchain Technology for Public Health: A Contemporary Review, Open Challenges, and Future Research Directions",
+      "published_at": "2022-12-27",
+      "url": "https://doi.org/10.3390/healthcare11010081",
+      "doi": "10.3390/healthcare11010081"
+    },
+    {
+      "record_id": "https://openalex.org/W4410895964",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "An AI-Driven Framework for Integrated Security and Privacy in Internet of Things Using Quantum-Resistant Blockchain",
+      "published_at": "2025-05-30",
+      "url": "https://doi.org/10.3390/fi17060246",
+      "doi": "10.3390/fi17060246"
+    },
+    {
+      "record_id": "https://openalex.org/W4200186133",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Asymmetric Confidentiality in Blockchain Embedded Smart Grids in Galois Field",
+      "published_at": "2021-12-08",
+      "url": "https://doi.org/10.3389/fbloc.2021.770074",
+      "doi": "10.3389/fbloc.2021.770074"
+    },
+    {
+      "record_id": "https://openalex.org/W4402371015",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Forensics: A Systematic Literature Review of Techniques, Applications, Challenges, and Future Directions",
+      "published_at": "2024-09-08",
+      "url": "https://doi.org/10.3390/electronics13173568",
+      "doi": "10.3390/electronics13173568"
+    },
+    {
+      "record_id": "https://openalex.org/W4389947134",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain-Based E-Voting Systems: A Technology Review",
+      "published_at": "2023-12-19",
+      "url": "https://doi.org/10.3390/electronics13010017",
+      "doi": "10.3390/electronics13010017"
+    },
+    {
+      "record_id": "https://openalex.org/W4416232667",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain-Enabled Compliance and Audit Trail Model for Cloud Configuration Management",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.54660/.ijfmr.2020.1.1.193-201",
+      "doi": "10.54660/.ijfmr.2020.1.1.193-201"
+    },
+    {
+      "record_id": "https://openalex.org/W4389633818",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain: A Crypto-Intensive Technology—A Comprehensive Review",
+      "published_at": "2023-01-01",
+      "url": "https://doi.org/10.1109/access.2023.3342079",
+      "doi": "10.1109/access.2023.3342079"
+    },
+    {
+      "record_id": "https://openalex.org/W3038781483",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Decentralized accessibility of e-commerce products through blockchain technology",
+      "published_at": "2020-07-04",
+      "url": "https://doi.org/10.1016/j.scs.2020.102361",
+      "doi": "10.1016/j.scs.2020.102361"
+    },
+    {
+      "record_id": "https://openalex.org/W4283367556",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Emerging Trends in Blockchain Technology and Applications: A Review and Outlook",
+      "published_at": "2022-03-16",
+      "url": "https://doi.org/10.1016/j.jksuci.2022.03.007",
+      "doi": "10.1016/j.jksuci.2022.03.007"
+    },
+    {
+      "record_id": "https://openalex.org/W4385704766",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "From Hype to Reality: Unveiling the Promises, Challenges and Opportunities of Blockchain in Supply Chain Systems",
+      "published_at": "2023-08-09",
+      "url": "https://doi.org/10.3390/su151612193",
+      "doi": "10.3390/su151612193"
+    },
+    {
+      "record_id": "https://openalex.org/W4383180643",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "From Portfolio Optimization to Quantum Blockchain and Security: A Systematic Review of Quantum Computing in Finance",
+      "published_at": "2023-06-12",
+      "url": "http://arxiv.org/pdf/2307.01155",
+      "doi": "10.48550/arxiv.2307.01155"
+    },
+    {
+      "record_id": "https://openalex.org/W4206043797",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "High-performance Edwards curve aggregate signature (HECAS) for nonrepudiation in IoT-based applications built on the blockchain ecosystem",
+      "published_at": "2021-12-31",
+      "url": "https://doi.org/10.1016/j.jksuci.2021.12.001",
+      "doi": "10.1016/j.jksuci.2021.12.001"
+    },
+    {
+      "record_id": "https://openalex.org/W3129689612",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Internet-of-Forensic (IoF): A blockchain based digital forensics framework for IoT applications",
+      "published_at": "2021-02-24",
+      "url": "https://doi.org/10.1016/j.future.2021.02.016",
+      "doi": "10.1016/j.future.2021.02.016"
+    },
+    {
+      "record_id": "https://openalex.org/W4320518807",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Models used to characterise blockchain features. A systematic literature review and bibliometric analysis",
+      "published_at": "2023-02-13",
+      "url": "https://doi.org/10.1016/j.technovation.2023.102711",
+      "doi": "10.1016/j.technovation.2023.102711"
+    },
+    {
+      "record_id": "https://openalex.org/W4416213003",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Navigating the quantum computing threat landscape for blockchains: A comprehensive survey",
+      "published_at": "2025-11-14",
+      "url": "https://doi.org/10.1016/j.cosrev.2025.100846",
+      "doi": "10.1016/j.cosrev.2025.100846"
+    },
+    {
+      "record_id": "https://openalex.org/W3133499822",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Obstetrics Nursing and Medical Health System Based on Blockchain Technology",
+      "published_at": "2021-03-05",
+      "url": "https://doi.org/10.1155/2021/6631457",
+      "doi": "10.1155/2021/6631457"
+    },
+    {
+      "record_id": "https://openalex.org/W2987069389",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy-Preserving Solutions for Blockchain: Review and Challenges",
+      "published_at": "2019-01-01",
+      "url": "https://doi.org/10.1109/access.2019.2950872",
+      "doi": "10.1109/access.2019.2950872"
+    },
+    {
+      "record_id": "https://openalex.org/W4286423750",
+      "query_id": "Q001-openalex_works",
+      "source": "openalex_works",
+      "title": "Systematic Assessment of the Interoperability Requirements and Challenges of Secure Blockchain-Based Electronic Health Records",
+      "published_at": "2022-07-21",
+      "url": "https://doi.org/10.1155/2022/1953723",
+      "doi": "10.1155/2022/1953723"
+    },
+    {
+      "record_id": "10.1109/blockchain67634.2025.00026",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "An Innovative NFT Approach to Ownership Assurance via Digital Content Similarity",
+      "published_at": "2025-10-30",
+      "url": "https://doi.org/10.1109/blockchain67634.2025.00026",
+      "doi": "10.1109/blockchain67634.2025.00026"
+    },
+    {
+      "record_id": "10.1201/9781003211723-9",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain Application Development",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-9",
+      "doi": "10.1201/9781003211723-9"
+    },
+    {
+      "record_id": "10.1201/9781003211723-11",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain System Implementation",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-11",
+      "doi": "10.1201/9781003211723-11"
+    },
+    {
+      "record_id": "10.1201/9781003211723-1",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain Technology",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-1",
+      "doi": "10.1201/9781003211723-1"
+    },
+    {
+      "record_id": "10.2139/ssrn.5521198",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain Technology as a Quality Assurance Mechanism in Asymmetric Information Duopolies",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5521198",
+      "doi": "10.2139/ssrn.5521198"
+    },
+    {
+      "record_id": "10.1201/9781003211723-3",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain Tokens and Cryptocurrencies",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-3",
+      "doi": "10.1201/9781003211723-3"
+    },
+    {
+      "record_id": "10.1201/9781003211723-15",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-as-a-Service",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-15",
+      "doi": "10.1201/9781003211723-15"
+    },
+    {
+      "record_id": "10.32920/17188610",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Based Delivery Assurance",
+      "published_at": "2021-12-20",
+      "url": "https://doi.org/10.32920/17188610",
+      "doi": "10.32920/17188610"
+    },
+    {
+      "record_id": "10.32920/17188610.v1",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Based Delivery Assurance",
+      "published_at": "2021-12-20",
+      "url": "https://doi.org/10.32920/17188610.v1",
+      "doi": "10.32920/17188610.v1"
+    },
+    {
+      "record_id": "10.1016/j.bcra.2025.100407",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Based Efficient Integrity Auditing and Deduplication for Outsourced Data with Privacy Assurance",
+      "published_at": "2025-10",
+      "url": "https://doi.org/10.1016/j.bcra.2025.100407",
+      "doi": "10.1016/j.bcra.2025.100407"
+    },
+    {
+      "record_id": "10.33140/jeee.03.03.01",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Driven Assurance: Transforming Adaptive Video Streaming with TamperResistant Quality of Service Metrics",
+      "published_at": "2024-5-2",
+      "url": "https://doi.org/10.33140/jeee.03.03.01",
+      "doi": "10.33140/jeee.03.03.01"
+    },
+    {
+      "record_id": "10.1109/ias.2009.254",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Compensating Function of Formant Instantaneous Characteristics in Speaker Identification",
+      "published_at": "2009",
+      "url": "https://doi.org/10.1109/ias.2009.254",
+      "doi": "10.1109/ias.2009.254"
+    },
+    {
+      "record_id": "10.1201/9781003211723-8",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Designing a Blockchain Application",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723-8",
+      "doi": "10.1201/9781003211723-8"
+    },
+    {
+      "record_id": "10.3389/fbloc.2021.622090",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Evaluating Trust Assurance in Indy-Based Identity Networks Using Public Ledger Data",
+      "published_at": "2021-4-30",
+      "url": "https://doi.org/10.3389/fbloc.2021.622090",
+      "doi": "10.3389/fbloc.2021.622090"
+    },
+    {
+      "record_id": "10.4108/eetsis.3536",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Framework for Data Provenance Assurance in Cloud Environment using Ethereum Blockchain",
+      "published_at": "2023-10-9",
+      "url": "https://doi.org/10.4108/eetsis.3536",
+      "doi": "10.4108/eetsis.3536"
+    },
+    {
+      "record_id": "10.4018/979-8-3373-0117-4.ch007",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Harnessing AI and Blockchain in Sustainability Assurance",
+      "published_at": "2025-2-26",
+      "url": "https://doi.org/10.4018/979-8-3373-0117-4.ch007",
+      "doi": "10.4018/979-8-3373-0117-4.ch007"
+    },
+    {
+      "record_id": "10.3403/00097755",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Mixing valves",
+      "published_at": "None",
+      "url": "https://doi.org/10.3403/00097755",
+      "doi": "10.3403/00097755"
+    },
+    {
+      "record_id": "10.3403/00097755u",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Mixing valves",
+      "published_at": "None",
+      "url": "https://doi.org/10.3403/00097755u",
+      "doi": "10.3403/00097755u"
+    },
+    {
+      "record_id": "10.1007/s13198-021-01418-y",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Non-functional requirements for blockchain enabled medical supply chain",
+      "published_at": "2022-6",
+      "url": "https://doi.org/10.1007/s13198-021-01418-y",
+      "doi": "10.1007/s13198-021-01418-y"
+    },
+    {
+      "record_id": "10.1049/blc2.70011",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Research on the Application of Blockchain Technology in Network Quality Assurance and Trust Building",
+      "published_at": "2025-1",
+      "url": "https://doi.org/10.1049/blc2.70011",
+      "doi": "10.1049/blc2.70011"
+    },
+    {
+      "record_id": "10.3403/30375183",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Space product assurance. Non-destructive testing",
+      "published_at": "None",
+      "url": "https://doi.org/10.3403/30375183",
+      "doi": "10.3403/30375183"
+    },
+    {
+      "record_id": "10.3403/30375183u",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Space product assurance. Non-destructive testing",
+      "published_at": "None",
+      "url": "https://doi.org/10.3403/30375183u",
+      "doi": "10.3403/30375183u"
+    },
+    {
+      "record_id": "10.1201/9781003211723",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Auditor's Guide to Blockchain Technology",
+      "published_at": "2022-9-8",
+      "url": "https://doi.org/10.1201/9781003211723",
+      "doi": "10.1201/9781003211723"
+    },
+    {
+      "record_id": "10.1201/9781003562153-8",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Use of Compensating Controls in Enterprise IT",
+      "published_at": "2025-8-18",
+      "url": "https://doi.org/10.1201/9781003562153-8",
+      "doi": "10.1201/9781003562153-8"
+    },
+    {
+      "record_id": "10.2139/ssrn.4043164",
+      "query_id": "Q002-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Use of Blockchain Technology in Data Integrity Assurance",
+      "published_at": "2022",
+      "url": "https://doi.org/10.2139/ssrn.4043164",
+      "doi": "10.2139/ssrn.4043164"
+    },
+    {
+      "record_id": "https://openalex.org/W2991830877",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A Comparative Analysis of Blockchain Architecture and its Applications: Problems and Recommendations",
+      "published_at": "2019-01-01",
+      "url": "https://doi.org/10.1109/access.2019.2957660",
+      "doi": "10.1109/access.2019.2957660"
+    },
+    {
+      "record_id": "https://openalex.org/W2957649215",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A Ledger of Me: Personalizing Healthcare Using Blockchain Technology",
+      "published_at": "2019-07-24",
+      "url": "https://doi.org/10.3389/fmed.2019.00171",
+      "doi": "10.3389/fmed.2019.00171"
+    },
+    {
+      "record_id": "https://openalex.org/W4307139962",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A review of Blockchain Technology applications for financial services",
+      "published_at": "2022-07-01",
+      "url": "https://doi.org/10.1016/j.tbench.2022.100073",
+      "doi": "10.1016/j.tbench.2022.100073"
+    },
+    {
+      "record_id": "https://openalex.org/W2996885877",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A Review of Blockchain-Based Systems in Transportation",
+      "published_at": "2019-12-29",
+      "url": "https://doi.org/10.3390/info11010021",
+      "doi": "10.3390/info11010021"
+    },
+    {
+      "record_id": "https://openalex.org/W2967439377",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A Scalable Verification Solution for Blockchains",
+      "published_at": "2023-11-01",
+      "url": "https://doi.org/10.1142/9789811278631_0015",
+      "doi": "10.1142/9789811278631_0015"
+    },
+    {
+      "record_id": "https://openalex.org/W4319996447",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on Blockchain-Based Trust Management for Internet of Things",
+      "published_at": "2023-01-18",
+      "url": "https://doi.org/10.1109/jiot.2023.3237893",
+      "doi": "10.1109/jiot.2023.3237893"
+    },
+    {
+      "record_id": "https://openalex.org/W3198624037",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain and artificial intelligence technology in e-Health",
+      "published_at": "2021-09-02",
+      "url": "https://doi.org/10.1007/s11356-021-16223-0",
+      "doi": "10.1007/s11356-021-16223-0"
+    },
+    {
+      "record_id": "https://openalex.org/W4200523915",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain as a sustainability-oriented innovation?: Opportunities for and resistance to Blockchain technology as a driver of sustainability in global food supply chains",
+      "published_at": "2021-12-05",
+      "url": "https://doi.org/10.1016/j.techfore.2021.121403",
+      "doi": "10.1016/j.techfore.2021.121403"
+    },
+    {
+      "record_id": "https://openalex.org/W3198108822",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain based decentralized local energy flexibility market",
+      "published_at": "2021-08-31",
+      "url": "https://doi.org/10.1016/j.egyr.2021.08.118",
+      "doi": "10.1016/j.egyr.2021.08.118"
+    },
+    {
+      "record_id": "https://openalex.org/W3036636103",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain for trustworthy provenances: A case study in the Australian aquaculture industry",
+      "published_at": "2020-06-20",
+      "url": "https://doi.org/10.1016/j.techsoc.2020.101298",
+      "doi": "10.1016/j.techsoc.2020.101298"
+    },
+    {
+      "record_id": "https://openalex.org/W2767277120",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain in Education",
+      "published_at": "2017-11-01",
+      "url": "https://www.um.edu.mt/library/oar/handle/123456789/108154",
+      "doi": "10.2760/60649"
+    },
+    {
+      "record_id": "https://openalex.org/W4220925261",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain in healthcare and IoT: A systematic literature review",
+      "published_at": "2022-03-12",
+      "url": "https://doi.org/10.1016/j.array.2022.100139",
+      "doi": "10.1016/j.array.2022.100139"
+    },
+    {
+      "record_id": "https://openalex.org/W2929438235",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Technology in Healthcare: A Systematic Review",
+      "published_at": "2019-04-04",
+      "url": "https://doi.org/10.3390/healthcare7020056",
+      "doi": "10.3390/healthcare7020056"
+    },
+    {
+      "record_id": "https://openalex.org/W2948606700",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain-based platforms: Decentralized infrastructures and its boundary conditions",
+      "published_at": "2019-06-04",
+      "url": "https://doi.org/10.1016/j.techfore.2019.04.030",
+      "doi": "10.1016/j.techfore.2019.04.030"
+    },
+    {
+      "record_id": "https://openalex.org/W2951397577",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Copyright in the Blockchain Era: Promises and Challenges",
+      "published_at": "2017-01-01",
+      "url": "https://doi.org/10.2139/ssrn.3075246",
+      "doi": "10.2139/ssrn.3075246"
+    },
+    {
+      "record_id": "https://openalex.org/W3019742394",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Do you need a blockchain in construction? Use case categories and decision framework for DLT design options",
+      "published_at": "2020-04-21",
+      "url": "https://doi.org/10.1016/j.aei.2020.101094",
+      "doi": "10.1016/j.aei.2020.101094"
+    },
+    {
+      "record_id": "https://openalex.org/W2987069389",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy-Preserving Solutions for Blockchain: Review and Challenges",
+      "published_at": "2019-01-01",
+      "url": "https://doi.org/10.1109/access.2019.2950872",
+      "doi": "10.1109/access.2019.2950872"
+    },
+    {
+      "record_id": "https://openalex.org/W2921980263",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Security and Privacy on Blockchain",
+      "published_at": "2019-07-03",
+      "url": "https://doi.org/10.1145/3316481",
+      "doi": "10.1145/3316481"
+    },
+    {
+      "record_id": "https://openalex.org/W2963519394",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Security and Privacy on Blockchain",
+      "published_at": "2019-03-18",
+      "url": "http://arxiv.org/abs/1903.07602",
+      "doi": "10.48550/arxiv.1903.07602"
+    },
+    {
+      "record_id": "https://openalex.org/W3126789034",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Supply Chain Disruption Risk Management with Blockchain: A Dynamic Literature Review",
+      "published_at": "2021-02-07",
+      "url": "https://doi.org/10.3390/info12020070",
+      "doi": "10.3390/info12020070"
+    },
+    {
+      "record_id": "https://openalex.org/W3096316084",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Survey on blockchain based smart contracts: Applications, opportunities and challenges",
+      "published_at": "2020-11-07",
+      "url": "https://doi.org/10.1016/j.jnca.2020.102857",
+      "doi": "10.1016/j.jnca.2020.102857"
+    },
+    {
+      "record_id": "https://openalex.org/W3024061055",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Sustainable B2B E-Commerce and Blockchain-Based Supply Chain Finance",
+      "published_at": "2020-05-12",
+      "url": "https://doi.org/10.3390/su12103968",
+      "doi": "10.3390/su12103968"
+    },
+    {
+      "record_id": "https://openalex.org/W4285589279",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Trust in blockchain-enabled exchanges: Future directions in blockchain marketing",
+      "published_at": "2022-07-15",
+      "url": "https://doi.org/10.1007/s11747-022-00889-0",
+      "doi": "10.1007/s11747-022-00889-0"
+    },
+    {
+      "record_id": "https://openalex.org/W4223446169",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "Using blockchain to signal quality in the food supply chain: The impact on consumer purchase intentions and the moderating effect of brand familiarity",
+      "published_at": "2022-04-12",
+      "url": "https://doi.org/10.1016/j.ijinfomgt.2022.102514",
+      "doi": "10.1016/j.ijinfomgt.2022.102514"
+    },
+    {
+      "record_id": "https://openalex.org/W2964157970",
+      "query_id": "Q002-openalex_works",
+      "source": "openalex_works",
+      "title": "When Energy Trading Meets Blockchain in Electrical Power System: The State of the Art",
+      "published_at": "2019-04-15",
+      "url": "https://doi.org/10.3390/app9081561",
+      "doi": "10.3390/app9081561"
+    },
+    {
+      "record_id": "10.1007/s11276-022-02924-y",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A blockchain and smart contract-based data provenance collection and storing in cloud environment",
+      "published_at": "2022-5",
+      "url": "https://doi.org/10.1007/s11276-022-02924-y",
+      "doi": "10.1007/s11276-022-02924-y"
+    },
+    {
+      "record_id": "10.7717/peerj-cs.3803/table-20",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Algorithm 1: Smart contract deployment.",
+      "published_at": "None",
+      "url": "https://doi.org/10.7717/peerj-cs.3803/table-20",
+      "doi": "10.7717/peerj-cs.3803/table-20"
+    },
+    {
+      "record_id": "10.61608/9783775761222-024",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Contract",
+      "published_at": "2025-11-12",
+      "url": "https://doi.org/10.61608/9783775761222-024",
+      "doi": "10.61608/9783775761222-024"
+    },
+    {
+      "record_id": "10.53578/1819-6624_2025_5_40",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "CYBERTORT COMMITTED THROUGH THE USE OF A SMART CONTRACT: PROBLEMS OF NOTARIAL SECURING OF EVIDENCE",
+      "published_at": "2025",
+      "url": "https://doi.org/10.53578/1819-6624_2025_5_40",
+      "doi": "10.53578/1819-6624_2025_5_40"
+    },
+    {
+      "record_id": "10.2139/ssrn.7163918",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "DentaChain: A Provenance-Verified Smart Contract System for Dental Billing Fraud Prevention",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.7163918",
+      "doi": "10.2139/ssrn.7163918"
+    },
+    {
+      "record_id": "10.1109/blockchain53845.2021.00014",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "EtherProv: Provenance-Aware Detection, Analysis, and Mitigation of Ethereum Smart Contract Security Issues",
+      "published_at": "2021-12",
+      "url": "https://doi.org/10.1109/blockchain53845.2021.00014",
+      "doi": "10.1109/blockchain53845.2021.00014"
+    },
+    {
+      "record_id": "10.5962/p.373705",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Evidence-based provenance: Building informed provenance in the Cumberland plain",
+      "published_at": "2017-8",
+      "url": "https://doi.org/10.5962/p.373705",
+      "doi": "10.5962/p.373705"
+    },
+    {
+      "record_id": "10.1109/access.2026.3683717",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Expanding the Horizon of Provenance Domains for Smart Contract-Based Workflows",
+      "published_at": "2026",
+      "url": "https://doi.org/10.1109/access.2026.3683717",
+      "doi": "10.1109/access.2026.3683717"
+    },
+    {
+      "record_id": "10.1037/e542612006-006",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Food Freshness and 'Smart' Packaging",
+      "published_at": "2002",
+      "url": "https://doi.org/10.1037/e542612006-006",
+      "doi": "10.1037/e542612006-006"
+    },
+    {
+      "record_id": "10.18653/v1/2026.findings-acl.1789",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "GAVEL: Evidence-Contract Debate with Mechanized Scrutiny for Provenance-Grounded Fact-Checking",
+      "published_at": "2026",
+      "url": "https://doi.org/10.18653/v1/2026.findings-acl.1789",
+      "doi": "10.18653/v1/2026.findings-acl.1789"
+    },
+    {
+      "record_id": "10.2139/ssrn.3962517",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Information Processing in a Smart-Contract-Based Market: Evidence from a DeFi Protocol",
+      "published_at": "2021",
+      "url": "https://doi.org/10.2139/ssrn.3962517",
+      "doi": "10.2139/ssrn.3962517"
+    },
+    {
+      "record_id": "10.2139/ssrn.2729545",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Introduzione Agli Smart Contract (Introduction to Smart Contract)",
+      "published_at": "2016",
+      "url": "https://doi.org/10.2139/ssrn.2729545",
+      "doi": "10.2139/ssrn.2729545"
+    },
+    {
+      "record_id": "10.1007/978-3-031-12680-2_12",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Presentation, Properties and Provenance: The Three Ps of Identifying Evidence of Contract Cheating in Student Assignments",
+      "published_at": "2022",
+      "url": "https://doi.org/10.1007/978-3-031-12680-2_12",
+      "doi": "10.1007/978-3-031-12680-2_12"
+    },
+    {
+      "record_id": "10.1109/ictc66702.2025.11388677",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "ProvAuditChain: A Gas-Efficient On-Chain Provenance Framework for AI-Driven Smart Contract Audits",
+      "published_at": "2025-10-14",
+      "url": "https://doi.org/10.1109/ictc66702.2025.11388677",
+      "doi": "10.1109/ictc66702.2025.11388677"
+    },
+    {
+      "record_id": "10.1109/iaeac47372.2019.8997930",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Research on Personal Health Data Provenance and Right Confirmation with Smart Contract",
+      "published_at": "2019-12",
+      "url": "https://doi.org/10.1109/iaeac47372.2019.8997930",
+      "doi": "10.1109/iaeac47372.2019.8997930"
+    },
+    {
+      "record_id": "10.1021/acssuschemeng.5c12381.s001",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Sensing of Fish Freshness Using Smart Pectin Films Incorporated with Spirulina Extract and Carbon Dots",
+      "published_at": "None",
+      "url": "https://doi.org/10.1021/acssuschemeng.5c12381.s001",
+      "doi": "10.1021/acssuschemeng.5c12381.s001"
+    },
+    {
+      "record_id": "10.1163/1874-6772_seg_a47_1465",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Sicily. Unknown provenance (probably area of Gela/Agrigentum). Contract?, ca. 500 B.C.",
+      "published_at": "None",
+      "url": "https://doi.org/10.1163/1874-6772_seg_a47_1465",
+      "doi": "10.1163/1874-6772_seg_a47_1465"
+    },
+    {
+      "record_id": "10.1021/acsami.4c10304.s001",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Smart and Sustainable 3D-Printed Nanocellulose-Based Sensors for Food Freshness Monitoring",
+      "published_at": "None",
+      "url": "https://doi.org/10.1021/acsami.4c10304.s001",
+      "doi": "10.1021/acsami.4c10304.s001"
+    },
+    {
+      "record_id": "10.2139/ssrn.3384732",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Smart Contract - Weder smart, noch ein Vertrag? (Smart Contract - Neither Smart, nor a Contract?)",
+      "published_at": "2018",
+      "url": "https://doi.org/10.2139/ssrn.3384732",
+      "doi": "10.2139/ssrn.3384732"
+    },
+    {
+      "record_id": "10.1007/978-3-031-50028-2_2",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Smart Contract: The Contract Automation Climax. Back-End and Front-End Legal Implications",
+      "published_at": "2024",
+      "url": "https://doi.org/10.1007/978-3-031-50028-2_2",
+      "doi": "10.1007/978-3-031-50028-2_2"
+    },
+    {
+      "record_id": "10.1007/s10586-024-04390-x",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Smart flow: a provenance-supported smart contract workflow architecture",
+      "published_at": "2024-9",
+      "url": "https://doi.org/10.1007/s10586-024-04390-x",
+      "doi": "10.1007/s10586-024-04390-x"
+    },
+    {
+      "record_id": "10.2139/ssrn.3916072",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Solidity: Smart Contract Language or Legal Contract Language",
+      "published_at": "2021",
+      "url": "https://doi.org/10.2139/ssrn.3916072",
+      "doi": "10.2139/ssrn.3916072"
+    },
+    {
+      "record_id": "10.7717/peerj-cs.1882/supp-3",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Supplemental Information 3: Smart contract code for main data contract",
+      "published_at": "None",
+      "url": "https://doi.org/10.7717/peerj-cs.1882/supp-3",
+      "doi": "10.7717/peerj-cs.1882/supp-3"
+    },
+    {
+      "record_id": "10.7717/peerj-cs.1962/table-3",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Table 3: Smart contract functions.",
+      "published_at": "None",
+      "url": "https://doi.org/10.7717/peerj-cs.1962/table-3",
+      "doi": "10.7717/peerj-cs.1962/table-3"
+    },
+    {
+      "record_id": "10.7717/peerj-cs.2926/table-4",
+      "query_id": "Q003-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Table 4: Smart contract vulnerability analysis.",
+      "published_at": "None",
+      "url": "https://doi.org/10.7717/peerj-cs.2926/table-4",
+      "doi": "10.7717/peerj-cs.2926/table-4"
+    },
+    {
+      "record_id": "https://openalex.org/W2773929027",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "1 Blockchain’s roles in meeting key supply chain management objectives",
+      "published_at": "2017-12-12",
+      "url": "https://doi.org/10.1016/j.ijinfomgt.2017.12.005",
+      "doi": "10.1016/j.ijinfomgt.2017.12.005"
+    },
+    {
+      "record_id": "https://openalex.org/W3009734908",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "A Content-Analysis Based Literature Review in Blockchain Adoption within Food Supply Chain",
+      "published_at": "2020-03-09",
+      "url": "https://doi.org/10.3390/ijerph17051784",
+      "doi": "10.3390/ijerph17051784"
+    },
+    {
+      "record_id": "https://openalex.org/W2905867785",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on Consensus Mechanisms and Mining Strategy Management in Blockchain Networks",
+      "published_at": "2019-01-01",
+      "url": "https://doi.org/10.1109/access.2019.2896108",
+      "doi": "10.1109/access.2019.2896108"
+    },
+    {
+      "record_id": "https://openalex.org/W2999472659",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on the Internet of Things (IoT) Forensics: Challenges, Approaches, and Open Issues",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.1109/comst.2019.2962586",
+      "doi": "10.1109/comst.2019.2962586"
+    },
+    {
+      "record_id": "https://openalex.org/W4307027184",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Agriculture Supply Chain Management Based on Blockchain Architecture and Smart Contracts",
+      "published_at": "2022-10-21",
+      "url": "https://doi.org/10.1155/2022/8011525",
+      "doi": "10.1155/2022/8011525"
+    },
+    {
+      "record_id": "https://openalex.org/W4392347081",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Beyond control over data: Conceptualizing data sovereignty from a social contract perspective",
+      "published_at": "2024-03-02",
+      "url": "https://doi.org/10.1007/s12525-024-00695-2",
+      "doi": "10.1007/s12525-024-00695-2"
+    },
+    {
+      "record_id": "https://openalex.org/W4205690156",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Adoption for Provenance and Traceability in the Retail Food Supply Chain",
+      "published_at": "2022-01-14",
+      "url": "https://doi.org/10.4018/ijebr.294110",
+      "doi": "10.4018/ijebr.294110"
+    },
+    {
+      "record_id": "https://openalex.org/W3172191715",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain and Smart Contracts: A Solution for Payment Issues in Construction Supply Chains",
+      "published_at": "2021-05-27",
+      "url": "https://doi.org/10.3390/informatics8020036",
+      "doi": "10.3390/informatics8020036"
+    },
+    {
+      "record_id": "https://openalex.org/W3047155477",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Technology in Current Agricultural Systems: From Techniques to Applications",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.1109/access.2020.3014522",
+      "doi": "10.1109/access.2020.3014522"
+    },
+    {
+      "record_id": "https://openalex.org/W4282834853",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Technology toward Creating a Smart Local Food Supply Chain",
+      "published_at": "2022-06-13",
+      "url": "https://doi.org/10.3390/computers11060095",
+      "doi": "10.3390/computers11060095"
+    },
+    {
+      "record_id": "https://openalex.org/W4388733848",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain-based digital twin data provenance for predictive asset management in building facilities",
+      "published_at": "2023-11-16",
+      "url": "https://doi.org/10.1108/sasbe-07-2023-0169",
+      "doi": "10.1108/sasbe-07-2023-0169"
+    },
+    {
+      "record_id": "https://openalex.org/W3101308812",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain-enabled supply chain: analysis, challenges, and future directions",
+      "published_at": "2020-11-20",
+      "url": "https://doi.org/10.1007/s00530-020-00687-0",
+      "doi": "10.1007/s00530-020-00687-0"
+    },
+    {
+      "record_id": "https://openalex.org/W4307216913",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Data provenance for cloud forensic investigations, security, challenges, solutions and future perspectives: A survey",
+      "published_at": "2022-10-25",
+      "url": "https://doi.org/10.1016/j.jksuci.2022.10.018",
+      "doi": "10.1016/j.jksuci.2022.10.018"
+    },
+    {
+      "record_id": "https://openalex.org/W3012228048",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Does the Digitalization of Manufacturing Boost a ‘Smart’ Era of Capital Accumulation?",
+      "published_at": "2020-03-12",
+      "url": "https://doi.org/10.1515/zfw-2019-0012",
+      "doi": "10.1515/zfw-2019-0012"
+    },
+    {
+      "record_id": "https://openalex.org/W4391343218",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Enhancing Animal Production through Smart Agriculture: Possibilities, Hurdles, Resolutions, and Advantages",
+      "published_at": "2024-01-26",
+      "url": "https://doi.org/10.3390/ruminants4010003",
+      "doi": "10.3390/ruminants4010003"
+    },
+    {
+      "record_id": "https://openalex.org/W2899245065",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Exploring Machine Autonomy and Provenance Data in Coffee Consumption",
+      "published_at": "2018-11-01",
+      "url": "https://doi.org/10.1145/3274439",
+      "doi": "10.1145/3274439"
+    },
+    {
+      "record_id": "https://openalex.org/W4318677385",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Interpol review of digital evidence for 2019–2022",
+      "published_at": "2023-01-01",
+      "url": "https://doi.org/10.1016/j.fsisyn.2022.100313",
+      "doi": "10.1016/j.fsisyn.2022.100313"
+    },
+    {
+      "record_id": "https://openalex.org/W4391566218",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Leveraging Artificial Intelligence and Provenance Blockchain Framework to Mitigate Risks in Cloud Manufacturing in Industry 4.0",
+      "published_at": "2024-02-05",
+      "url": "https://doi.org/10.3390/electronics13030660",
+      "doi": "10.3390/electronics13030660"
+    },
+    {
+      "record_id": "https://openalex.org/W4389891229",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Non-Fungible Tokens (NFTs)—Survey of Current Applications, Evolution, and Future Directions",
+      "published_at": "2023-12-18",
+      "url": "https://doi.org/10.1109/ojcoms.2023.3343926",
+      "doi": "10.1109/ojcoms.2023.3343926"
+    },
+    {
+      "record_id": "https://openalex.org/W2987069389",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy-Preserving Solutions for Blockchain: Review and Challenges",
+      "published_at": "2019-01-01",
+      "url": "https://doi.org/10.1109/access.2019.2950872",
+      "doi": "10.1109/access.2019.2950872"
+    },
+    {
+      "record_id": "https://openalex.org/W3006889234",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Security and Privacy in Smart Farming: Challenges and Opportunities",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.1109/access.2020.2975142",
+      "doi": "10.1109/access.2020.2975142"
+    },
+    {
+      "record_id": "https://openalex.org/W2941449177",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Shaping smarter consumer food choices: The Food SMART project",
+      "published_at": "2019-04-25",
+      "url": "https://doi.org/10.1111/nbu.12376",
+      "doi": "10.1111/nbu.12376"
+    },
+    {
+      "record_id": "https://openalex.org/W2792192875",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Smart contracts and their application in supply chain management",
+      "published_at": "2017-01-01",
+      "url": "http://hdl.handle.net/1721.1/114082",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W4381926520",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Success of Implementing Cloud Computing for Smart Development in Small Construction Projects",
+      "published_at": "2023-05-05",
+      "url": "https://doi.org/10.3390/app13095713",
+      "doi": "10.3390/app13095713"
+    },
+    {
+      "record_id": "https://openalex.org/W3096316084",
+      "query_id": "Q003-openalex_works",
+      "source": "openalex_works",
+      "title": "Survey on blockchain based smart contracts: Applications, opportunities and challenges",
+      "published_at": "2020-11-07",
+      "url": "https://doi.org/10.1016/j.jnca.2020.102857",
+      "doi": "10.1016/j.jnca.2020.102857"
+    },
+    {
+      "record_id": "10.5220/0015077700004088",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Agentic AI Workflow: From Natural Language Requirements to Verifiable and Executable Models",
+      "published_at": "2026",
+      "url": "https://doi.org/10.5220/0015077700004088",
+      "doi": "10.5220/0015077700004088"
+    },
+    {
+      "record_id": "10.21203/rs.3.rs-10498693/v1",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "AI Accountability Infrastructure: Cryptographically Verifiable Decision Provenance for High-Stakes AI Systems",
+      "published_at": "2026-7-28",
+      "url": "https://doi.org/10.21203/rs.3.rs-10498693/v1",
+      "doi": "10.21203/rs.3.rs-10498693/v1"
+    },
+    {
+      "record_id": "10.2139/ssrn.6584139",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Aura: A Deterministic Commitment-Native Protocol for Canonical Identity, Verifiable Execution, and Fail-Closed Settlement",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6584139",
+      "doi": "10.2139/ssrn.6584139"
+    },
+    {
+      "record_id": "10.2139/ssrn.6895323",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Ballotix: A Practical Mixed Code Receipt Protocol Achieving Full Coercion Resistance in End-to-End Verifiable Voting",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6895323",
+      "doi": "10.2139/ssrn.6895323"
+    },
+    {
+      "record_id": "10.62891/cab341c3",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Cognito: A Formally Verifiable, Metacognitively-Governed Architecture for Trustworthy Agentic AI",
+      "published_at": "2025-10-3",
+      "url": "https://doi.org/10.62891/cab341c3",
+      "doi": "10.62891/cab341c3"
+    },
+    {
+      "record_id": "10.20944/preprints202511.1085.v2",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "ExecMesh: Cryptographically Verifiable AI Provenance for Regulatory Compliance",
+      "published_at": "2025-12-5",
+      "url": "https://doi.org/10.20944/preprints202511.1085.v2",
+      "doi": "10.20944/preprints202511.1085.v2"
+    },
+    {
+      "record_id": "10.1093/oso/9780198746904.003.0017",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Inference to the Best Explanation and the Receipt of Testimony",
+      "published_at": "2018-1-18",
+      "url": "https://doi.org/10.1093/oso/9780198746904.003.0017",
+      "doi": "10.1093/oso/9780198746904.003.0017"
+    },
+    {
+      "record_id": "10.2202/1535-1661.1021",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Knowing Receipt: Re Montagu's Settlement Trusts Revisited",
+      "published_at": "2001-4-21",
+      "url": "https://doi.org/10.2202/1535-1661.1021",
+      "doi": "10.2202/1535-1661.1021"
+    },
+    {
+      "record_id": "10.2139/ssrn.7358638",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Local Execution and a Verifiable Audit Record as Compliance Substrate: A Self-Hostable Inference Runtime under the EU AI Act (Regulation (EU) 2024/1689, as amended by Regulation (EU) 2026/1744), the GDPR, the Cyber Resilience Act, DORA and NIS2",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.7358638",
+      "doi": "10.2139/ssrn.7358638"
+    },
+    {
+      "record_id": "10.53941/aieng.2026.100011",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "NeSyWikiCompiler: A Neural-Symbolic Compiler for Verifiable AI Knowledge Engineering",
+      "published_at": "2026-7-27",
+      "url": "https://doi.org/10.53941/aieng.2026.100011",
+      "doi": "10.53941/aieng.2026.100011"
+    },
+    {
+      "record_id": "10.1007/11818175_22",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Receipt-Free Universally-Verifiable Voting with Everlasting Privacy",
+      "published_at": "2006",
+      "url": "https://doi.org/10.1007/11818175_22",
+      "doi": "10.1007/11818175_22"
+    },
+    {
+      "record_id": "10.1145/3290688.3290696",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Receipt-Free, Universally and Individually Verifiable Poll Attendance",
+      "published_at": "2019-1-29",
+      "url": "https://doi.org/10.1145/3290688.3290696",
+      "doi": "10.1145/3290688.3290696"
+    },
+    {
+      "record_id": "10.5220/0010987700003120",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "SecTL: Secure and Verifiable Transfer Learning-based inference",
+      "published_at": "2022",
+      "url": "https://doi.org/10.5220/0010987700003120",
+      "doi": "10.5220/0010987700003120"
+    },
+    {
+      "record_id": "10.1017/s0008197300124006",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Settlement—Voluntary Settlement of Expectancy—Power of Receipt Given to Trustees—Receipt by Trustees—Settlor Claims Property as her Absolute Property—Property Impressed by Trusts of the Settlement",
+      "published_at": "1937-7",
+      "url": "https://doi.org/10.1017/s0008197300124006",
+      "doi": "10.1017/s0008197300124006"
+    },
+    {
+      "record_id": "10.2139/ssrn.6382458",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Technical Appendix: A Proposed Attested-Verifiable Inference Architecture for the Luevano Standard",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6382458",
+      "doi": "10.2139/ssrn.6382458"
+    },
+    {
+      "record_id": "10.62891/120efb37",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Z(n) Protocol: A Framework for Phase-Synchronized, Verifiable Metacognition on Decentralized AI Architectures",
+      "published_at": "2025-10-3",
+      "url": "https://doi.org/10.62891/120efb37",
+      "doi": "10.62891/120efb37"
+    },
+    {
+      "record_id": "10.62891/89703658",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Z(n) Protocol: Phase-Synchronized, Verifiable Metacognition in Bio-Hybrid AI Systems",
+      "published_at": "2025-10-3",
+      "url": "https://doi.org/10.62891/89703658",
+      "doi": "10.62891/89703658"
+    },
+    {
+      "record_id": "10.2139/ssrn.6473418",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Verifiable AI",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6473418",
+      "doi": "10.2139/ssrn.6473418"
+    },
+    {
+      "record_id": "10.61700/cjxooxgejre9w2661",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Verifiable AI for Academic Research",
+      "published_at": "2026",
+      "url": "https://doi.org/10.61700/cjxooxgejre9w2661",
+      "doi": "10.61700/cjxooxgejre9w2661"
+    },
+    {
+      "record_id": "10.2139/ssrn.6547458",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Verifiable Audit Mechanisms in AI Compliance Automation: Scalability",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6547458",
+      "doi": "10.2139/ssrn.6547458"
+    },
+    {
+      "record_id": "10.7249/pea4613-1",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Verifiable Audit Trails for AI-Enabled Biological Design Tools: A Proposal for Verifiable Biodesign Logging",
+      "published_at": "2026",
+      "url": "https://doi.org/10.7249/pea4613-1",
+      "doi": "10.7249/pea4613-1"
+    },
+    {
+      "record_id": "10.1109/icenco.2014.7050429",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Verifiable e-voting system with receipt-freeness",
+      "published_at": "2014-12",
+      "url": "https://doi.org/10.1109/icenco.2014.7050429",
+      "doi": "10.1109/icenco.2014.7050429"
+    },
+    {
+      "record_id": "10.1109/isci53438.2021.00016",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Verifiable receipt-free electronic voting system based on mask ballot",
+      "published_at": "2021-10",
+      "url": "https://doi.org/10.1109/isci53438.2021.00016",
+      "doi": "10.1109/isci53438.2021.00016"
+    },
+    {
+      "record_id": "10.2139/ssrn.6103587",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Why Probabilistic AI Resists Auditability: From Explainability to Verifiable Responsibility in High-Risk AI Systems",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6103587",
+      "doi": "10.2139/ssrn.6103587"
+    },
+    {
+      "record_id": "10.2139/ssrn.6634698",
+      "query_id": "Q004-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "ZKAP: An Enforcement Protocol for Verifiable Regulatory Compliance of Machine-Learning Inference via Certified Stack Binding",
+      "published_at": "2026",
+      "url": "https://doi.org/10.2139/ssrn.6634698",
+      "doi": "10.2139/ssrn.6634698"
+    },
+    {
+      "record_id": "https://openalex.org/W4396511459",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "A Fair Crowd-Sourced Automotive Data Monetization Approach Using Substrate Hybrid Consensus Blockchain",
+      "published_at": "2024-04-30",
+      "url": "https://doi.org/10.3390/fi16050156",
+      "doi": "10.3390/fi16050156"
+    },
+    {
+      "record_id": "https://openalex.org/W2792731836",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "A Rule of Persons, Not Machines: The Limits of Legal Automation",
+      "published_at": "2018-03-06",
+      "url": "https://brooklynworks.brooklaw.edu/faculty/1095",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W7167290461",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Agent-to-Agent Finance: Blockchain Payments and Trust Infrastructure for Autonomous AI Agents",
+      "published_at": "2026-06-30",
+      "url": "https://arxiv.org/abs/2607.00245",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W7172557920",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Agentic Commerce World: An Auditable and Verifiable Environment for Vibe Commerce",
+      "published_at": "2026-08-03",
+      "url": "https://arxiv.org/abs/2608.02441",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W4409946112",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "AI and machine learning for secure data exchange in decentralized energy markets on the cloud",
+      "published_at": "2022-11-30",
+      "url": "https://doi.org/10.30574/wjarr.2022.16.2.1282",
+      "doi": "10.30574/wjarr.2022.16.2.1282"
+    },
+    {
+      "record_id": "https://openalex.org/W4312716162",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "An Extensive Blockchain Based Applications Survey: Tools, Frameworks, Opportunities, Challenges and Solutions",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.1109/access.2022.3219160",
+      "doi": "10.1109/access.2022.3219160"
+    },
+    {
+      "record_id": "https://openalex.org/W7164815296",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "AZR: Risk-Adaptive Verification for Decentralized AI Inference on Blockchain Rollups",
+      "published_at": "2026-06-15",
+      "url": "https://scholar.colorado.edu/concern/articles/x920fz942",
+      "doi": "10.5281/zenodo.20703363"
+    },
+    {
+      "record_id": "https://openalex.org/W4415695169",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain and Smart Contracts in Claims Settlement",
+      "published_at": "2023-01-01",
+      "url": "https://doi.org/10.63282/3050-9246.ijetcsit-v4i2p112",
+      "doi": "10.63282/3050-9246.ijetcsit-v4i2p112"
+    },
+    {
+      "record_id": "https://openalex.org/W3154141271",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain-empowered Data-driven Networks",
+      "published_at": "2021-04-17",
+      "url": "https://doi.org/10.1145/3446373",
+      "doi": "10.1145/3446373"
+    },
+    {
+      "record_id": "https://openalex.org/W3126252628",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain-empowered Data-driven Networks: A Survey and Outlook",
+      "published_at": "2021-01-29",
+      "url": "http://arxiv.org/abs/2101.12375",
+      "doi": "10.48550/arxiv.2101.12375"
+    },
+    {
+      "record_id": "https://openalex.org/W2899777583",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "California Consumer Privacy Act Revisions Due to SB1121",
+      "published_at": "2018-01-01",
+      "url": "https://digitalcommons.law.scu.edu/historical/1816",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W2788761905",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Commodifying Consumer Data in the Era of the Internet of Things",
+      "published_at": "2016-10-25",
+      "url": "https://digitalcommons.nyls.edu/fac_articles_chapters/1091",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W3210388419",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Constitutional Challenges in the Algorithmic Society",
+      "published_at": "2021-11-01",
+      "url": "https://doi.org/10.1017/9781108914857",
+      "doi": "10.1017/9781108914857"
+    },
+    {
+      "record_id": "https://openalex.org/W7167572736",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Design and Implementation of Verifiable Credentials Management System in Heterogeneous Cross-Chain Environments",
+      "published_at": "2026-07-07",
+      "url": "https://doi.org/10.3390/blockchains4030009",
+      "doi": "10.3390/blockchains4030009"
+    },
+    {
+      "record_id": "https://openalex.org/W4390260373",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Expert Evidence and Digital Open Source Information",
+      "published_at": "2023-09-01",
+      "url": "https://doi.org/10.1093/jicj/mqad050",
+      "doi": "10.1093/jicj/mqad050"
+    },
+    {
+      "record_id": "https://openalex.org/W1418013399",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Fact-Finding by International Nongovernmental Human Rights Organizations",
+      "published_at": "1981-01-01",
+      "url": "https://scholarship.law.umn.edu/faculty_articles/281",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W7124316699",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Forget Me Not? Machine Unlearning's Implication for Privacy Law",
+      "published_at": "2026-01-14",
+      "url": "https://doi.org/10.52214/stlr.v27i1.14547",
+      "doi": "10.52214/stlr.v27i1.14547"
+    },
+    {
+      "record_id": "https://openalex.org/W7203735337",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "From AI-Agent Instruction to Final Settlement: Evidencing State Transitions in Tokenized Securities",
+      "published_at": "2026-01-01",
+      "url": "https://doi.org/10.2139/ssrn.7290058",
+      "doi": "10.2139/ssrn.7290058"
+    },
+    {
+      "record_id": "https://openalex.org/W4386566652",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "On Evaluation of Document Classification with RVL-CDIP",
+      "published_at": "2023-01-01",
+      "url": "https://doi.org/10.18653/v1/2023.eacl-main.195",
+      "doi": "10.18653/v1/2023.eacl-main.195"
+    },
+    {
+      "record_id": "https://openalex.org/W4413161684",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "POLICY-CARRYING DECISION MODELS FOR FINTECH A PRACTICAL FRAMEWORK FOR VERIFIABLE, AUDIT-READY AI DECISIONS IN FINANCIAL SERVICES",
+      "published_at": "2025-08-13",
+      "url": "https://doi.org/10.34218/ijitmis_16_04_004",
+      "doi": "10.34218/ijitmis_16_04_004"
+    },
+    {
+      "record_id": "https://openalex.org/W4213280527",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Risks, Accountability and Technology Thematic Working Paper",
+      "published_at": "2022-02-04",
+      "url": "https://doi.org/10.19088/basic.2022.003",
+      "doi": "10.19088/basic.2022.003"
+    },
+    {
+      "record_id": "https://openalex.org/W4378903134",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Securing Wireless Sensor Networks Using Machine Learning and Blockchain: A Review",
+      "published_at": "2023-05-30",
+      "url": "https://doi.org/10.3390/fi15060200",
+      "doi": "10.3390/fi15060200"
+    },
+    {
+      "record_id": "https://openalex.org/W1644123908",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Snow Avalanches: A review of Current Research and Applications",
+      "published_at": "1977-01-01",
+      "url": "https://doi.org/10.3189/s0022143000215633",
+      "doi": "10.3189/s0022143000215633"
+    },
+    {
+      "record_id": "https://openalex.org/W1560761852",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Sovereign Debt Reform and the Best Interest of Creditors",
+      "published_at": "2004-01-01",
+      "url": "https://scholarship.law.duke.edu/faculty_scholarship/2275",
+      "doi": ""
+    },
+    {
+      "record_id": "https://openalex.org/W4416785269",
+      "query_id": "Q004-openalex_works",
+      "source": "openalex_works",
+      "title": "Trustless Federated Learning at Edge-Scale: A Compositional Architecture for Decentralized, Verifiable, and Incentive-Aligned Coordination",
+      "published_at": "2025-11-26",
+      "url": "http://arxiv.org/abs/2511.21118",
+      "doi": "10.48550/arxiv.2511.21118"
+    },
+    {
+      "record_id": "10.1515/9789629377595-016",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "12. Red Clause Credit, Revolving Credit and Standby Credit",
+      "published_at": "2025-12-31",
+      "url": "https://doi.org/10.1515/9789629377595-016",
+      "doi": "10.1515/9789629377595-016"
+    },
+    {
+      "record_id": "10.1007/978-981-99-4433-0_39",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A Blockchain Model to Uplift Solvency by Creating Credit Proof",
+      "published_at": "2024",
+      "url": "https://doi.org/10.1007/978-981-99-4433-0_39",
+      "doi": "10.1007/978-981-99-4433-0_39"
+    },
+    {
+      "record_id": "10.1109/blockchain50366.2020.00028",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A Blockchain Using Proof-of-Download",
+      "published_at": "2020-11",
+      "url": "https://doi.org/10.1109/blockchain50366.2020.00028",
+      "doi": "10.1109/blockchain50366.2020.00028"
+    },
+    {
+      "record_id": "10.1109/bigdata52589.2021.9671494",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A Complete Privacy-Preserving Credit Score System Using Blockchain and Zero Knowledge Proof",
+      "published_at": "2021-12-15",
+      "url": "https://doi.org/10.1109/bigdata52589.2021.9671494",
+      "doi": "10.1109/bigdata52589.2021.9671494"
+    },
+    {
+      "record_id": "10.1109/tcss.2019.2938841",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A Fair Blockchain Based on Proof of Credit",
+      "published_at": "2019-10",
+      "url": "https://doi.org/10.1109/tcss.2019.2938841",
+      "doi": "10.1109/tcss.2019.2938841"
+    },
+    {
+      "record_id": "10.2139/ssrn.3183935",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain Without Waste: Proof-of-Stake",
+      "published_at": "2018",
+      "url": "https://doi.org/10.2139/ssrn.3183935",
+      "doi": "10.2139/ssrn.3183935"
+    },
+    {
+      "record_id": "10.1109/blockchain62396.2024.00046",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Based Zero Knowledge Proof Platform With Secure Common Reference String",
+      "published_at": "2024-8-19",
+      "url": "https://doi.org/10.1109/blockchain62396.2024.00046",
+      "doi": "10.1109/blockchain62396.2024.00046"
+    },
+    {
+      "record_id": "10.1145/3532640.3532652",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Consensus Algorithm of Proof-of-Stake Based on Credit Model",
+      "published_at": "2022-3-25",
+      "url": "https://doi.org/10.1145/3532640.3532652",
+      "doi": "10.1145/3532640.3532652"
+    },
+    {
+      "record_id": "10.3389/fbloc.2020.00016",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Cryptocurrencies: Miner Heterogeneity, Botnets, and Proof-of-Work Efficiency",
+      "published_at": "2020-4-21",
+      "url": "https://doi.org/10.3389/fbloc.2020.00016",
+      "doi": "10.3389/fbloc.2020.00016"
+    },
+    {
+      "record_id": "10.29007/9t2w",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Deep Inference in Proof Search: The Need for Shallow Inference",
+      "published_at": "None",
+      "url": "https://doi.org/10.29007/9t2w",
+      "doi": "10.29007/9t2w"
+    },
+    {
+      "record_id": "10.3389/fbloc.2020.00023",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Hyperparameter Optimization Using Sustainable Proof of Work in Blockchain",
+      "published_at": "2020-5-20",
+      "url": "https://doi.org/10.3389/fbloc.2020.00023",
+      "doi": "10.3389/fbloc.2020.00023"
+    },
+    {
+      "record_id": "10.3389/fbloc.2021.443966",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Monetary Dynamics With Proof of Stake",
+      "published_at": "2021-5-6",
+      "url": "https://doi.org/10.3389/fbloc.2021.443966",
+      "doi": "10.3389/fbloc.2021.443966"
+    },
+    {
+      "record_id": "10.2139/ssrn.5294303",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "PEOCHAIN: Proof of Synergy Blockchain",
+      "published_at": "2025",
+      "url": "https://doi.org/10.2139/ssrn.5294303",
+      "doi": "10.2139/ssrn.5294303"
+    },
+    {
+      "record_id": "10.1145/3762249.3762313",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Personal Credit Default Prediction Using NGBoost and Causal Inference",
+      "published_at": "2025-6-27",
+      "url": "https://doi.org/10.1145/3762249.3762313",
+      "doi": "10.1145/3762249.3762313"
+    },
+    {
+      "record_id": "10.1109/blockchain62396.2024.00054",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "PRFX: A Privacy-Preserving Prefix Summation Protocol on Blockchain with Zero-Knowledge Proof",
+      "published_at": "2024-8-19",
+      "url": "https://doi.org/10.1109/blockchain62396.2024.00054",
+      "doi": "10.1109/blockchain62396.2024.00054"
+    },
+    {
+      "record_id": "10.1109/icbc54727.2022.9805548",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Proof of Federated Training: Accountable Cross-Network Model Training and Inference",
+      "published_at": "2022-5-2",
+      "url": "https://doi.org/10.1109/icbc54727.2022.9805548",
+      "doi": "10.1109/icbc54727.2022.9805548"
+    },
+    {
+      "record_id": "10.1007/978-3-031-33083-4_5",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Proof of Work Versus Proof of Stake",
+      "published_at": "2023",
+      "url": "https://doi.org/10.1007/978-3-031-33083-4_5",
+      "doi": "10.1007/978-3-031-33083-4_5"
+    },
+    {
+      "record_id": "10.1049/pbse024e_ch8",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Proof-of-Stake blockchain security against quantum computing",
+      "published_at": "2024-4-15",
+      "url": "https://doi.org/10.1049/pbse024e_ch8",
+      "doi": "10.1049/pbse024e_ch8"
+    },
+    {
+      "record_id": "10.5220/0010519200002998",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Proof-of-Useful-Randomness: Mitigating the Energy Waste in Blockchain Proof-of-Work",
+      "published_at": "2021",
+      "url": "https://doi.org/10.5220/0010519200002998",
+      "doi": "10.5220/0010519200002998"
+    },
+    {
+      "record_id": "10.5220/0010519204120419",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Proof-of-Useful-Randomness: Mitigating the Energy Waste in Blockchain Proof-of-Work",
+      "published_at": "2021",
+      "url": "https://doi.org/10.5220/0010519204120419",
+      "doi": "10.5220/0010519204120419"
+    },
+    {
+      "record_id": "10.1093/oso/9780192844194.003.0023",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Reject-Inference",
+      "published_at": "2021-11-29",
+      "url": "https://doi.org/10.1093/oso/9780192844194.003.0023",
+      "doi": "10.1093/oso/9780192844194.003.0023"
+    },
+    {
+      "record_id": "10.3389/fbloc.2025.1699773",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Securing E-governance: a blockchain-based framework for tamper-proof PDF document exchange",
+      "published_at": "2025-12-10",
+      "url": "https://doi.org/10.3389/fbloc.2025.1699773",
+      "doi": "10.3389/fbloc.2025.1699773"
+    },
+    {
+      "record_id": "10.3389/fbloc.2023.1151724",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Shaping the future of Ethereum: exploring energy consumption in Proof-of-Work and Proof-of-Stake consensus",
+      "published_at": "2023-8-31",
+      "url": "https://doi.org/10.3389/fbloc.2023.1151724",
+      "doi": "10.3389/fbloc.2023.1151724"
+    },
+    {
+      "record_id": "10.2139/ssrn.4378871",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Trading Carbon Credit Tokens on the Blockchain",
+      "published_at": "2023",
+      "url": "https://doi.org/10.2139/ssrn.4378871",
+      "doi": "10.2139/ssrn.4378871"
+    },
+    {
+      "record_id": "10.1016/j.jiixd.2026.07.005",
+      "query_id": "Q005-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Zero-Knowledge Proof Based Blockchain-enabled Personal Credit Scoring with SHAP Explainability",
+      "published_at": "2026-8",
+      "url": "https://doi.org/10.1016/j.jiixd.2026.07.005",
+      "doi": "10.1016/j.jiixd.2026.07.005"
+    },
+    {
+      "record_id": "https://openalex.org/W4306631501",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "A blockchain-orchestrated deep learning approach for secure data transmission in IoT-enabled healthcare system",
+      "published_at": "2022-10-17",
+      "url": "https://doi.org/10.1016/j.jpdc.2022.10.002",
+      "doi": "10.1016/j.jpdc.2022.10.002"
+    },
+    {
+      "record_id": "https://openalex.org/W2902638435",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "A framework of blockchain-based secure and privacy-preserving E-government system",
+      "published_at": "2018-12-03",
+      "url": "https://doi.org/10.1007/s11276-018-1883-0",
+      "doi": "10.1007/s11276-018-1883-0"
+    },
+    {
+      "record_id": "https://openalex.org/W2993463367",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "A Privacy-Preserving-Framework-Based Blockchain and Deep Learning for Protecting Smart Power Networks",
+      "published_at": "2019-12-02",
+      "url": "https://doi.org/10.1109/tii.2019.2957140",
+      "doi": "10.1109/tii.2019.2957140"
+    },
+    {
+      "record_id": "https://openalex.org/W3217694425",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on blockchain for industrial Internet of Things",
+      "published_at": "2021-11-19",
+      "url": "https://doi.org/10.1016/j.aej.2021.11.023",
+      "doi": "10.1016/j.aej.2021.11.023"
+    },
+    {
+      "record_id": "https://openalex.org/W4319996447",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on Blockchain-Based Trust Management for Internet of Things",
+      "published_at": "2023-01-18",
+      "url": "https://doi.org/10.1109/jiot.2023.3237893",
+      "doi": "10.1109/jiot.2023.3237893"
+    },
+    {
+      "record_id": "https://openalex.org/W3133065136",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "A survey on the adoption of blockchain in IoT: challenges and solutions",
+      "published_at": "2021-02-18",
+      "url": "https://doi.org/10.1016/j.bcra.2021.100006",
+      "doi": "10.1016/j.bcra.2021.100006"
+    },
+    {
+      "record_id": "https://openalex.org/W4206684911",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Agriculture-Food Supply Chain Management Based on Blockchain and IoT: A Narrative on Enterprise Blockchain Interoperability",
+      "published_at": "2021-12-30",
+      "url": "https://doi.org/10.3390/agriculture12010040",
+      "doi": "10.3390/agriculture12010040"
+    },
+    {
+      "record_id": "https://openalex.org/W2904351506",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Applications of Blockchains in the Internet of Things: A Comprehensive Survey",
+      "published_at": "2018-12-18",
+      "url": "https://doi.org/10.1109/comst.2018.2886932",
+      "doi": "10.1109/comst.2018.2886932"
+    },
+    {
+      "record_id": "https://openalex.org/W4319983517",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Autonomous Vehicles Enabled by the Integration of IoT, Edge Intelligence, 5G, and Blockchain",
+      "published_at": "2023-02-09",
+      "url": "https://doi.org/10.3390/s23041963",
+      "doi": "10.3390/s23041963"
+    },
+    {
+      "record_id": "https://openalex.org/W2953333746",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain and Building Information Modeling (BIM): Review and Applications in Post-Disaster Recovery",
+      "published_at": "2019-06-19",
+      "url": "https://doi.org/10.3390/buildings9060149",
+      "doi": "10.3390/buildings9060149"
+    },
+    {
+      "record_id": "https://openalex.org/W2907683311",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain for AI: Review and Open Research Challenges",
+      "published_at": "2019-01-01",
+      "url": "https://doi.org/10.1109/access.2018.2890507",
+      "doi": "10.1109/access.2018.2890507"
+    },
+    {
+      "record_id": "https://openalex.org/W3161639317",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain for Waste Management in Smart Cities: A Survey",
+      "published_at": "2021-01-01",
+      "url": "https://doi.org/10.1109/access.2021.3113380",
+      "doi": "10.1109/access.2021.3113380"
+    },
+    {
+      "record_id": "https://openalex.org/W2767277120",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain in Education",
+      "published_at": "2017-11-01",
+      "url": "https://www.um.edu.mt/library/oar/handle/123456789/108154",
+      "doi": "10.2760/60649"
+    },
+    {
+      "record_id": "https://openalex.org/W4324290234",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Meets Metaverse and Digital Asset Management: A Comprehensive Survey",
+      "published_at": "2023-01-01",
+      "url": "https://doi.org/10.1109/access.2023.3257029",
+      "doi": "10.1109/access.2023.3257029"
+    },
+    {
+      "record_id": "https://openalex.org/W2194582726",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Corporate Governance and Blockchains",
+      "published_at": "2015-01-01",
+      "url": "https://doi.org/10.2139/ssrn.2700475",
+      "doi": "10.2139/ssrn.2700475"
+    },
+    {
+      "record_id": "https://openalex.org/W3123597155",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Corporate Governance and Blockchains",
+      "published_at": "2016-12-05",
+      "url": "https://doi.org/10.1093/rof/rfw074",
+      "doi": "10.1093/rof/rfw074"
+    },
+    {
+      "record_id": "https://openalex.org/W2998877372",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Decision Support for Blockchain Platform Selection: Three Industry Case Studies",
+      "published_at": "2020-01-09",
+      "url": "https://doi.org/10.1109/tem.2019.2956897",
+      "doi": "10.1109/tem.2019.2956897"
+    },
+    {
+      "record_id": "https://openalex.org/W3156019460",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Developing a blockchain framework for the automotive supply chain: A systematic review",
+      "published_at": "2021-04-17",
+      "url": "https://doi.org/10.1016/j.cie.2021.107334",
+      "doi": "10.1016/j.cie.2021.107334"
+    },
+    {
+      "record_id": "https://openalex.org/W3135837256",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Digitalizing the Closing-of-the-Loop for Supply Chains: A Transportation and Blockchain Perspective",
+      "published_at": "2021-03-07",
+      "url": "https://doi.org/10.3390/su13052895",
+      "doi": "10.3390/su13052895"
+    },
+    {
+      "record_id": "https://openalex.org/W3033466636",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "DITrust Chain: Towards Blockchain-Based Trust Models for Sustainable Healthcare IoT Systems",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.1109/access.2020.2999468",
+      "doi": "10.1109/access.2020.2999468"
+    },
+    {
+      "record_id": "https://openalex.org/W2921980263",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Security and Privacy on Blockchain",
+      "published_at": "2019-07-03",
+      "url": "https://doi.org/10.1145/3316481",
+      "doi": "10.1145/3316481"
+    },
+    {
+      "record_id": "https://openalex.org/W2963519394",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Security and Privacy on Blockchain",
+      "published_at": "2019-03-18",
+      "url": "http://arxiv.org/abs/1903.07602",
+      "doi": "10.48550/arxiv.1903.07602"
+    },
+    {
+      "record_id": "https://openalex.org/W2962844693",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "Taming the blockchain beast? Regulatory implications for the cryptocurrency Market",
+      "published_at": "2019-08-09",
+      "url": "https://doi.org/10.1016/j.ribaf.2019.101080",
+      "doi": "10.1016/j.ribaf.2019.101080"
+    },
+    {
+      "record_id": "https://openalex.org/W3157068170",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "The impact of blockchain on e-commerce: A framework for salient research topics",
+      "published_at": "2021-04-28",
+      "url": "https://doi.org/10.1016/j.elerap.2021.101054",
+      "doi": "10.1016/j.elerap.2021.101054"
+    },
+    {
+      "record_id": "https://openalex.org/W2995909119",
+      "query_id": "Q005-openalex_works",
+      "source": "openalex_works",
+      "title": "The impact of blockchain technology on business models – a taxonomy and archetypal patterns",
+      "published_at": "2019-12-23",
+      "url": "https://doi.org/10.1007/s12525-019-00386-3",
+      "doi": "10.1007/s12525-019-00386-3"
+    },
+    {
+      "record_id": "10.32604/cmc.2025.069240",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A Blockchain-Based Efficient Verification Scheme for Context Semantic-Aware Ciphertext Retrieval",
+      "published_at": "2026",
+      "url": "https://doi.org/10.32604/cmc.2025.069240",
+      "doi": "10.32604/cmc.2025.069240"
+    },
+    {
+      "record_id": "10.1016/j.ipm.2021.102548",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A secure heuristic semantic searching scheme with blockchain-based verification",
+      "published_at": "2021-7",
+      "url": "https://doi.org/10.1016/j.ipm.2021.102548",
+      "doi": "10.1016/j.ipm.2021.102548"
+    },
+    {
+      "record_id": "10.3390/app16073391",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A Study on Broker-Assisted Blockchain Trust Chains for Provenance and Integrity Verification of Generative Media Using Watermarking, Semantic Fingerprinting, and C2PA",
+      "published_at": "2026-3-31",
+      "url": "https://doi.org/10.3390/app16073391",
+      "doi": "10.3390/app16073391"
+    },
+    {
+      "record_id": "10.1109/blockchain60715.2023.00026",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "A Video Security Verification Method Based on Blockchain",
+      "published_at": "2023-12-17",
+      "url": "https://doi.org/10.1109/blockchain60715.2023.00026",
+      "doi": "10.1109/blockchain60715.2023.00026"
+    },
+    {
+      "record_id": "10.1201/b17258-8",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Access Control and Semantic Web",
+      "published_at": "2014-8-1",
+      "url": "https://doi.org/10.1201/b17258-8",
+      "doi": "10.1201/b17258-8"
+    },
+    {
+      "record_id": "10.18653/v1/w18-5514",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Affordance Extraction and Inference based on Semantic Role Labeling",
+      "published_at": "2018",
+      "url": "https://doi.org/10.18653/v1/w18-5514",
+      "doi": "10.18653/v1/w18-5514"
+    },
+    {
+      "record_id": "10.1201/b17258-16",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Architecture for an Inference Controller",
+      "published_at": "2014-8-1",
+      "url": "https://doi.org/10.1201/b17258-16",
+      "doi": "10.1201/b17258-16"
+    },
+    {
+      "record_id": "10.70675/54801bc1z78aaz4054za095z3b915201bd1c",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Automatic program verification by inference of relational models",
+      "published_at": "None",
+      "url": "https://doi.org/10.70675/54801bc1z78aaz4054za095z3b915201bd1c",
+      "doi": "10.70675/54801bc1z78aaz4054za095z3b915201bd1c"
+    },
+    {
+      "record_id": "10.4018/979-8-3373-4387-7.ch005",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Blockchain-Enabled Semantic Annotation Technique",
+      "published_at": "2025-12-24",
+      "url": "https://doi.org/10.4018/979-8-3373-4387-7.ch005",
+      "doi": "10.4018/979-8-3373-4387-7.ch005"
+    },
+    {
+      "record_id": "10.1109/brains63024.2024.10732140",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Building Trustworthy AI Systems: AI Inference Verification with Blockchain and Zero-Knowledge Proofs",
+      "published_at": "2024-10-9",
+      "url": "https://doi.org/10.1109/brains63024.2024.10732140",
+      "doi": "10.1109/brains63024.2024.10732140"
+    },
+    {
+      "record_id": "10.1109/blockchain50366.2020.00030",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Enrichment of Blockchain Transaction Management with Semantic Triples",
+      "published_at": "2020-11",
+      "url": "https://doi.org/10.1109/blockchain50366.2020.00030",
+      "doi": "10.1109/blockchain50366.2020.00030"
+    },
+    {
+      "record_id": "10.1201/b17258-22",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Implementing the Inference Controller",
+      "published_at": "2014-8-1",
+      "url": "https://doi.org/10.1201/b17258-22",
+      "doi": "10.1201/b17258-22"
+    },
+    {
+      "record_id": "10.3389/fbloc.2025.1495984",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Improved blockchain-based ECDSA batch verification scheme",
+      "published_at": "2025-2-13",
+      "url": "https://doi.org/10.3389/fbloc.2025.1495984",
+      "doi": "10.3389/fbloc.2025.1495984"
+    },
+    {
+      "record_id": "10.1201/b17258-21",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Inference and Provenance",
+      "published_at": "2014-8-1",
+      "url": "https://doi.org/10.1201/b17258-21",
+      "doi": "10.1201/b17258-21"
+    },
+    {
+      "record_id": "10.1201/b17258-20",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Inference Control through Query Modification",
+      "published_at": "2014-8-1",
+      "url": "https://doi.org/10.1201/b17258-20",
+      "doi": "10.1201/b17258-20"
+    },
+    {
+      "record_id": "10.1201/b17258-17",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Inference Controller Design",
+      "published_at": "2014-8-1",
+      "url": "https://doi.org/10.1201/b17258-17",
+      "doi": "10.1201/b17258-17"
+    },
+    {
+      "record_id": "10.1201/b17258-10",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Inference Engines",
+      "published_at": "2014-8-1",
+      "url": "https://doi.org/10.1201/b17258-10",
+      "doi": "10.1201/b17258-10"
+    },
+    {
+      "record_id": "10.1017/cbo9780511554414.005",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Results of inference-driven semantic analysis",
+      "published_at": "1990-9-28",
+      "url": "https://doi.org/10.1017/cbo9780511554414.005",
+      "doi": "10.1017/cbo9780511554414.005"
+    },
+    {
+      "record_id": "10.1201/b17258-23",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Risk and Inference Control",
+      "published_at": "2014-8-1",
+      "url": "https://doi.org/10.1201/b17258-23",
+      "doi": "10.1201/b17258-23"
+    },
+    {
+      "record_id": "10.1201/b17258-30",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Risk and Inference Control",
+      "published_at": "2014-8-4",
+      "url": "https://doi.org/10.1201/b17258-30",
+      "doi": "10.1201/b17258-30"
+    },
+    {
+      "record_id": "10.1109/blockchain67634.2025.00028",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "RzkFL: a Verifiable, Fast and Privacy-Preserving Framework for Federated Learning Inference Using Recursive Zero-Knowledge Proofs and on-Chain Verification",
+      "published_at": "2025-10-30",
+      "url": "https://doi.org/10.1109/blockchain67634.2025.00028",
+      "doi": "10.1109/blockchain67634.2025.00028"
+    },
+    {
+      "record_id": "10.1007/springerreference_65735",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Semantic Inference in Audio",
+      "published_at": "None",
+      "url": "https://doi.org/10.1007/springerreference_65735",
+      "doi": "10.1007/springerreference_65735"
+    },
+    {
+      "record_id": "10.70675/6e2db0b6zdc31z4720z8c57z6ca4a91db885",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Statistical Inference and Verification of Chemical Reaction Networks",
+      "published_at": "None",
+      "url": "https://doi.org/10.70675/6e2db0b6zdc31z4720z8c57z6ca4a91db885",
+      "doi": "10.70675/6e2db0b6zdc31z4720z8c57z6ca4a91db885"
+    },
+    {
+      "record_id": "10.1201/b17258-9",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "The Inference Problem",
+      "published_at": "2014-8-1",
+      "url": "https://doi.org/10.1201/b17258-9",
+      "doi": "10.1201/b17258-9"
+    },
+    {
+      "record_id": "10.3389/fbloc.2025.1688287",
+      "query_id": "Q006-crossref_rest_v1",
+      "source": "crossref_rest_v1",
+      "title": "Towards a Universal Digital Identity: a blockchain-based framework for borderless verification",
+      "published_at": "2025-11-26",
+      "url": "https://doi.org/10.3389/fbloc.2025.1688287",
+      "doi": "10.3389/fbloc.2025.1688287"
+    },
+    {
+      "record_id": "https://openalex.org/W4285189658",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "A Blockchain Ontology for DApps Development",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.1109/access.2022.3173313",
+      "doi": "10.1109/access.2022.3173313"
+    },
+    {
+      "record_id": "https://openalex.org/W4320002784",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "A Comprehensive Survey on Blockchain-Based Decentralized Storage Networks",
+      "published_at": "2023-01-01",
+      "url": "https://doi.org/10.1109/access.2023.3240237",
+      "doi": "10.1109/access.2023.3240237"
+    },
+    {
+      "record_id": "https://openalex.org/W4312658206",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "A Survey on Blockchain for Healthcare: Challenges, Benefits, and Future Directions",
+      "published_at": "2022-11-24",
+      "url": "https://doi.org/10.1109/comst.2022.3224644",
+      "doi": "10.1109/comst.2022.3224644"
+    },
+    {
+      "record_id": "https://openalex.org/W4214667959",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "A survey on blockchain technology and its security",
+      "published_at": "2022-02-24",
+      "url": "https://doi.org/10.1016/j.bcra.2022.100067",
+      "doi": "10.1016/j.bcra.2022.100067"
+    },
+    {
+      "record_id": "https://openalex.org/W2919287027",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Analyzing the performance of a blockchain-based personal health record implementation",
+      "published_at": "2019-03-04",
+      "url": "https://doi.org/10.1016/j.jbi.2019.103140",
+      "doi": "10.1016/j.jbi.2019.103140"
+    },
+    {
+      "record_id": "https://openalex.org/W2904351506",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Applications of Blockchains in the Internet of Things: A Comprehensive Survey",
+      "published_at": "2018-12-18",
+      "url": "https://doi.org/10.1109/comst.2018.2886932",
+      "doi": "10.1109/comst.2018.2886932"
+    },
+    {
+      "record_id": "https://openalex.org/W4319983517",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Autonomous Vehicles Enabled by the Integration of IoT, Edge Intelligence, 5G, and Blockchain",
+      "published_at": "2023-02-09",
+      "url": "https://doi.org/10.3390/s23041963",
+      "doi": "10.3390/s23041963"
+    },
+    {
+      "record_id": "https://openalex.org/W2953333746",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain and Building Information Modeling (BIM): Review and Applications in Post-Disaster Recovery",
+      "published_at": "2019-06-19",
+      "url": "https://doi.org/10.3390/buildings9060149",
+      "doi": "10.3390/buildings9060149"
+    },
+    {
+      "record_id": "https://openalex.org/W2914492849",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain and IoT-Based Cognitive Edge Framework for Sharing Economy Services in a Smart City",
+      "published_at": "2019-01-01",
+      "url": "https://doi.org/10.1109/access.2019.2896065",
+      "doi": "10.1109/access.2019.2896065"
+    },
+    {
+      "record_id": "https://openalex.org/W2907683311",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain for AI: Review and Open Research Challenges",
+      "published_at": "2019-01-01",
+      "url": "https://doi.org/10.1109/access.2018.2890507",
+      "doi": "10.1109/access.2018.2890507"
+    },
+    {
+      "record_id": "https://openalex.org/W4220993330",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain for deep learning: review and open challenges",
+      "published_at": "2022-03-14",
+      "url": "https://doi.org/10.1007/s10586-022-03582-7",
+      "doi": "10.1007/s10586-022-03582-7"
+    },
+    {
+      "record_id": "https://openalex.org/W3161639317",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain for Waste Management in Smart Cities: A Survey",
+      "published_at": "2021-01-01",
+      "url": "https://doi.org/10.1109/access.2021.3113380",
+      "doi": "10.1109/access.2021.3113380"
+    },
+    {
+      "record_id": "https://openalex.org/W2767277120",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain in Education",
+      "published_at": "2017-11-01",
+      "url": "https://www.um.edu.mt/library/oar/handle/123456789/108154",
+      "doi": "10.2760/60649"
+    },
+    {
+      "record_id": "https://openalex.org/W4205384408",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain Technology on Smart Grid, Energy Trading, and Big Data: Security Issues, Challenges, and Recommendations",
+      "published_at": "2022-01-01",
+      "url": "https://doi.org/10.1155/2022/9065768",
+      "doi": "10.1155/2022/9065768"
+    },
+    {
+      "record_id": "https://openalex.org/W4324116456",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Blockchain-Based Decentralized Application: A Survey",
+      "published_at": "2023-01-01",
+      "url": "https://doi.org/10.1109/ojcs.2023.3251854",
+      "doi": "10.1109/ojcs.2023.3251854"
+    },
+    {
+      "record_id": "https://openalex.org/W2998877372",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Decision Support for Blockchain Platform Selection: Three Industry Case Studies",
+      "published_at": "2020-01-09",
+      "url": "https://doi.org/10.1109/tem.2019.2956897",
+      "doi": "10.1109/tem.2019.2956897"
+    },
+    {
+      "record_id": "https://openalex.org/W3033466636",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "DITrust Chain: Towards Blockchain-Based Trust Models for Sustainable Healthcare IoT Systems",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.1109/access.2020.2999468",
+      "doi": "10.1109/access.2020.2999468"
+    },
+    {
+      "record_id": "https://openalex.org/W3161687493",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Exploring Sybil and Double-Spending Risks in Blockchain Systems",
+      "published_at": "2021-01-01",
+      "url": "https://doi.org/10.1109/access.2021.3081998",
+      "doi": "10.1109/access.2021.3081998"
+    },
+    {
+      "record_id": "https://openalex.org/W4300982014",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Methods and applications for Artificial Intelligence, Big Data, Internet of Things, and Blockchain in smart energy management",
+      "published_at": "2022-10-04",
+      "url": "https://doi.org/10.1016/j.egyai.2022.100208",
+      "doi": "10.1016/j.egyai.2022.100208"
+    },
+    {
+      "record_id": "https://openalex.org/W2932023732",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Perceived usefulness, ease of use and user acceptance of blockchain technology for digital transactions – insights from user-generated content on Twitter",
+      "published_at": "2019-04-04",
+      "url": "https://doi.org/10.1080/17517575.2019.1599446",
+      "doi": "10.1080/17517575.2019.1599446"
+    },
+    {
+      "record_id": "https://openalex.org/W3037512809",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Privacy preservation in permissionless blockchain: A survey",
+      "published_at": "2020-06-25",
+      "url": "https://doi.org/10.1016/j.dcan.2020.05.008",
+      "doi": "10.1016/j.dcan.2020.05.008"
+    },
+    {
+      "record_id": "https://openalex.org/W3099128725",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Secure and Provenance Enhanced Internet of Health Things Framework: A Blockchain Managed Federated Learning Approach",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.1109/access.2020.3037474",
+      "doi": "10.1109/access.2020.3037474"
+    },
+    {
+      "record_id": "https://openalex.org/W3005847836",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Security and Privacy for Green IoT-Based Agriculture: Review, Blockchain Solutions, and Challenges",
+      "published_at": "2020-01-01",
+      "url": "https://doi.org/10.1109/access.2020.2973178",
+      "doi": "10.1109/access.2020.2973178"
+    },
+    {
+      "record_id": "https://openalex.org/W4381250221",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Unleashing the power of internet of things and blockchain: A comprehensive analysis and future directions",
+      "published_at": "2023-06-19",
+      "url": "https://doi.org/10.1016/j.iotcps.2023.06.003",
+      "doi": "10.1016/j.iotcps.2023.06.003"
+    },
+    {
+      "record_id": "https://openalex.org/W4223446169",
+      "query_id": "Q006-openalex_works",
+      "source": "openalex_works",
+      "title": "Using blockchain to signal quality in the food supply chain: The impact on consumer purchase intentions and the moderating effect of brand familiarity",
+      "published_at": "2022-04-12",
+      "url": "https://doi.org/10.1016/j.ijinfomgt.2022.102514",
+      "doi": "10.1016/j.ijinfomgt.2022.102514"
+    }
+  ]
+}

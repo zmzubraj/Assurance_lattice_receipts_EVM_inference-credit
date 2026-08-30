@@ -1,0 +1,6 @@
+claim_id,estimand,effect_estimate,uncertainty_interval,sample_size,analysis_status
+C003,False-activation proportion across all prespecified ineligible base states,0,"[0,0] finite-population observed proportion",728,DEVELOPMENT_EXPLORATORY_NOT_CONFIRMATORY
+C003,Activation proportion for the all-PASS eligible base state,1,"[1,1] finite-population observed proportion",1,DEVELOPMENT_EXPLORATORY_NOT_CONFIRMATORY
+C003,Exact base decision and reason-code agreement proportion,1,"[1,1] finite-population observed proportion",729,DEVELOPMENT_EXPLORATORY_NOT_CONFIRMATORY
+C003,Prespecified mutation rejection proportion,1,"[1,1] across seven named mutation families",7,DEVELOPMENT_EXPLORATORY_NOT_CONFIRMATORY
+C003,Python-generated vector versus Solidity agreement proportion,1,"[1,1] across shared development vectors",736,DEVELOPMENT_EXPLORATORY_NOT_CONFIRMATORY

@@ -1,0 +1,43 @@
+{
+  "analysis_status": "DEVELOPMENT_EXPLORATORY",
+  "artifacts": {
+    "GeneratedVectors.t.sol": "6fc0cec1f7e6f1b855aafa92932fca764a7745d60c7ffe20c6a5b2180ab506f4",
+    "base-results.csv": "44affd48e439b0ea8669ca9767d951a9a96e46cdde1b2416cea439447bf7f250",
+    "mutation-results.csv": "f1ef61762a83096f68486b07e9db4948429d452fa2a7ca9af1de6d03bb4fb160"
+  },
+  "base_case_count": 729,
+  "base_reason_matches": 729,
+  "eligible_activations": 1,
+  "eligible_case_count": 1,
+  "evidence_origin": "SYNTHETIC_NON_EVIDENCE",
+  "false_activations": 0,
+  "generated_at": "2026-08-29T05:00:00Z",
+  "ineligible_case_count": 728,
+  "limitations": [
+    "The protocol and analysis plan are not independently verified.",
+    "Synthetic states test software conformance only.",
+    "Solidity parity and gas results are not included until Foundry execution is captured.",
+    "No novelty, field reliability, production security, or publication-readiness inference is authorized."
+  ],
+  "mutation_count": 7,
+  "mutation_rejections": 7,
+  "platform": "macOS-15.1-arm64-arm-64bit-Mach-O",
+  "protocol_id": "ALR-MPP-PILOT-V1",
+  "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "reason_distribution": {
+    "AUTHORITY_FAIL": 27,
+    "AUTHORITY_UNKNOWN": 27,
+    "ELIGIBLE": 1,
+    "EXECUTION_FAIL": 243,
+    "EXECUTION_UNKNOWN": 243,
+    "FRESHNESS_FAIL": 3,
+    "FRESHNESS_UNKNOWN": 3,
+    "ORIGIN_SCOPE_FAIL": 1,
+    "ORIGIN_SCOPE_UNKNOWN": 1,
+    "PROVENANCE_FAIL": 9,
+    "PROVENANCE_UNKNOWN": 9,
+    "SEMANTIC_FAIL": 81,
+    "SEMANTIC_UNKNOWN": 81
+  },
+  "schema_version": "ALR_MPP_DEVELOPMENT_RESULT_V1"
+}

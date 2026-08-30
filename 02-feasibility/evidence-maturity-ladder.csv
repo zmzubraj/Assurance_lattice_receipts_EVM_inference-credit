@@ -1,0 +1,5 @@
+claim_id,required_maturity,current_maturity,status,evidence_origin,scope_ceiling,next_evidence
+C001,V1 ANALYTIC,V0 ASSERTED,AT_RISK,"Primary search draft plus unverified conceptual comparison","Novelty hypothesis only","Independent search challenge and feature-level predecessor reconciliation"
+C002,V2 SIMULATED,V1 ANALYTIC,PLAUSIBLE,"Local inventory and architecture analysis","Feasibility of bounded pilot only","Authorized technical spike and methods review"
+C003,V3 INTERNAL,V0 ASSERTED,AT_RISK,"Intake target contribution","No implementation or result claim","Reference kernel Solidity prototype exhaustive tests and reproducibility replay"
+

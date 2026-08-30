@@ -1,0 +1,22 @@
+flowchart LR
+  subgraph Evidence["Typed evidence inputs"]
+    EX["Execution"]
+    SE["Semantic"]
+    AU["Authority"]
+    PR["Provenance"]
+    FR["Freshness"]
+    OS["Origin and scope"]
+  end
+
+  BR["Exact bindings<br/>request, response, epoch,<br/>origin, scope, type, replay"]
+  RC["Typed ALR receipt"]
+  GT{"All required<br/>conditions PASS?"}
+  REJ["Reject credit<br/>with reason code"]
+  ACT["Activate local<br/>EVM credit"]
+
+  EX & SE & AU & PR & FR & OS --> RC
+  BR --> RC
+  RC --> GT
+  GT -->|"No or unknown"| REJ
+  GT -->|"Yes"| ACT
+

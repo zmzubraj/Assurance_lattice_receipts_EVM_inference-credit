@@ -1,0 +1,15 @@
+flowchart TD
+  P["Draft protocol and analysis plan"] --> G["Generate 729 base states<br/>and 7 binding mutations"]
+  G --> O["Independent Python oracle"]
+  G --> K["Python reference kernel"]
+  O --> V["Expected reason vectors"]
+  K --> C["Observed Python decisions"]
+  V --> S["Compile vectors into Solidity test"]
+  S --> E["Execute Foundry exhaustive tests"]
+  C --> R["Compare decisions and reason codes"]
+  E --> R
+  R --> A["Preserve results, replay hashes,<br/>negative findings, and deviations"]
+  A --> H{"Independent scientific<br/>and methods gate"}
+  H -->|"Pending"| D["Development evidence only"]
+  H -->|"Verified"| X["Prospective unchanged rerun"]
+
