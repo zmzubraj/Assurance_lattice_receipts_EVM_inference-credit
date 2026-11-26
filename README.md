@@ -6,6 +6,8 @@
 > external reproduction, final authorship metadata, venue approval, and final human
 > approval remain open.
 
+Author: **Zubaer Mahmood Zubraj** (ORCID [0009-0004-3251-3385](https://orcid.org/0009-0004-3251-3385)).
+
 Repository owner, draft-research attribution, and public-release authority:
 **Zubaer Mahmood Zubraj** ([`@zmzubraj`](https://github.com/zmzubraj)).
 The owner authorized this repository to remain publicly accessible on
@@ -101,9 +103,9 @@ Current canonical status:
 - acceptance readiness: `NOT_ASSESSABLE`.
 
 Draft-research attribution and public hosting are recorded above. Final author
-order, affiliations, CRediT roles, funding, competing interests, final licence,
-archival DOI, and journal submission remain unresolved. No repository-wide
-reuse licence is granted until an accountable author selects and records one.
+order, affiliations, CRediT roles, funding, competing interests, archival DOI,
+and journal submission remain unresolved. The code and artefacts are released
+under the MIT License (see [Licence](#licence)).
 
 ```mermaid
 flowchart LR
@@ -113,3 +115,7 @@ flowchart LR
     D -->|Open| E[Not submission ready]
     D -->|Future verified pass| F[Venue and accountable-author QA]
 ```
+
+## Licence
+
+Licensed under the [MIT License](LICENSE), copyright (c) 2026 Zubaer Mahmood Zubraj. Third-party datasets, papers and tools referenced here keep their original terms and are not relicensed.
